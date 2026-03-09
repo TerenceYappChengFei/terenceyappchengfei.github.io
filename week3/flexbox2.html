@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positivus Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .menu_container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .menu_item {
+            font-size: 16px;
+            margin: 20px;
+            cursor: pointer;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            /*background-color: brown; */
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            height: 200px;
+            background-color: lightblue;
+        }
+
+        .header_item {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div>
+            <div class="navbar_item">
+                <h1 class="navbar_item"><img style="margin-right: 10px;" width="25px" src="images/positivus.png"
+                        alt="Positivus Logo">Positivus</h1>
+            </div>
+
+        </div>
+        <div class="menu_container">
+            <div class="menu_item">About us</div>
+            <div class="menu_item">Services</div>
+            <div class="menu_item">Use Cases</div>
+            <div class="menu_item">Pricing</div>
+            <div class="menu_item">Blog</div>
+            <div>
+                <button
+                    style="background-color: white ;border: 2px solid gray; padding: 18px 30px 18px 30px; border-radius: 5px; font-size: 16px;">
+                    Request a quote
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--Header-->
+    <div class="header">
+        <div class="header_item">
+            <h1>Navigating the digital landscape for success</h1>
+        </div>
+        <div class="header_illustration">
+            <img width="400px" src="images/illustration.png" alt="Positivus Header Image">
+        </div>
+
+</body>
+
+</html>
