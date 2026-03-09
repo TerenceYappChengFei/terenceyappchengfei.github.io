@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox1.html</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f6f5ef;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .header_items {
+            display: flex;
+            flex-direction: row;
+            /*justify-content: space-evenly;*/
+            align-items: center;
+            gap: 20px;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_items">
+            <div class="container">
+                <img src="images/img01.jpg" alt="skyscrapers" style="width:300px; border-radius: 5px;">
+                <h2>Residential projects</h2>
+                <p>We build sustainable and modern homes for <br> comfortable living.</p>
+            </div>
+            <div class="container">
+                <img src="images/img02.jpg" alt="interior" style="width: 300px; border-radius: 5px;">
+                <h2>Commercial spaces</h2>
+                <p>We create efficient, inspiring workspaces for <br> businesses of all sizes.</p>
+            </div>
+            <div class="container">
+                <img src="images/img03.jpg" alt="fancy building" style="width: 300px; border-radius: 5px;">
+                <h2>Infrastructure works</h2>
+                <p>We develop strong reliable infrastructure for <br> growing communities.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
