@@ -5,54 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox1.html</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f6f5ef;
+    }
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f6f5ef;
-        }
+    h1 {
+        font-size: 24px;
+    }
 
-        .header {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
+    .header_items {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container {
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 20px;
+    }
+
+    div.container img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    /*Tablet Screen*/
+    @media screen and (max-width: 810px) {
         .header_items {
-            display: flex;
-            flex-direction: row;
-            /*justify-content: space-evenly;*/
-            align-items: center;
-            gap: 20px;
+            flex-direction: column;
         }
 
         .container {
-            background-color: white;
-            border-radius: 10px;
-            padding: 15px;
-            font-size: small;
+            width: 60%;
         }
-    </style>
-</head>
+    }
+
+    /*Mobile Screen*/
+    @media screen and (max-width: 480px) {
+        .header_items {
+            flex-direction: column;
+        }
+
+        .container {
+            width: 80%;
+        }
+    }
+</style>
+
+<!-- 
+        Ammendment - Remove css from img tags and add it as tags
+        Remove fix width of images so they can be responsive and adjust to the screen size
+-->
 
 <body>
     <div class="header">
         <div class="header_items">
             <div class="container">
-                <img src="images/img01.jpg" alt="skyscrapers" style="width:300px; border-radius: 5px;">
-                <h2>Residential projects</h2>
+                <img src="images/img01.jpg" alt="skyscrapers">
+                <h1>Residential projects</h1>
                 <p>We build sustainable and modern homes for <br> comfortable living.</p>
             </div>
             <div class="container">
-                <img src="images/img02.jpg" alt="interior" style="width: 300px; border-radius: 5px;">
-                <h2>Commercial spaces</h2>
+                <img src="images/img02.jpg" alt="interior">
+                <h1>Commercial spaces</h1>
                 <p>We create efficient, inspiring workspaces for <br> businesses of all sizes.</p>
             </div>
             <div class="container">
-                <img src="images/img03.jpg" alt="fancy building" style="width: 300px; border-radius: 5px;">
-                <h2>Infrastructure works</h2>
+                <img src="images/img03.jpg" alt="fancy building">
+                <h1>Infrastructure works</h1>
                 <p>We develop strong reliable infrastructure for <br> growing communities.</p>
             </div>
         </div>
