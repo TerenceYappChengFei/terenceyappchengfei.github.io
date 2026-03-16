@@ -7,8 +7,97 @@
     <title>menu.html</title>
 </head>
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+    body {
+        font-family: 'Archivo', sans-serif;
+        margin: 0;
+        background-color: #f6f5ef;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    div.navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 70px;
+        justify-content: space-between;
+        background-color: white;
+        ;
+    }
+
+    .menu {
+        display: flex;
+        /* min-width: 768px; */
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    button.menu_item {
+        background-color: white;
+        border: 0px;
+        padding: 0px 15px;
+        border-radius: 15px;
+        font-size: 16px;
+        margin: 5px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    div.contact {
+        display: flex;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 20px;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* img.contact_item {
+        width: 20px;
+    } */
+
+    .contact img {
+        width: 20px;
+    }
+
+    button.contact_item {
+        background-color: #f55f2a;
+        color: white;
+        border: none;
+        padding: 14px 19px;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+</style>
+
 <body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/elementra.png" alt="Elementra Logo">
+        </div>
+        <div class="menu">
+            <button class="menu_item">Home</button>
+            <button class="menu_item">Services</button>
+            <button class="menu_item">Work</button>
+            <button class="menu_item">Project Details</button>
+            <button class="menu_item">Contact</button>
+        </div>
+        <div class="contact">
+            <img class="contact_item" src="images/contact.svg" alt="Phone Icon">
+            <p class="contact_item">
+                555-123-4567</p>
+            <button class="contact_item">Contact</button>
+        </div>
+    </div>
 
 </body>
 
-</html>
+</html>`

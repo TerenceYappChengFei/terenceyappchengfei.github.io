@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox2.html</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Space+Grotesk:wght@300..700&display=swap');
+
+    body {
+        font-family: 'Space Grotesk', sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .menu_container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    div.menu_container button {
+        background-color: white;
+        border: 2px solid gray;
+        padding: 18px 30px 18px 30px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+
+    .menu_item {
+        font-size: 16px;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    div.header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_item {
+        margin: 50px;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        filter: grayscale(100%)
+    }
+</style>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div>
+            <div class="navbar_item">
+                <h1 class="navbar_item"><img style="margin-right: 10px;" width="25px" src="images/Icon.png"
+                        alt="Positivus Logo">Positivus</h1>
+            </div>
+
+        </div>
+        <div class="menu_container">
+            <div class="menu_item">About us</div>
+            <div class="menu_item">Services</div>
+            <div class="menu_item">Use Cases</div>
+            <div class="menu_item">Pricing</div>
+            <div class="menu_item">Blog</div>
+            <div>
+                <button>
+                    Request a quote
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <!--Header-->
+        <div class="header">
+            <div class="header_text">
+                <h1>Navigating the digital landscape for success</h1>
+
+                <p>Our digital marketing agency helps business grow and succeed online through a range of services
+                    including
+                    SEO, PPC, and social media marketing, and content creation.</p>
+
+                <button
+                    style="background-color: #191a23 ; color: white; padding: 18px 30px 18px 30px; border-radius: 5px; font-size: 16px;">
+                    Book a consultation
+                </button>
+
+            </div>
+            <div class="header_illust">
+                <img width="100%" src="images/illustration.png" alt="Positivus Header Image">
+            </div>
+        </div>
+
+        <!--Logos-->
+        <div class="logos">
+            <img width="100" src="images/amazon.png" alt="Amazon Logo">
+            <img width="100" src="images/dribbble.png" alt="Dribbble Logo">
+            <img width="100" src="images/hubspot.png" alt="HubSpot Logo">
+            <img width="100" src="images/notion.png" alt="Notion Logo">
+            <img width="100" src="images/netflix.png" alt="Netflix Logo">
+            <img width="100" src="images/zoom.png" alt="Zoom Logo">
+        </div>
+    </div>
+</body>
+
+</html>
