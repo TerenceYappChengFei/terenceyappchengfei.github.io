@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flexbox2.html</title>
+    <title>home.html</title>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Space+Grotesk:wght@300..700&display=swap');
@@ -42,15 +42,46 @@
         justify-content: space-between;
     }
 
+    .navbar_item {
+        align-items: center;
+        display: flex;
+    }
+
+    .navbar_item img {
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+
     div.header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        font-size: 20px;
+    }
+
+    .header div {
+        flex: 1;
+    }
+
+    .header img {
+        max-width: 70%;
+    }
+
+    .header h1 {
+        font-size: 60px;
+        margin: 0;
     }
 
     .header_item {
         margin: 50px;
+    }
+
+    .header_illust {
+        display: flex;
+        justify-content: end;
     }
 
     .logos {
@@ -60,6 +91,233 @@
         justify-content: space-between;
         filter: grayscale(100%)
     }
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+    }
+
+    .header_text button {
+        font-family: 'Space Grotesk', sans-serif;
+        background-color: #191a23;
+        color: white;
+        padding: 18px 30px 18px 30px;
+        border-radius: 5px;
+        font-size: 16px;
+
+    }
+
+    .services {
+        display: flex;
+        margin-top: 75px;
+        align-items: center;
+        gap: 20px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .services h1 {
+        font-size: 40px;
+        font-weight: 500;
+        padding: 5px;
+        background-color: #B9FF66;
+    }
+
+    .services_item {
+        display: flex;
+        min-height: 350px;
+        gap: 50px;
+        margin: 50px 0px;
+    }
+
+    .service_container {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        gap: 20px;
+        padding: 50px;
+        border-radius: 50px;
+        border: 2px solid #191A23;
+        filter: drop-shadow(0px 5px);
+    }
+
+    .gray_container {
+        background-color: #f3f3f3;
+    }
+
+    .gray_container h2 {
+        background-color: #B9FF66;
+
+    }
+
+    .green_container {
+        background-color: #B9FF66;
+    }
+
+    .green_container h2 {
+        background-color: #FFFFFF;
+    }
+
+    .black_container_green {
+        background-color: #191A23;
+    }
+
+    .gray_container_green {
+        background-color: #f3f3f3;
+    }
+
+    .gray_container_green h2 {
+        background-color: #B9FF66;
+    }
+
+    .black_container_white {
+        background-color: #191A23;
+    }
+
+    .black_container_green h2 {
+        background-color: #B9FF66;
+    }
+
+    .black_container_white h2 {
+        background-color: #FFFFFF;
+    }
+
+    .white_text {
+        color: white;
+    }
+
+    .service_container h2 {
+        display: inline-block;
+        padding: 0px 10px;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+
+    .service_container_image {
+        display: flex;
+        margin: 25px;
+    }
+
+    .service_container_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .service_header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services_item h2 {
+        margin: 0px;
+    }
+
+    .learn_more {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #191a23;
+    }
+
+    .CTA {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        gap: 20px;
+        padding: 50px;
+        border-radius: 50px;
+        background-color: #f3f3f3;
+    }
+
+    .CTA_container {
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .CTA button {
+        align-self: flex-start;
+        font-family: 'Space Grotesk', sans-serif;
+        background-color: #191a23;
+        color: white;
+        padding: 20px 35px;
+        border-radius: 10px;
+        font-weight: 100;
+        font-size: 25px;
+        border: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    /*Phone Screen*/
+    @media screen and (max-width: 900px) {
+        .menu_container {
+            display: none
+        }
+
+        .mobile {
+            display: block;
+
+        }
+
+        .desktop {
+            display: none;
+        }
+
+        .header {
+            flex-direction: column;
+        }
+
+        .header_text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .header_illust {
+            width: 100%;
+        }
+
+        .header_text button {
+
+            width: 100%;
+        }
+
+        .logos {
+            flex-direction: column;
+            margin: 50px 0px;
+            gap: 50px;
+        }
+
+        .row {
+            width: 100%;
+        }
+
+        .service_container {
+            flex-direction: column;
+        }
+
+        .service_container_attachment {
+            align-items: flex-end;
+            justify-content: space-between;
+            display: flex;
+        }
+
+        .services_item {
+            flex-direction: column;
+        }
+
+        .learn_more_icon {
+            width: 50px;
+        }
+    }
 </style>
 
 <body>
@@ -67,8 +325,7 @@
     <div class="navbar">
         <div>
             <div class="navbar_item">
-                <h1 class="navbar_item"><img style="margin-right: 10px;" width="25px" src="images/Icon.png"
-                        alt="Positivus Logo">Positivus</h1>
+                <h1 class="navbar_item"><img src="images/Icon.png" alt="Positivus Logo">Positivus</h1>
             </div>
 
         </div>
@@ -86,37 +343,168 @@
         </div>
     </div>
 
+    <!--Header-->
     <div>
-        <!--Header-->
         <div class="header">
             <div class="header_text">
-                <h1>Navigating the digital landscape for success</h1>
+                <h1>Navigating the <br> digital landscape <br>for success</h1>
 
+                <div class="header_illust mobile">
+                    <img width="100%" src="images/illustration.png" alt="Positivus Header Image">
+                </div>
                 <p>Our digital marketing agency helps business grow and succeed online through a range of services
-                    including
-                    SEO, PPC, and social media marketing, and content creation.</p>
+                    including SEO, green_container, and social media marketing, and content creation.</p>
 
-                <button
-                    style="background-color: #191a23 ; color: white; padding: 18px 30px 18px 30px; border-radius: 5px; font-size: 16px;">
+                <button>
                     Book a consultation
                 </button>
 
             </div>
-            <div class="header_illust">
+            <div class="header_illust desktop">
                 <img width="100%" src="images/illustration.png" alt="Positivus Header Image">
             </div>
         </div>
 
         <!--Logos-->
         <div class="logos">
-            <img width="100" src="images/amazon.png" alt="Amazon Logo">
-            <img width="100" src="images/dribbble.png" alt="Dribbble Logo">
-            <img width="100" src="images/hubspot.png" alt="HubSpot Logo">
-            <img width="100" src="images/notion.png" alt="Notion Logo">
-            <img width="100" src="images/netflix.png" alt="Netflix Logo">
-            <img width="100" src="images/zoom.png" alt="Zoom Logo">
+            <div class="row">
+                <img width="100" src="images/amazon.png" alt="Amazon Logo">
+                <img width="100" src="images/dribbble.png" alt="Dribbble Logo">
+            </div>
+            <div class="row">
+                <img width="100" src="images/hubspot.png" alt="HubSpot Logo">
+                <img width="100" src="images/notion.png" alt="Notion Logo">
+            </div>
+            <div class="row">
+                <img width="100" src="images/netflix.png" alt="Netflix Logo">
+                <img width="100" src="images/zoom.png" alt="Zoom Logo">
+            </div>
         </div>
     </div>
+
+    <!-- Services -->
+    <div class="services">
+        <h1 class="services_header">Services</h1>
+        <p class="services_desc"> At our digital marketing agency, we offer a range of services to <br>help
+            businesses
+            grow
+            and succeed online.
+            These services include: </p>
+    </div>
+
+    <!-- desktop services -->
+    <div class="services_block desktopservices">
+        <div class="services_item">
+            <!-- SEO -->
+            <div class="service_container gray_container">
+                <div class="service_container_text">
+                    <div class="service_header">
+                        <h2>Search engine</h2>
+                        <h2>optimization</h2>
+                    </div>
+                    <div class="learn_more desktop">
+                        <img src="home_images/black_arrow.svg" alt="Arrow Icon">
+                        <p>Learn more</p>
+                    </div>
+                </div>
+                <div class="service_container_attachment">
+                    <img class="mobile learn_more_icon" src="home_images/black_arrow.svg" alt="Arrow Icon">
+                    <img class="service_container_image" src="home_images/SEO.png" alt="SEO Icon">
+                </div>
+            </div>
+            <!-- PPC -->
+            <div class="service_container green_container">
+                <div class="service_container_text">
+                    <div class="service_header green_container">
+                        <h2>Pay-per-click</h2>
+                        <h2>advertising</h2>
+                    </div>
+                    <div class="learn_more desktop">
+                        <img src="home_images/black_arrow.svg" alt="Arrow Icon">
+                        <p>Learn more</p>
+                    </div>
+                </div>
+                <div class="service_container_attachment">
+                    <img class="mobile learn_more_icon" src="home_images/black_arrow.svg" alt="Arrow Icon">
+                    <img class="service_container_image" src="home_images/PPCAdvert.png" alt="PPC Icon">
+                </div>
+            </div>
+        </div>
+        <div class="services_item">
+            <!-- Social Media Marketing -->
+            <div class="service_container black_container_white">
+                <div class="service_container_text">
+                    <div class="service_header">
+                        <h2>Social Media</h2>
+                        <h2>Marketing</h2>
+                    </div>
+                    <div class="learn_more desktop">
+                        <img src="home_images/white_arrow.svg" alt="Arrow Icon">
+                        <p class="white_text">Learn more</p>
+                    </div>
+                </div>
+                <div class="service_container_attachment">
+                    <img class="mobile learn_more_icon" src="home_images/white_arrow.svg" alt="Arrow Icon">
+                    <img class="service_container_image" src="home_images/SocMedMarketing.png" alt="Social Media Icon">
+                </div>
+            </div>
+            <!-- Email Marketing -->
+            <div class="service_container gray_container_green">
+                <div class="service_container_text">
+                    <div class="service_header">
+                        <h2>Email</h2>
+                        <h2>Marketing</h2>
+                    </div>
+                    <div class="learn_more desktop">
+                        <img src="home_images/black_arrow.svg" alt="Arrow Icon">
+                        <p>Learn more</p>
+                    </div>
+                </div>
+                <div class="service_container_attachment">
+                    <img class="mobile learn_more_icon" src="home_images/black_arrow.svg" alt="Arrow Icon">
+                    <img class="service_container_image" src="home_images/EmailMarketing.png"
+                        alt="Email Marketing Icon">
+                </div>
+            </div>
+        </div>
+        <div class="services_item">
+            <!-- Content Creation -->
+            <div class="service_container green_container">
+                <div class="service_container_text">
+                    <div class="service_header">
+                        <h2>Content</h2>
+                        <h2>Creation</h2>
+                    </div>
+                    <div class="learn_more desktop">
+                        <img src="home_images/black_arrow.svg" alt="Arrow Icon">
+                        <p>Learn more</p>
+                    </div>
+                </div>
+                <div class="service_container_attachment">
+                    <img class="mobile learn_more_icon" src="home_images/black_arrow.svg" alt="Arrow Icon">
+                    <img class="service_container_image" src="home_images/ContentCreation.png"
+                        alt="Content Creation Icon">
+                </div>
+            </div>
+            <!-- Analytics and Tracking -->
+            <div class="service_container black_container_green">
+                <div class="service_container_text">
+                    <div class="service_header green_container">
+                        <h2>Analytics and</h2>
+                        <h2>Tracking</h2>
+                    </div>
+                    <div class="learn_more desktop">
+                        <img src="home_images/white_arrow.svg" alt="Arrow Icon">
+                        <p class="white_text">Learn more</p>
+                    </div>
+                </div>
+                <div class="service_container_attachment">
+                    <img class="mobile learn_more_icon" src="home_images/white_arrow.svg" alt="Arrow Icon">
+                    <img class="service_container_image" src="home_images/Analytics.png"
+                        alt="Analytics and Tracking Icon">
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
