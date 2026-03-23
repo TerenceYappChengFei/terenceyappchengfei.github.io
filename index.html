@@ -50,25 +50,85 @@
             flex: 1;
             flex-direction: column;
             color: white;
+            margin: 50px 20px;
         }
 
         .info {
             display: flex;
             flex-direction: column;
             align-items: center;
-
         }
 
-        .footer {
-            background-color: #E2E8CE;
+        .info img {
+            max-height: 200px;
+            flex: 1;
+            border-radius: 100px;
+
         }
 
         .assignments_container {
             display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
         }
 
-        .week {
+        .assignments {
+            flex: 1 1 calc((100% - 160px)/3);
+            display: flex;
+            flex-direction: column;
             background-color: #ACBFA4;
+            border-radius: 10px;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .week_title {
+            display: flex;
+            border-bottom: 5px solid white;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* fix icon size */
+        .week_title img {
+            max-height: 20px;
+            width: 20px;
+            margin: 5px;
+        }
+
+        .week_title h3 {
+            margin: 0px;
+        }
+
+        .weeklies {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+            align-items: center;
+        }
+
+        .weeklies a {
+            margin: 5px;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            background-color: #E2E8CE;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .footer p {
+            font-size: 12px;
+        }
+
+        @media screen and (max-width:500px) {
+            .assignments {
+                flex: 1 1 100%;
+            }
         }
     </style>
 </head>
@@ -93,21 +153,74 @@
     <!-- Content -->
     <div class="content">
         <div class="info">
+            <img src="index_img/pfp.png" alt="A picture of me">
             <h2>Terence Yapp Cheng Fei</h2>
             <h3>Web Publishing</h3>
             <p>Hello! I'm Terence, a Digital Media student. I love music and creative writing. Welcome to my
                 personal page!</p>
         </div>
+        <!-- Week 1 -->
         <div class="assignments_container">
-            <div class="week">
-                <h1>pppp</h1>
+            <div class="assignments">
+                <div class="week_title">
+                    <img src="index_img/calendar-check.svg">
+                    <h3> Week 1</h3>
+                </div>
+                <div class="weeklies">
+                    <a href="week1/exe1.html">exe1.html</a>
+                    <a href="week1/exe2.html">exe2.html</a>
+                </div>
+            </div>
+            <!-- Week 2 -->
+            <div class="assignments">
+                <div class="week_title">
+                    <img src="index_img/calendar-check.svg">
+                    <h3> Week 2</h3>
+                </div>
+                <div class="weeklies">
+                    <a href="week2/button.html">button.html</a>
+                    <a href="week2/self-intro.html">self-intro.html</a>
+                    <a href="week2/artist.html">self-intro.html</a>
+                </div>
+            </div>
+            <!-- Week 3 -->
+            <div class="assignments">
+                <div class="week_title">
+                    <img src="index_img/calendar-check.svg">
+                    <h3> Week 3</h3>
+                </div>
+                <div class="weeklies">
+                    <a href="week3/flexbox1.html">flexbox1.html</a>
+                    <a href="week3/flexbox2.html">flexbox2.html</a>
+                </div>
+            </div>
+            <!-- Week 4 -->
+            <div class="assignments">
+                <div class="week_title">
+                    <img src="index_img/calendar-check.svg">
+                    <h3> Week 4</h3>
+                </div>
+                <div class="weeklies">
+                    <a href="week4/menu.html">menu.html</a>
+                    <a href="week4/home.html">home.html</a>
+                    <a href="index.html">index.html</a>
+
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
     <div class="footer">
-        <p>adsadsa</p>
+        <div class="socials">
+            <a href="https://www.instagram.com/yappanalogy/"><img src="index_img/instalogo.jpg"
+                    alt="instagram logo"></a>
+            <a href="https://red-note.co/explore"><img src="index_img/rednotelogo.jpg" alt="rednote logo"></a>
+            <a href="https://www.tiktok.com/"><img src="index_img/tiktoklogo.jpg" alt="tiktok logo"></a>
+        </div>
+        <div class="disclaimer">
+            <p>© 2026 Terence Yapp Cheng Fei. All rights reserved.</p>
+        </div>
     </div>
 </body>
 
