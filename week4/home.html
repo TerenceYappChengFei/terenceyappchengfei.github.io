@@ -54,7 +54,7 @@
     }
 
 
-    div.header {
+    .banner {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -62,21 +62,30 @@
         font-size: 20px;
     }
 
-    .header div {
+    .banner div {
         flex: 1;
     }
 
-    .header img {
+
+    .banner img {
         max-width: 70%;
     }
 
-    .header h1 {
+    .banner h1 {
         font-size: 60px;
         margin: 0;
     }
 
     .header_item {
         margin: 50px;
+    }
+
+    .service_container_image {
+        max-width: 400px;
+        flex: 1;
+        display: flex;
+        justify-content: end;
+        margin: 25px;
     }
 
     .header_illust {
@@ -98,7 +107,7 @@
         flex: 1;
     }
 
-    .header_text button {
+    /* .header_text button {
         font-family: 'Space Grotesk', sans-serif;
         background-color: #191a23;
         color: white;
@@ -106,7 +115,7 @@
         border-radius: 5px;
         font-size: 16px;
 
-    }
+    } */
 
     .services {
         display: flex;
@@ -121,6 +130,7 @@
         font-weight: 500;
         padding: 5px;
         background-color: #B9FF66;
+        border-radius: 10px;
     }
 
     .services_item {
@@ -193,11 +203,6 @@
         font-size: 30px;
     }
 
-    .service_container_image {
-        display: flex;
-        margin: 25px;
-    }
-
     .service_container_text {
         display: flex;
         flex-direction: column;
@@ -239,7 +244,7 @@
         justify-content: space-between;
     }
 
-    .CTA button {
+    /* .CTA button {
         align-self: flex-start;
         font-family: 'Space Grotesk', sans-serif;
         background-color: #191a23;
@@ -249,14 +254,71 @@
         font-weight: 100;
         font-size: 25px;
         border: none;
-    }
+    } */
 
     .mobile {
         display: none;
     }
 
+    .cta_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f3f3f3;
+        padding: 20px;
+        border-radius: 50px;
+    }
+
+    .cta_container img {
+        margin: -500px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .cta_info {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+        margin: 50px;
+    }
+
+    .book_button {
+        display: inline-block;
+        background-color: #191A23;
+        color: white;
+        padding: 20px;
+        align-items: center;
+        border-radius: 10px;
+        font-size: medium;
+        /* remove underline */
+        text-decoration: none;
+    }
+
+    .cta_button {
+        /* display: inline-block; */
+        background-color: #191A23;
+        padding: 20px;
+        align-items: center;
+        border-radius: 10px;
+        font-size: medium;
+        color: white;
+        /* remove underline */
+        text-decoration: none;
+    }
+
+    .cta_title h2 {
+        font-size: 30px;
+    }
+
+    .service_container_attachment {
+        width: 100%;
+        align-items: flex-end;
+        justify-content: space-between;
+        display: flex;
+    }
+
     /*Phone Screen*/
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1240px) {
         .menu_container {
             display: none
         }
@@ -286,7 +348,6 @@
         }
 
         .header_text button {
-
             width: 100%;
         }
 
@@ -304,18 +365,28 @@
             flex-direction: column;
         }
 
-        .service_container_attachment {
-            align-items: flex-end;
-            justify-content: space-between;
-            display: flex;
-        }
-
         .services_item {
             flex-direction: column;
         }
 
         .learn_more_icon {
             width: 50px;
+        }
+
+        .cta_container img {
+            display: none;
+        }
+
+        .book_button {
+            align-items: center;
+            display: block;
+            width: 90%;
+        }
+
+        .cta_button {
+            display: inline-block;
+            width: 90%;
+            text-align: center;
         }
     }
 </style>
@@ -343,9 +414,9 @@
         </div>
     </div>
 
-    <!--Header-->
+    <!--Banner-->
     <div>
-        <div class="header">
+        <div class="banner">
             <div class="header_text">
                 <h1>Navigating the <br> digital landscape <br>for success</h1>
 
@@ -354,11 +425,7 @@
                 </div>
                 <p>Our digital marketing agency helps business grow and succeed online through a range of services
                     including SEO, PPC, and social media marketing, and content creation.</p>
-
-                <button>
-                    Book a consultation
-                </button>
-
+                <a class="book_button" href="">Book a consultation</a>
             </div>
             <div class="header_illust desktop">
                 <img width="100%" src="images/illustration.png" alt="Positivus Header Image">
@@ -382,7 +449,7 @@
         </div>
     </div>
 
-    <!-- Services -->
+    <!-- Services Title -->
     <div class="services">
         <h1 class="services_header">Services</h1>
         <p class="services_desc"> At our digital marketing agency, we offer a range of services to <br>help
@@ -393,14 +460,18 @@
     </div>
 
     <!-- desktop services -->
-    <div class="services_block desktopservices">
+    <div class="services_block">
         <div class="services_item">
             <!-- SEO -->
             <div class="service_container gray_container">
                 <div class="service_container_text">
                     <div class="service_header">
-                        <h2>Search engine</h2>
-                        <h2>optimization</h2>
+                        <span>
+                            <h2>Search engine</h2>
+                        </span>
+                        <span>
+                            <h2>optimization</h2>
+                        </span>
                     </div>
                     <div class="learn_more desktop">
                         <img src="home_images/black_arrow.svg" alt="Arrow Icon">
@@ -416,8 +487,12 @@
             <div class="service_container green_container">
                 <div class="service_container_text">
                     <div class="service_header green_container">
-                        <h2>Pay-per-click</h2>
-                        <h2>advertising</h2>
+                        <span>
+                            <h2>Pay-per-click</h2>
+                        </span>
+                        <span>
+                            <h2>advertising</h2>
+                        </span>
                     </div>
                     <div class="learn_more desktop">
                         <img src="home_images/black_arrow.svg" alt="Arrow Icon">
@@ -435,8 +510,12 @@
             <div class="service_container black_container_white">
                 <div class="service_container_text">
                     <div class="service_header">
-                        <h2>Social Media</h2>
-                        <h2>Marketing</h2>
+                        <span>
+                            <h2>Social Media</h2>
+                        </span>
+                        <span>
+                            <h2>Marketing</h2>
+                        </span>
                     </div>
                     <div class="learn_more desktop">
                         <img src="home_images/white_arrow.svg" alt="Arrow Icon">
@@ -452,8 +531,12 @@
             <div class="service_container gray_container_green">
                 <div class="service_container_text">
                     <div class="service_header">
-                        <h2>Email</h2>
-                        <h2>Marketing</h2>
+                        <span>
+                            <h2>Email</h2>
+                        </span>
+                        <span>
+                            <h2>Marketing</h2>
+                        </span>
                     </div>
                     <div class="learn_more desktop">
                         <img src="home_images/black_arrow.svg" alt="Arrow Icon">
@@ -472,8 +555,12 @@
             <div class="service_container green_container">
                 <div class="service_container_text">
                     <div class="service_header">
-                        <h2>Content</h2>
-                        <h2>Creation</h2>
+                        <span>
+                            <h2>Content</h2>
+                        </span>
+                        <span>
+                            <h2>Creation</h2>
+                        </span>
                     </div>
                     <div class="learn_more desktop">
                         <img src="home_images/black_arrow.svg" alt="Arrow Icon">
@@ -489,9 +576,13 @@
             <!-- Analytics and Tracking -->
             <div class="service_container black_container_green">
                 <div class="service_container_text">
-                    <div class="service_header green_container">
-                        <h2>Analytics and</h2>
-                        <h2>Tracking</h2>
+                    <div class="service_header">
+                        <span>
+                            <h2>Analytics and</h2>
+                        </span>
+                        <span>
+                            <h2>Tracking</h2>
+                        </span>
                     </div>
                     <div class="learn_more desktop">
                         <img src="home_images/white_arrow.svg" alt="Arrow Icon">
@@ -505,6 +596,23 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!-- CTA -->
+    <div class="cta_container">
+        <div class="cta_info">
+            <div class="cta_title">
+                <h2>Let's make things happen</h2>
+            </div>
+            <div>
+                <p>Contact us today to learn more about how our digital <br class="desktop"> marketing services can help
+                    your business
+                    grow
+                    and <br class="desktop">
+                    succeed online.</p>
+            </div>
+            <a class="cta_button" href="">Get your free proposal</a>
+        </div>
+        <img src="home_images/CTA.png" alt="CTA.png">
     </div>
 </body>
 
