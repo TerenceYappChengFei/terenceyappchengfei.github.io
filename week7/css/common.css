@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Global Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Import Font */
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header CSS*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo a {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.header_logo img {
+    width: 75%;
+}
+
+.header_items {
+    display: flex;
+    gap: 40px
+}
+
+.header_items a {
+    color: black;
+}
+
+.quotecta {
+    background-color: none;
+    border: 2px solid black;
+    padding: 18px 32px;
+    border-radius: 15px;
+}
