@@ -10,6 +10,12 @@
     border-radius: 7px;
 }
 
+.case-studies-container {
+    display: flex;
+    background-color: #191A23;
+    border-radius: 15px;
+}
+
 .work-process {
     display: flex;
     align-items: center;
@@ -21,7 +27,6 @@
 
 .work-process-divider {
     border-bottom: black 2px solid;
-
 }
 
 .work-process h1 {
@@ -62,11 +67,62 @@
     padding: 40px;
 }
 
-.gray-text-bg {
+.gray-container {
     display: flex;
     background-color: #F3F3F3;
     border-radius: 50px;
     border: 2px solid #191A23;
     filter: drop-shadow(0px 5px);
     padding: 40px;
+}
+
+.team-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.member-linkedin img {
+    width: 25px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: calc(33.33% - 40px);
+
+}
+
+.member-profile {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+.member-card {
+    display: flex;
+    gap: 10px;
+    border-bottom: black 2px solid;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.see-all-team {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.see-all-team a {
+    background-color: #191A23;
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
 }
