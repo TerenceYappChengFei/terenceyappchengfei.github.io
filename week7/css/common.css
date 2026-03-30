@@ -168,6 +168,18 @@ body {
     text-decoration: underline;
 }
 
+.tablet-or-mobile {
+    display: none;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.hamburger {
+    width: 40px;
+}
+
 /* tablet */
 @media screen and (max-width: 920px) {
     .desktop-only {

@@ -81,6 +81,8 @@
     padding: 15px;
     border-radius: 100%;
     max-width: 60px;
+    min-width: 60px;
+
     cursor: pointer;
 }
 
@@ -150,5 +152,31 @@
     cursor: pointer;
     text-decoration: none;
     color: white;
+}
+
+
+/* tablet */
+@media screen and (max-width: 920px) {
+    .section-title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
+    .see-all-team a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .work-process h1 {
+        font-size: 40px;
+    }
+
+    .work-process p {
+        font-size: 30px;
+    }
 
 }
