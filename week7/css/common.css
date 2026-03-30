@@ -21,6 +21,7 @@ body {
     font-family: 'Space Grotesk', sans-serif;
     margin: 0;
     padding: 20px;
+    padding-bottom: 0px;
 }
 
 /* Header CSS*/
@@ -62,4 +63,107 @@ body {
     border: 2px solid black;
     padding: 18px 32px;
     border-radius: 15px;
+}
+
+.footer-container {
+    margin-top: 50px;
+    background-color: #191A23;
+    color: white;
+    padding: 30px;
+    border-radius: 45px 45px 0 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top a {
+    color: white;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.footer-logo img {
+    width: 75%;
+    filter: invert(100%);
+}
+
+.footer-navbar {
+    display: flex;
+    gap: 40px;
+    text-decoration: underline;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-socials img {
+    max-width: 30px;
+}
+
+.contact-us {
+    background-color: #b9ff66;
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.footer-middle {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-email {
+    display: flex;
+    width: 50%;
+    background-color: #292A32;
+    padding: 58px 40px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.footer-email input {
+    border: white solid 1px;
+    background-color: #191A23;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    width: 50%;
+}
+
+.footer-button {
+    background-color: #b9ff66;
+    padding: 20px 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    padding: 30px 0px;
+    border-top: white solid 1px;
+    gap: 40px;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: underline;
 }

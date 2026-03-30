@@ -24,8 +24,6 @@
     margin-bottom: 50px;
 }
 
-
-
 .bookingcta {
     background-color: #191A23;
     padding: 20px 35px;
@@ -43,7 +41,19 @@
 }
 
 /* Services */
-.services_container {
+.service-title {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.service-title h1 {
+    background-color: #b9ff66;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+.services-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -52,7 +62,7 @@
 
 }
 
-.services_container h2 {
+.services-container h2 {
     font-weight: medium;
 }
 
@@ -60,6 +70,7 @@
     /* min-width: 700px; */
     width: calc(50% - 10px);
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .serviceinfo {
