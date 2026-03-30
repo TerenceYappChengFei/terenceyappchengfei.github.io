@@ -67,7 +67,6 @@
 }
 
 .services {
-    /* min-width: 700px; */
     width: calc(50% - 10px);
     justify-content: space-between;
     margin-bottom: 20px;
