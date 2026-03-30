@@ -1,0 +1,28 @@
+.banner {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.bannerinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bannerinfo p {
+    margin-bottom: 20px;
+}
+
+.bookingcta {
+    background-color: #191A23;
+    padding: 20px 35px;
+    color: white;
+    border-radius: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
