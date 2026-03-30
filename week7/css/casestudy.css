@@ -1,0 +1,35 @@
+.work-process-title {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.work-process-title h1 {
+    background-color: #b9ff66;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+.work-process {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.work-process h1 {
+    font-size: 60px;
+}
+
+.work-process p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.green-text-bg {
+    display: flex;
+    background-color: #b9ff66;
+    border-radius: 50px;
+    border: 2px solid #191A23;
+    filter: drop-shadow(0px 5px);
+    padding: 40px;
+}
