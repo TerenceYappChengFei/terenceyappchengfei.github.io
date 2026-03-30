@@ -167,3 +167,58 @@ body {
     color: white;
     text-decoration: underline;
 }
+
+/* tablet */
+@media screen and (max-width: 920px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .tablet-or-mobile {
+        display: block;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-navbar {
+        flex-direction: column;
+        gap: 10px;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    .footer-middle {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-contact {
+        align-items: center;
+    }
+
+    .footer-email {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .footer-email input {
+        width: 100%;
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width: 500px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .tablet-or-mobile {
+        display: block;
+    }
+}

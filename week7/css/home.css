@@ -27,9 +27,16 @@
 .bookingcta {
     background-color: #191A23;
     padding: 20px 35px;
-    color: white;
     border-radius: 14px;
     cursor: pointer;
+    justify-content: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.bookingcta a {
+    color: white;
     text-decoration: none;
 }
 
@@ -38,6 +45,7 @@
     justify-content: space-between;
     filter: grayscale(100);
     margin: 50px 0px 50px 0px;
+    flex-wrap: wrap;
 }
 
 /* Services */
@@ -148,8 +156,61 @@
     justify-content: space-evenly;
     flex-direction: column;
     width: 50%;
+    gap: 20px;
 }
 
-.cta-container p {
-    margin-bottom: 50px;
+
+.tablet-or-mobile {
+    display: none;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.hamburger {
+    width: 40px;
+}
+
+/* tablet */
+@media screen and (max-width: 920px) {
+
+    .bannerinfo {
+        width: 100%;
+    }
+
+    .banner {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bookingcta {
+        display: flex;
+
+        width: 100%;
+    }
+
+    .service-title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-title h1 {
+        display: inline-block;
+    }
+
+    .service-title p {
+        align-items: center;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    .cta-info {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
 }
