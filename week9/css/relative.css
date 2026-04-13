@@ -1,0 +1,43 @@
+body {
+    background-color: #285A48;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.container-item {
+    width: calc((100% - 40px) / 3);
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    display: inline;
+    background-color: #408A71;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
