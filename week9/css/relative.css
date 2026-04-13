@@ -25,6 +25,8 @@ body {
 }
 
 .container-item {
+    display: flex;
+    flex-direction: column;
     width: calc((100% - 40px) / 3);
 }
 
@@ -34,10 +36,32 @@ body {
 }
 
 .description {
-    display: inline;
+    display: flex;
+    flex-direction: column;
     background-color: #408A71;
     text-align: center;
-    padding: 10px;
+    padding: 15px 25px;
     border-radius: 10px;
+    gap: 20px;
+    width: 70%;
+}
+
+.description img {
+    width: 20px;
+}
+
+.description h2 {
+    color: #B0E4CC;
+}
+
+.description a {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.description-container {
+    display: flex;
     width: 100%;
+    justify-content: center;
 }
