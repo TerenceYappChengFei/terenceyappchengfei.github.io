@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 516.67 716.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b0e4cc;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="style_fill" data-name="style fill">
+    <g id="profile">
+      <path id="vector_Stroke_" data-name="vector Stroke " class="cls-1" d="M83.33,175C83.33,78.35,161.68,0,258.33,0s175,78.35,175,175-78.35,175-175,175-175-78.35-175-175h0Z"/>
+      <path id="rec_Stroke_" data-name="rec Stroke " class="cls-1" d="M0,577.38c0-97.96,79.42-177.38,177.38-177.38h161.91c97.96,0,177.38,79.42,177.38,177.38,0,76.93-62.36,139.29-139.29,139.29h-238.09C62.36,716.67,0,654.31,0,577.38Z"/>
+    </g>
+  </g>
+</svg>

@@ -8,6 +8,11 @@
     font-family: 'Oxygen', monospace;
 }
 
+body {
+    background-color: #285A48;
+    color: white;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -17,11 +22,3 @@ a {
     text-decoration: none;
     color: white;
 }
-
-
-
-/* tablet */
-@media screen and (max-width: 920px) {}
-
-/* mobile */
-@media screen and (max-width: 500px) {}
