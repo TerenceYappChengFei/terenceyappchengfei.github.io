@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lexend';
+}
+
+body {
+    padding: 20px;
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+/* background colors */
+.gray-bg {
+    background-color: #F7F7F7;
+}
+
+.white-bg {
+    background-color: white;
+    padding: 50px;
+}
+
+/* Buttons */
+
+.button-primary {
+    background-color: #FCC943;
+    padding: 20px 25px;
+    border-radius: 6px;
+}
+
+.button-secondary {
+    background-color: #292899;
+    padding: 20px 25px;
+    border-radius: 6px;
+    color: white;
+}
+
+.button-outline {
+    background-color: #F7F7F7;
+    padding: 20px 25px;
+    border-radius: 6px;
+    border: 2px solid #222222;
+}
+
+.button-icon img {
+    display: inline;
+    vertical-align: middle;
+}
+
+.icon {
+    width: 20px;
+}
+
+.learning-process {
+    display: inline;
+    background-color: #FCC943;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+/* Course */
+.course-list {
+    display: flex;
+    gap: 40px
+}
+
+.course-item {
+    width: ((100% - 40px) / 3);
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 40px;
+}
+
+.core {
+    display: inline;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #ECF9EE;
+    border-radius: 10px;
+}
