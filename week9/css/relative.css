@@ -70,3 +70,22 @@ body {
     justify-content: center;
     gap: 10px;
 }
+
+/* tablet */
+@media screen and (max-width: 980px) {
+    .container-item {
+        width: calc((100% - 20px) / 2);
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width: 760px) {
+    .container-item {
+        width: 100%;
+    }
+
+    .header {
+        margin: 50px;
+    }
+}
