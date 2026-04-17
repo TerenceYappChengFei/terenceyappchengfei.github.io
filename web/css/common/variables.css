@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Root variables */
+:root {
+
+    /* Color */
+    --color-cyan: #27C4E5;
+    --color-yellow: #FCC943;
+    --color-dark-blue: #292899;
+    --color-red: #E0284F;
+    --color-ivory-green: #ECF9EE;
+    --color-light-grey: #F7F7F7;
+    --color-beige: #FFFCF5;
+    --color-black: #222222;
+    --color-grey: #444444;
+    --color-white: #FFFFFF;
+    --color-green: #77FD9F;
+
+    /* Globol font */
+    --color-text-headings: var(--color-black);
+    --color-text: var(--color-grey);
+    --font-family: 'Lexend', sans-serif;
+
+}
