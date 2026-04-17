@@ -21,10 +21,87 @@
     --color-grey: #444444;
     --color-white: #FFFFFF;
     --color-green: #77FD9F;
+    --color-light-purple: #F2F0FF;
 
     /* Globol font */
     --color-text-headings: var(--color-black);
     --color-text: var(--color-grey);
     --font-family: 'Lexend', sans-serif;
+    --font-size: 16px;
+    --font-weight-thin: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 500;
+    --font-line-height: 1.72;
+
+    /*headings*/
+    --font-size-h1: 60px;
+    --font-size-h2: 42px;
+    --font-size-h3: 36px;
+    --font-line-height-headings-tight: 1.3;
+
+    --font-size-h4: 24px;
+    --font-size-h5: 20px;
+    --font-size-h6: 16px;
+    --font-line-height-headings-loose: 1.4;
+
+    /*===button that share===*/
+    --big-btn-padding: 22px 34px 24px;
+    --medium-btn-padding: 20px 30px;
+    --small-btn-padding: 10px;
+    --btn-radius: 6px;
+    --big-btn-font-size: 16px;
+    --small-btn-font-size: 11px;
+    --btn-font-line-height: 1.0;
+
+    /*type of school button*/
+    --btn-school-bg-default: #B628E6;
+    --btn-school-font-color-default: var(--color-white);
+    --btn-school-bg-hover: #77FD9F;
+    --btn-school-font-color-hover: var(--color-black);
+
+    /*btn cyan default and yellow hover*/
+    --btn-cyan-bg-default: var(--color-cyan);
+    --btn-cyan-font-color-default: var(--color-white);
+    --btn-cyan-bg-hover: var(--color-yellow);
+    --btn-cyan-font-color-hover: var(--color-black);
+
+    /*btn for transparent background*/
+    --btn-transparent-bg-default: transparent;
+    --btn-transparent-font-color-default: var(--color-white);
+    --btn-transparent-bg-hover-white: var(--color-white);
+    --btn-transparent-bg-hover-cyan: var(--color-cyan);
+    --btn-transparent-bg-hover-blue: var(--color-dark-blue);
+    --btn-transparent-font-color-hover-black: var(--color-black);
+    --btn-transparent-font-color-hover-white: var(--color-white);
+
+    /*btn for cyan background and blue hover */
+    --btn-see-bg-default: var(--color-cyan);
+    --btn-see-font-color: var(--color-white);
+    --btn-see-bg-hover: var(--color-dark-blue);
+
+    /*btn yellow background and dark blue hover*/
+    --btn-yellow-bg-default: var(--color-yellow);
+    --btn-yellow-font-color-default: var(--color-black);
+    --btn-yellow-bg-hover: var(--color-dark-blue);
+    --btn-yellow-font-color-hover: var(--color-white);
+
+    /*btn for light purple background and dark blue hover*/
+    --btn-light-purple-bg-default: var(--color-light-purple);
+    --btn-light-purple-font-color-default: var(--color-black);
+    --btn-light-purple-bg-hover: var(--color-dark-blue);
+    --btn-light-purple-font-color-hover: var(--color-white);
+
+    /*btn yellow and cyan hover*/
+    --btn-yellow-bg-default-cyan: var(--color-yellow);
+    --btn-yellow-font-color-default-cyan: var(--color-black);
+    --btn-yellow-bg-hover-cyan: var(--color-cyan);
+    --btn-yellow-font-color-hover-cyan: var(--color-white);
+
+    /*btn dark blue and yellow hover*/
+    --btn-dark-blue-bg-default: var(--color-dark-blue);
+    --btn-dark-blue-font-color-default: var(--color-white);
+    --btn-dark-blue-bg-hover: var(--color-yellow);
+    --btn-dark-blue-font-color-hover: var(--color-black);
+
 
 }
