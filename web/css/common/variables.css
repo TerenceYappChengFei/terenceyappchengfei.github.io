@@ -22,7 +22,8 @@
     --color-white: #FFFFFF;
     --color-green: #77FD9F;
     --color-light-purple: #F2F0FF;
-
+    --color-light-cyan: #E9F9FC;
+    --color-transparent: transparent;
     /* Globol font */
     --color-text-headings: var(--color-black);
     --color-text: var(--color-grey);
@@ -66,7 +67,7 @@
     --btn-cyan-font-color-hover: var(--color-black);
 
     /*btn for transparent background*/
-    --btn-transparent-bg-default: transparent;
+    --btn-transparent-bg-default: var(--color-transparent);
     --btn-transparent-font-color-default: var(--color-white);
     --btn-transparent-bg-hover-white: var(--color-white);
     --btn-transparent-bg-hover-cyan: var(--color-cyan);
@@ -102,6 +103,84 @@
     --btn-dark-blue-font-color-default: var(--color-white);
     --btn-dark-blue-bg-hover: var(--color-yellow);
     --btn-dark-blue-font-color-hover: var(--color-black);
+
+    /*===header and footer===*/
+    --header-menu-font-color: var(--color-black);
+    --header-menu-font-color-hover: var(--color-yellow);
+    --header-menu-font-size: 17px;
+    --header-menu-font-weight: 1.0;
+    --header-menu-bento-icon-color: var(--color-grey);
+    --header-menu-bento-icon-color-hover: var(--color-yellow);
+    --header-menu-cart-icon-color: var(--color-cyan);
+    --header-menu-cart-icon-color-hover: var(--color-black);
+
+    --submenu-home-bg-border-color: var(--color-dark-blue);
+    --submenu-academics-bg-elementary-color: var(--color-ivory-green);
+    --submenu-academics-bg-middle-color: var(--color-light-purple);
+    --submenu-academics-bg-high-color: var(--color-light-cyan);
+    --submenu-academics-bg-online-color: var(--color-beige);
+    --submenu-academics-bg-hover-color: var(--color-light-grey);
+
+    --submenu-info-bg-color-hover: var(--color-dark-blue);
+
+    --bento-menu-title-font-size: var(--font-size-h6);
+    --bento-menu-title-font-color: var(--color-dark-blue);
+    --bento-menu-title-font-decoration: underline;
+    --bento-menu-text-font-color: var(--color-grey);
+
+    --footer-subtitle-font-color: var(--color-white);
+    --footer-category-font-color: var(--color-grey);
+    --footer-category-font-color-hover: var(--color-cyan);
+    --footer-terms-font-color: var(--color-grey);
+    --footer-terms-font-color-hover: var(--color-yellow);
+    --footer-terms-decoration-hover: dot;
+
+    /*navigate link*/
+    --bento-menu-navigatelink-font-color: var(--color-grey);
+    --bento-menu-navigatelink-font-color-hover: var(--color-dark-blue);
+    --bento-menu-navigatelink-decoration-hover: underline;
+    --bento-menu-navigatelink-icon-color: var(--color-black);
+    --bento-menu-navigatelink-icon-color-hover: var(--color-white);
+    --bento-menu-navigatelink-icon-bg-color: var(--color-white);
+    --bento-menu-navigatelink-icon-bg-color-hover: var(--color-dark-blue);
+
+    --website-navigatelink-font-color: var(--color-dark-blue);
+    --website-navigatelink-font-decoration: underline;
+    --website-navigatelink-font-color-hover: var(--color-black);
+    --website-navigatelink-decoration-hover: none;
+
+    --footer-navigatelink-icon-color: var(--color-white);
+    --footer-navigatelink-icon-color-hover: var(--color-transparent);
+    --footer-navigatelink-icon-bg-color: var(--color-transparent);
+    --footer-navigatelink-icon-bg-color-hover: var(--color-cyan);
+
+    --section-title-font-color: var(--color-black);
+    --section-title-font-color-hover: var(--color-dark-blue);
+    --section-title-decoration-hover: dot;
+
+    --faq-font-color: var(--color-black);
+    --faq-font-color-hover1: var(--color-cyan);
+    --faq-font-color-hover2: var(--color-yellow);
+    --faq-decoration-hover: dot;
+
+    /*===text field===*/
+    --step-box-border-color: var(--color-cyan);
+    --step-box-border-color2: #666666;
+    --step-box-padding: 16px 32px;
+    --radio-btn-color: var(--color-grey);
+    --radio-btn-color-error: var(--color-red);
+
+    --textbox-border-bottom-hover: 1px solid #212121;
+    --textbox-border-radius: 8px;
+    --textbox-padding: 0px 16px;
+
+    --textarea-border-bottom-hover: 1px solid #212121;
+    --textarea-border-radius: 8px;
+    --textarea-padding: 16px;
+
+
+
+
 
 
 }
