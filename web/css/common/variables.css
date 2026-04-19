@@ -117,8 +117,10 @@
     --btn-bg-color-cyan-hover: var(--color-cyan);
     --btn-bg-color-dark-blue-hover: var(--color-dark-blue);
     --btn-bg-color-transparent-hover: var(--color-transparent);
+    --btn-bg-color-beige-hover: var(--color-beige);
     --btn-text-color-black-hover: var(--color-black);
     --btn-text-color-white-hover: var(--color-white);
+
 
     /*===header and footer===*/
     --header-menu-font-color: var(--color-black);

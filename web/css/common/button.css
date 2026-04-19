@@ -16,16 +16,30 @@ body {
     display: inline-block;
 }
 
+/*button*/
 .btn_cyan {
     background-color: var(--btn-bg-color-cyan-default);
+
+}
+
+.btn_yellow {
+    background-color: var(--btn-bg-color-yellow-default);
+}
+
+.btn_course {
+    background-color: var(--btn-bg-color-light-purple-default);
 }
 
 .btn>a {
     text-decoration: none;
 }
 
-.btn_cyan>a {
+.btn_fontwhite>a {
     color: var(--btn-text-color-white-default);
+}
+
+.btn_fontblack>a {
+    color: var(--btn-text-color-black-default);
 }
 
 .btn_icon_white::after {
@@ -36,11 +50,46 @@ body {
 
 }
 
-.btn_cyan:hover {
+.btn_icon_black::after {
+    content: url("../../img/starburstblack.svg");
+    margin-left: 10px;
+    display: inline-block;
+    width: 16px;
+
+}
+
+.hover_yellow:hover {
     background-color: var(--btn-bg-color-yellow-hover);
 
 }
 
-.btn_cyan:hover>a {
+.hover_dark_blue:hover {
+    background-color: var(--btn-bg-color-dark-blue-hover);
+}
+
+.hover_cyan:hover {
+    background-color: var(--btn-bg-color-cyan-hover);
+    border: none;
+}
+
+.hover_yellow:hover>a {
     color: var(--btn-text-color-black-hover);
+}
+
+.hover_dark_blue:hover>a,
+.hover_cyan:hover>a {
+    color: var(--btn-text-color-white-hover)
+}
+
+
+.btn_transparent {
+    background-color: var(--btn-bg-color-transparent-default);
+    border: 1px solid #222222;
+    color: #222222;
+}
+
+.hover_beige:hover {
+    background-color: var(--btn-bg-color-beige-hover);
+    border: none;
+
 }
