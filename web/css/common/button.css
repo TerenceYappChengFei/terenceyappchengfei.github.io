@@ -1,0 +1,46 @@
+body {
+    font-family: var(--font-family);
+}
+
+.card {
+    background-color: beige;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    font-size: var(--big-btn-font-size);
+    padding: var(--big-btn-padding);
+    border-radius: var(--btn-radius);
+    display: inline-block;
+}
+
+.btn_cyan {
+    background-color: var(--btn-bg-color-cyan-default);
+}
+
+.btn>a {
+    text-decoration: none;
+}
+
+.btn_cyan>a {
+    color: var(--btn-text-color-white-default);
+}
+
+.btn_icon_white::after {
+    content: url("../../img/starburst.svg");
+    margin-left: 10px;
+    display: inline-block;
+    width: 16px;
+
+}
+
+.btn_cyan:hover {
+    background-color: var(--btn-bg-color-yellow-hover);
+
+}
+
+.btn_cyan:hover>a {
+    color: var(--btn-text-color-black-hover);
+}

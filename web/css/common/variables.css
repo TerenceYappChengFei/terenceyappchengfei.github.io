@@ -27,7 +27,7 @@
     /* Globol font */
     --color-text-headings: var(--color-black);
     --color-text: var(--color-grey);
-    --font-family: 'Lexend', sans-serif;
+    --font-family: "Lexend", sans-serif;
     --font-size: 16px;
     --font-weight-thin: 300;
     --font-weight-regular: 400;
@@ -103,6 +103,22 @@
     --btn-dark-blue-font-color-default: var(--color-white);
     --btn-dark-blue-bg-hover: var(--color-yellow);
     --btn-dark-blue-font-color-hover: var(--color-black);
+
+    /*or*/
+    --btn-bg-color-cyan-default: var(--color-cyan);
+    --btn-bg-color-transparent-default: var(--color-transparent);
+    --btn-bg-color-yellow-default: var(--color-yellow);
+    --btn-bg-color-dark-blue-default: var(--color-dark-blue);
+    --btn-bg-color-light-purple-default: var(--color-light-purple);
+    --btn-text-color-black-default: var(--color-black);
+    --btn-text-color-white-default: var(--color-white);
+
+    --btn-bg-color-yellow-hover: var(--color-yellow);
+    --btn-bg-color-cyan-hover: var(--color-cyan);
+    --btn-bg-color-dark-blue-hover: var(--color-dark-blue);
+    --btn-bg-color-transparent-hover: var(--color-transparent);
+    --btn-text-color-black-hover: var(--color-black);
+    --btn-text-color-white-hover: var(--color-white);
 
     /*===header and footer===*/
     --header-menu-font-color: var(--color-black);
