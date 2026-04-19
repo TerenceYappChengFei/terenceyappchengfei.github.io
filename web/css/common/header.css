@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 80px;
+    align-items: center;
+}
+
+.header_menu {
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.home_menu {
+    opacity: 0;
+    /* make submenu not visible */
+    position: absolute;
+    transition: all 0.5s;
+    background-color: var(--color-dark-blue);
+    /* transition effect */
+    display: flex;
+    font-size: var(--font-size-h6);
+    color: var(--color-white);
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.info_menu {
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s;
+    padding: 24px 24px 24px 32px;
+    text-decoration: none;
+
+}
+
+.arrow_down::after {
+    content: "\f107";
+    font-family: "Font Awesome 7 Free";
+    font-weight: 600;
+    display: inline-block;
+    width: 12px;
+    margin-left: 8.5px;
+
+}
+
+
+.home_menu div {
+    display: block;
+}
+
+.menu:hover {
+    color: var(--color-yellow);
+    transition: all 0.5s;
+}
+
+.arrow_down:hover>.home_menu {
+    opacity: 1;
+    /* visible when hover menu item */
+}
+
+.arrow_down:hover>.info_menu {
+    opacity: 1;
+    /* visible when hover menu item */
+}
