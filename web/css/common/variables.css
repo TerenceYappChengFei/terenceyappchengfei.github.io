@@ -28,6 +28,7 @@ body {
     --color-light-purple: #F2F0FF;
     --color-light-cyan: #E9F9FC;
     --color-transparent: transparent;
+
     /* Globol font */
     --color-text-headings: var(--color-black);
     --color-text: var(--color-grey);
@@ -58,7 +59,7 @@ body {
     --small-btn-font-size: 11px;
     --btn-font-line-height: 1.0;
 
-    /*type of school button*/
+    /*types of school button*/
     --btn-school-bg-default: #B628E6;
     --btn-school-font-color-default: var(--color-white);
     --btn-school-bg-hover: #77FD9F;
