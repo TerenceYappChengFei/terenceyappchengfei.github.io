@@ -48,6 +48,10 @@ p {
     font-size: 24px;
 }
 
+.body_card_text {
+    font-size: 14px;
+}
+
 
 /* Navigation link */
 .nav_link {
