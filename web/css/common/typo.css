@@ -48,7 +48,18 @@ p {
     font-size: 24px;
 }
 
-.
+
+/* Navigation link */
+.nav_link {
+    text-decoration: underline;
+    color: var(--color-grey);
+}
+
+.nav_link:hover {
+    color: var(--color-dark-blue);
+}
+
+
 /* Tablet */
 @media screen and (max-width: 750px) {
     h1 {
