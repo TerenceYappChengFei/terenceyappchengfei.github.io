@@ -52,6 +52,11 @@ p {
     font-size: 14px;
 }
 
+.body_price {
+    font-size: 17px;
+    color: var(--color-dark-blue);
+}
+
 
 /* Navigation link */
 .nav_link {
