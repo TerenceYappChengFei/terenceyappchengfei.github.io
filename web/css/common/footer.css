@@ -1,0 +1,27 @@
+.footer {
+    background: linear-gradient(to bottom, #000000, #010029);
+    padding: 80px 30px 16px;
+}
+
+.dream>p {
+    color: var(--color-white);
+    font-size: var(--footer-body-title-text);
+}
+
+.social_media {
+    display: flex;
+    gap: 5px;
+}
+
+.social_media img {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: var(--border-radius);
+
+}
+
+
+.media_border {
+    color: var(--color-white);
+
+}
