@@ -66,11 +66,57 @@ a {
     color: var(--color-black);
 }
 
+.academics_menu {
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s;
+    box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 820px;
+    display: flex;
+
+}
+
+.academics {
+    padding: 16px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.online {
+    padding: 16px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.school_padding {
+    padding: 20px 32px;
+    border-radius: 6px;
+}
+
+.elementary {
+    background-color: var(--color-ivory-green);
+}
+
+.middle {
+    background-color: var(--color-light-purple);
+}
+
+.high {
+    background-color: var(--color-light-cyan);
+}
+
 .info_menu {
     opacity: 0;
     position: absolute;
     transition: all 0.5s;
 
+}
+
+.school_padding:hover {
+    background-color: var(--color-beige);
 }
 
 .info_menu a {
@@ -100,6 +146,11 @@ a {
 }
 
 .arrow_down:hover>.info_menu {
+    opacity: 1;
+    /* visible when hover menu item */
+}
+
+.arrow_down:hover>.academics_menu {
     opacity: 1;
     /* visible when hover menu item */
 }
