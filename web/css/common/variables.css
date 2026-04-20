@@ -201,9 +201,7 @@ body {
     --textarea-border-radius: 8px;
     --textarea-padding: 16px;
 
-
-
-
-
+    /* container gap */
+    --container-gap: 20px;
 
 }
