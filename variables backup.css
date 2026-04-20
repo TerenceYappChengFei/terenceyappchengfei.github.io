@@ -50,13 +50,6 @@ body {
     --font-size-h6: 16px;
     --font-line-height-headings-loose: 1.4;
 
-    /*body*/
-    --footer-body-title-text: 36px;
-    --body-text-quote: 34px;
-    --body-text-banner-paragrapgh: 24px;
-    --body-text-menu: 17px;
-    --body-card-text: 14px;
-    --body-text-box-yellow: 12px;
     /*===button that share===*/
     --big-btn-padding: 22px 34px 24px;
     --medium-btn-padding: 20px 30px;
@@ -66,10 +59,6 @@ body {
     --small-btn-font-size: 11px;
     --btn-font-line-height: 1.0;
 
-    /*border-radius*/
-    --border-radius: 6px;
-
-    /*type of school button*/
     /*types of school button*/
     --btn-school-bg-default: #B628E6;
     --btn-school-font-color-default: var(--color-white);
