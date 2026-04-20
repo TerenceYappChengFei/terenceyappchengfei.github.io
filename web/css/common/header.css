@@ -82,6 +82,7 @@ a {
     gap: 10px;
     display: flex;
     flex-direction: column;
+    width: 40%;
 }
 
 .online {
@@ -106,6 +107,19 @@ a {
 
 .high {
     background-color: var(--color-light-cyan);
+}
+
+.online_school {
+    background-color: var(--color-beige);
+}
+
+.online_school_content>div {
+    padding-bottom: 12px;
+}
+
+.linkpic {
+    display: flex;
+    justify-content: space-between;
 }
 
 .info_menu {

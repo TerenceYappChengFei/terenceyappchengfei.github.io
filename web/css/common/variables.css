@@ -28,6 +28,7 @@ body {
     --color-light-purple: #F2F0FF;
     --color-light-cyan: #E9F9FC;
     --color-transparent: transparent;
+
     /* Globol font */
     --color-text-headings: var(--color-black);
     --color-text: var(--color-grey);
@@ -55,9 +56,9 @@ body {
     --body-text-banner-paragrapgh: 24px;
     --body-text-menu: 17px;
     --body-card-text: 14px;
-    --body-text-box-yellow:
-        /*===button that share===*/
-        --big-btn-padding: 22px 34px 24px;
+    --body-text-box-yellow: 12px;
+    /*===button that share===*/
+    --big-btn-padding: 22px 34px 24px;
     --medium-btn-padding: 20px 30px;
     --small-btn-padding: 10px;
     --btn-radius: 6px;
@@ -69,6 +70,7 @@ body {
     --border-radius: 6px;
 
     /*type of school button*/
+    /*types of school button*/
     --btn-school-bg-default: #B628E6;
     --btn-school-font-color-default: var(--color-white);
     --btn-school-bg-hover: #77FD9F;
