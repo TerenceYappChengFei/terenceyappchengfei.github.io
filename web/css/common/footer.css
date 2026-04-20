@@ -1,11 +1,19 @@
 .footer {
     background: linear-gradient(to bottom, #000000, #010029);
     padding: 80px 30px 16px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .dream>p {
     color: var(--color-white);
     font-size: var(--footer-body-title-text);
+}
+
+h5 {
+    font-size: var(--font-size-h5);
+    color: var(--color-white);
+    padding: 10px 0px 30px 0px;
 }
 
 .social_media {
@@ -20,8 +28,26 @@
 
 }
 
+.contact_row {
+    margin-bottom: 56px;
+    border-bottom: 1px solid #FFFFFFB2;
+    padding-bottom: 40px;
+}
+
+.contact_info {
+    display: flex;
+}
+
+.contact_info p {
+    color: #FFFFFFB2;
+}
+
 
 .media_border {
     color: var(--color-white);
 
+}
+
+.contact_address {
+    width: 50%;
 }
