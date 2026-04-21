@@ -229,3 +229,15 @@ a {
     width: 17px;
     padding-left: 12px;
 }
+
+@media screen and (max-width: 1200px) {
+    .header_menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750) {
+    .top_header_btn {
+        display: none;
+    }
+}
