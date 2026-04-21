@@ -74,19 +74,20 @@ a {
     border-radius: 6px;
     width: 820px;
     display: flex;
+    gap: 16px;
 
 }
 
 .academics {
-    padding: 16px;
+    padding: 16px 0px 16px 16px;
     gap: 10px;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 60%;
 }
 
 .online {
-    padding: 16px;
+    padding: 16px 16px 16px 0px;
     gap: 10px;
     display: flex;
     flex-direction: column;
@@ -111,6 +112,26 @@ a {
 
 .online_school {
     background-color: var(--color-beige);
+}
+
+.school_padding h5 {
+    font-size: 18px;
+}
+
+.school_padding p {
+    font-size: var(--body-card-text);
+    font-weight: 300;
+    color: var(--color-black);
+    padding: 12px 0px 0px 0px;
+}
+
+.online_school_content p {
+    padding-bottom: 12px;
+}
+
+.school_padding a:hover {
+    color: var(--color-cyan);
+    text-decoration: dotted;
 }
 
 .online_school_content>div {
@@ -171,4 +192,52 @@ a {
 
 .info:hover>a {
     color: var(--color-dark-blue)
+}
+
+.header_btn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu>img:hover {
+    fill: var(--color-yellow);
+}
+
+.online_school_content h5 {
+    font-size: 18px;
+    color: var(--color-black);
+}
+
+.top_header_btn {
+    font-size: var(--big-btn-font-size);
+    padding: var(--medium-btn-padding);
+    border-radius: var(--border-radius);
+    background-color: var(--color-ivory-green);
+    border: 0px;
+    text-decoration: none;
+    color: var(--color-black)
+}
+
+.top_header_btn:hover {
+    background-color: var(--color-light-purple);
+}
+
+.top_header_btn a::after {
+    content: url("../../img/starburstblack.svg");
+    display: inline-block;
+    width: 17px;
+    padding-left: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+    .header_menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750) {
+    .top_header_btn {
+        display: none;
+    }
 }
