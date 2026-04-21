@@ -5,6 +5,12 @@
     justify-content: space-around;
 }
 
+.footer_box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 .dream>p {
     color: var(--color-white);
     font-size: var(--footer-body-title-text);
@@ -50,4 +56,43 @@ h5 {
 
 .contact_address {
     width: 50%;
+}
+
+.link_group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.categories a {
+    color: #FFFFFFB2;
+    text-decoration: none;
+
+}
+
+.categories a:hover {
+    color: var(--color-cyan);
+}
+
+/* Tablet */
+@media screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact_info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .link_group {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
