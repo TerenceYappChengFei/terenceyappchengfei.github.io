@@ -69,58 +69,8 @@ body {
     /*border-radius*/
     --border-radius: 6px;
 
-    /*type of school button*/
-    /*types of school button*/
-    --btn-school-bg-default: #B628E6;
-    --btn-school-font-color-default: var(--color-white);
-    --btn-school-bg-hover: #77FD9F;
-    --btn-school-font-color-hover: var(--color-black);
 
-    /*btn cyan default and yellow hover*/
-    --btn-cyan-bg-default: var(--color-cyan);
-    --btn-cyan-font-color-default: var(--color-white);
-    --btn-cyan-bg-hover: var(--color-yellow);
-    --btn-cyan-font-color-hover: var(--color-black);
-
-    /*btn for transparent background*/
-    --btn-transparent-bg-default: var(--color-transparent);
-    --btn-transparent-font-color-default: var(--color-white);
-    --btn-transparent-bg-hover-white: var(--color-white);
-    --btn-transparent-bg-hover-cyan: var(--color-cyan);
-    --btn-transparent-bg-hover-blue: var(--color-dark-blue);
-    --btn-transparent-font-color-hover-black: var(--color-black);
-    --btn-transparent-font-color-hover-white: var(--color-white);
-
-    /*btn for cyan background and blue hover */
-    --btn-see-bg-default: var(--color-cyan);
-    --btn-see-font-color: var(--color-white);
-    --btn-see-bg-hover: var(--color-dark-blue);
-
-    /*btn yellow background and dark blue hover*/
-    --btn-yellow-bg-default: var(--color-yellow);
-    --btn-yellow-font-color-default: var(--color-black);
-    --btn-yellow-bg-hover: var(--color-dark-blue);
-    --btn-yellow-font-color-hover: var(--color-white);
-
-    /*btn for light purple background and dark blue hover*/
-    --btn-light-purple-bg-default: var(--color-light-purple);
-    --btn-light-purple-font-color-default: var(--color-black);
-    --btn-light-purple-bg-hover: var(--color-dark-blue);
-    --btn-light-purple-font-color-hover: var(--color-white);
-
-    /*btn yellow and cyan hover*/
-    --btn-yellow-bg-default-cyan: var(--color-yellow);
-    --btn-yellow-font-color-default-cyan: var(--color-black);
-    --btn-yellow-bg-hover-cyan: var(--color-cyan);
-    --btn-yellow-font-color-hover-cyan: var(--color-white);
-
-    /*btn dark blue and yellow hover*/
-    --btn-dark-blue-bg-default: var(--color-dark-blue);
-    --btn-dark-blue-font-color-default: var(--color-white);
-    --btn-dark-blue-bg-hover: var(--color-yellow);
-    --btn-dark-blue-font-color-hover: var(--color-black);
-
-    /*or*/
+    /*btn details*/
     --btn-bg-color-cyan-default: var(--color-cyan);
     --btn-bg-color-transparent-default: var(--color-transparent);
     --btn-bg-color-yellow-default: var(--color-yellow);
@@ -129,6 +79,7 @@ body {
     --btn-text-color-black-default: var(--color-black);
     --btn-text-color-white-default: var(--color-white);
 
+    /*btn hover*/
     --btn-bg-color-yellow-hover: var(--color-yellow);
     --btn-bg-color-cyan-hover: var(--color-cyan);
     --btn-bg-color-dark-blue-hover: var(--color-dark-blue);
