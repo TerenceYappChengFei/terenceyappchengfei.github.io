@@ -120,15 +120,28 @@ a {
     justify-content: space-between;
 }
 
+.linkpic>a {
+    color: var(--color-grey);
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+
+.linkpic>a:hover {
+    color: var(--color-black);
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
 .info_menu {
     opacity: 0;
     position: absolute;
     transition: all 0.5s;
-}
-
-.info_submenu {
     pointer-events: none;
 }
+
+
 
 .school_padding:hover {
     background-color: var(--color-beige);
@@ -173,7 +186,7 @@ a {
     background-color: var(--color-dark-blue);
 }
 
-.header_btn {
+.header_bottom {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -207,6 +220,14 @@ a {
     display: inline-block;
     width: 17px;
     padding-left: 12px;
+}
+
+.header_bottom>div {
+    cursor: pointer;
+}
+
+.header_bottom>menu {
+    z-index: 1001;
 }
 
 @media screen and (max-width: 1200px) {
