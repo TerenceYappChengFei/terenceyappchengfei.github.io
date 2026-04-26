@@ -3,6 +3,17 @@
     padding: 80px 30px 16px;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+}
+
+.footer_top_area {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #FFFFFFB2;
 }
 
 .footer_box {
@@ -36,18 +47,59 @@ h5 {
 
 .contact_row {
     margin-bottom: 56px;
-    border-bottom: 1px solid #FFFFFFB2;
+    border-bottom: 1px solid var(--color-light-grey-text);
     padding-bottom: 40px;
 }
 
 .contact_info {
     display: flex;
+    line-height: var(--font-line-height);
 }
 
 .contact_info p {
-    color: #FFFFFFB2;
+    color: var(--color-light-grey-text);
 }
 
+.contact_info span {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-white);
+}
+
+.contact_info a {
+    color: var(--color-light-grey-text);
+    text-decoration: none;
+}
+
+.contact_info a:hover {
+    color: var(--color-yellow);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: all 0.3s;
+    text-underline-offset: 5px;
+}
+
+.footer_bottom {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    color: var(--color-dark-grey-text);
+    margin: 50px 0px 30px;
+    line-height: var(--font-line-height);
+}
+
+.footer_content a {
+    color: var(--color-light-grey-text);
+    text-decoration: none;
+}
+
+.footer_content a:hover {
+    color: var(--color-yellow);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: all 0.3s;
+    text-underline-offset: 5px;
+}
 
 .media_border {
     color: var(--color-white);
@@ -63,6 +115,10 @@ h5 {
     justify-content: space-between;
 }
 
+.privacy_links {
+    margin-top: 30px;
+}
+
 .categories {
     display: flex;
     flex-direction: column;
@@ -70,13 +126,15 @@ h5 {
 }
 
 .categories a {
-    color: #FFFFFFB2;
+    color: var(--color-light-grey-text);
     text-decoration: none;
 
 }
 
 .categories a:hover {
     color: var(--color-cyan);
+    transition: all 0.3s;
+
 }
 
 /* Tablet */
