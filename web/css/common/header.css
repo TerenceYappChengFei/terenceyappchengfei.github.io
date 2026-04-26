@@ -12,32 +12,13 @@
 
 }
 
+
+
 .header_menu>.menu {
     cursor: pointer;
 }
 
 a {
-    text-decoration: none;
-    color: var(--color-black);
-}
-
-.scholarship {
-    width: 100%;
-    background-color: var(--color-yellow);
-    color: var(--color-black);
-    text-align: center;
-    border-radius: 6px;
-    padding: 24px 0px 24px;
-    margin-top: 10px;
-
-}
-
-.scholarship a {
-    text-decoration: underline;
-    color: var(--color-dark-blue);
-}
-
-.scholarship a:hover {
     text-decoration: none;
     color: var(--color-black);
 }
@@ -162,6 +143,9 @@ a {
 
 }
 
+.bento_menu>img {
+    z-index: 1000;
+}
 
 .menu:hover {
     color: var(--color-yellow);
@@ -224,19 +208,112 @@ a {
 
 .header_bottom>div {
     cursor: pointer;
-}
-
-.header_bottom>menu {
     z-index: 1001;
 }
 
+.headerside_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 40px;
+
+    background-color: #ffffff;
+    width: 30%;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    right: -50%;
+    /* Completely off-screen to the right */
+
+    transition: all 0.4s ease-in-out;
+    z-index: 999;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.headerside_menu.active {
+    right: 0;
+}
+
+.side_icon {
+    border-bottom: 1px solid;
+}
+
+.side_content {
+    display: none;
+}
+
+.side_title_content h6 {
+    font-size: var(--font-size-h6);
+    color: var(--color-dark-blue);
+    text-decoration: underline;
+    line-height: var(--font-line-height-headings-loose);
+    font-weight: var(--font-weight-bold);
+}
+
+.side_title_content {
+    display: flex;
+    gap: 20px;
+    flex-direction: column
+}
+
+.ourschool img {
+    border-radius: 6px;
+}
+
+.side_title_content p {
+    font-size: var(--body-card-text);
+    line-height: var(--font-line-height);
+    font-weight: 300;
+    color: var(--color-grey)
+}
+
+.getintouch span {
+    font-weight: var(--font-weight-regular);
+}
+
+.rm a {
+    font-size: var(--body-card-text);
+    line-height: var(--font-line-height);
+    color: var(--color-cyan);
+    text-decoration: underline;
+}
+
+.rm a:hover {
+    transition: all 0.5s;
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.contact_link a {
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.contact_link a:hover {
+    color: var(--color-dark-blue);
+    transition: all 0.5s;
+}
+
+
 @media screen and (max-width: 1200px) {
+    .header {
+        padding: 16px 30px;
+    }
+
+    .side_content {
+        display: block;
+    }
+
     .header_menu {
         display: none;
     }
+
 }
 
-@media screen and (max-width: 750) {
+
+
+@media screen and (max-width: 750px) {
     .top_header_btn {
         display: none;
     }
