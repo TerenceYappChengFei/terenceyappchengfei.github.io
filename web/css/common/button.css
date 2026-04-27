@@ -17,6 +17,12 @@ body {
     margin: 5px;
 }
 
+.btn,
+.small_btn,
+.academic_btn {
+    transition: all 0.3s;
+}
+
 /*button*/
 .btn_cyan {
     background-color: var(--btn-bg-color-cyan-default);
@@ -97,4 +103,28 @@ body {
     background-color: var(--btn-bg-color-beige-hover);
     border: none;
 
+}
+
+.small_btn {
+    font-size: var(--body-text-box-yellow);
+    padding: var(--small-btn-padding);
+    display: inline-block;
+    border-radius: var(--btn-radius);
+    font-weight: var(--font-weight-600);
+}
+
+.academic_btn {
+    font-size: var(--academic-btn-text-size);
+    display: inline-block;
+    border-radius: var(--btn-radius);
+    font-weight: var(--font-weight-600);
+    background-color: var(--color-purple);
+    color: var(--btn-text-color-white-default);
+    padding: var(--extra-small-btn-padding);
+
+}
+
+.academic_btn:hover {
+    background-color: var(--color-green);
+    color: var(--btn-text-color-black-hover);
 }

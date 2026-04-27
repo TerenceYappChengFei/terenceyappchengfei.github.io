@@ -30,6 +30,7 @@ body {
     --color-transparent: transparent;
     --color-light-grey-text: #FFFFFFB2;
     --color-dark-grey-text: #FFFFFF66;
+    --color-purple: #b628e6;
 
 
     /* Globol font */
@@ -40,6 +41,7 @@ body {
     --font-weight-thin: 300;
     --font-weight-regular: 400;
     --font-weight-bold: 500;
+    --font-weight-600: 600;
     --font-line-height: 1.72;
 
     /*headings*/
@@ -60,10 +62,12 @@ body {
     --body-text-menu: 17px;
     --body-card-text: 14px;
     --body-text-box-yellow: 12px;
+    --academic-btn-text-size: 11px;
     /*===button that share===*/
     --big-btn-padding: 22px 34px 24px;
     --medium-btn-padding: 20px 30px;
-    --small-btn-padding: 10px;
+    --small-btn-padding: 14px 16px 12px;
+    --extra-small-btn-padding: 10px;
     --btn-radius: 6px;
     --big-btn-font-size: 16px;
     --small-btn-font-size: 11px;
@@ -168,5 +172,5 @@ body {
 
     /* container gap */
     --container-gap: 20px;
-
+    --container-about-gap: 12px
 }
