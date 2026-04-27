@@ -2,6 +2,10 @@
     padding: var(--body-padding);
 }
 
+.section_margin_bottom {
+    margin-bottom: 120px;
+}
+
 .title {
     text-align: center;
     margin-bottom: 25px;
@@ -20,16 +24,46 @@
     gap: var(--container-gap)
 }
 
-/* for sample purpose only */
-.container-padding {
+.container_padding_horizontal {
     padding: 0px 50px;
 }
 
+.container_padding_vertical {
+    padding: 50px 0px;
+}
+
 .max-width {
-    margin: 40px auto;
+    margin-left: auto;
+    margin-right: auto;
+
     max-width: 1520px;
 }
 
+.stats_icon {
+    width: 100px
+}
+
+.stats_icon img {
+    width: 55px
+}
+
+.stats_card {
+    position: relative;
+}
+
+.ratings {
+    width: 100%;
+}
+
+.ratings img {
+    width: 75px;
+}
+
+.spiral_accent {
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+}
 
 .column-two {
     width: calc(50% - calc(20px / 2));
@@ -48,7 +82,14 @@
     border: 1px solid;
     border-color: var(--color-light-grey);
     border-radius: var(--textbox-border-radius);
-    padding: 10px;
+}
+
+.tall_padding {
+    padding: 75px 30px;
+}
+
+.container_no_border {
+    border: none;
 }
 
 .school_img {
@@ -72,9 +113,19 @@
     padding: 25px;
 }
 
+.font_weight_thin {
+    /* font-size: var(--number-font-size); */
+    font-weight: var(--font-weight-thin);
+    line-height: var(--font-line-height);
+}
+
 .school_background_padding {
     padding: 20px 10px;
     border-radius: var(--textbox-border-radius);
+}
+
+.white_background_container {
+    background-color: var(--color-white)
 }
 
 .ivory_green_background_container {
@@ -89,6 +140,14 @@
     background-color: var(--color-light-purple);
 }
 
+.light_grey_background_container {
+    background-color: var(--color-light-grey);
+}
+
+.transparent_cyan_background_container {
+    background-color: #27c4e588;
+}
+
 /* section intro */
 .section_intro {
     display: flex;
@@ -98,7 +157,6 @@
 }
 
 .section_badge {
-    /* width: 100%; */
     min-width: 20%;
     margin-top: 18px;
 
@@ -143,6 +201,13 @@
 .justify_center {
     display: flex;
     justify-content: center;
+}
+
+.space_evenly {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .about_grid {
@@ -217,6 +282,37 @@
     gap: 20px;
 }
 
+.request_info_item {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.request_info_section {
+    gap: 20px;
+}
+
+.info_items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.faq_items {
+    display: flex;
+    padding: 25px 0px;
+    border-bottom: 2px solid #e1e1e1;
+    width: 50%;
+}
+
+.gap_container {
+    gap: var(--container-gap)
+}
+
+.foil_background {
+    background-image: url("../../img/school-education-info-bg-01.webp");
+
+}
+
 /* Tablet */
 @media screen and (max-width: 1100px) {
     .column-two {
@@ -238,6 +334,10 @@
     .margin_left_right {
         margin: 0px;
     }
+
+    .desktop-only {
+        display: none;
+    }
 }
 
 /* Mobile */
@@ -256,5 +356,9 @@
 
     .about_card {
         width: 100%
+    }
+
+    .desktop-only {
+        display: none;
     }
 }
