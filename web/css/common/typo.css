@@ -94,6 +94,7 @@ p {
     font-weight: var(--font-weight-regular);
 }
 
+/* need to change */
 .blue_font {
     color: var(--color-dark-blue);
     font-size: var(--body-card-text);
