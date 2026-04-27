@@ -89,10 +89,17 @@ h6 {
 
 }
 
+
 /* Desktop Body Text */
 p {
     font-size: var(--font-size);
     font-weight: var(--font-weight-regular);
+
+}
+
+.font_number {
+    color: var(--color-cyan);
+    font-size: var(--body-number-text);
 }
 
 /* need to change */
