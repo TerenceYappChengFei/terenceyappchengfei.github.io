@@ -2,6 +2,10 @@
     padding: var(--body-padding);
 }
 
+.margin_bottom {
+    margin-bottom: 120px;
+}
+
 .title {
     text-align: center;
     margin-bottom: 25px;
@@ -20,16 +24,38 @@
     gap: var(--container-gap)
 }
 
-/* for sample purpose only */
-.container-padding {
+.container_padding_horizontal {
     padding: 0px 50px;
 }
 
+.container_padding_vertical {
+    padding: 50px 0px;
+}
+
 .max-width {
-    margin: 40px auto;
+    margin-left: auto;
+    margin-right: auto;
+
     max-width: 1520px;
 }
 
+.stats_icon {
+    width: 100px
+}
+
+.stats_icon img {
+    width: 55px
+}
+
+.stats_card {
+    position: relative;
+}
+
+.spiral_accent {
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+}
 
 .column-two {
     width: calc(50% - calc(20px / 2));
@@ -49,6 +75,10 @@
     border-color: var(--color-light-grey);
     border-radius: var(--textbox-border-radius);
     padding: 10px;
+}
+
+.container_no_border {
+    border: none;
 }
 
 .school_img {
@@ -72,6 +102,11 @@
     padding: 25px;
 }
 
+.font_weight_thin {
+    /* font-size: var(--number-font-size); */
+    font-weight: var(--font-weight-thin);
+}
+
 .school_background_padding {
     padding: 20px 10px;
     border-radius: var(--textbox-border-radius);
@@ -89,6 +124,10 @@
     background-color: var(--color-light-purple);
 }
 
+.light_grey_background_container {
+    background-color: var(--color-light-grey);
+}
+
 /* section intro */
 .section_intro {
     display: flex;
@@ -98,7 +137,6 @@
 }
 
 .section_badge {
-    /* width: 100%; */
     min-width: 20%;
     margin-top: 18px;
 
@@ -145,6 +183,13 @@
     justify-content: center;
 }
 
+.space_evenly {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .about_grid {
     display: flex;
     justify-content: center;
@@ -182,6 +227,20 @@
     margin-bottom: 50px;
 }
 
+.request_info_item {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.request_info_section {
+    gap: 20px;
+}
+
+.info_items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
 
 /* Tablet */
 @media screen and (max-width: 1100px) {
