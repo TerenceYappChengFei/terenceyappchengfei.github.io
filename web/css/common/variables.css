@@ -37,6 +37,7 @@ body {
     --color-text-headings: var(--color-black);
     --color-text: var(--color-grey);
     --font-family: "Lexend", sans-serif;
+    --font-number-family: "Oswald";
     --font-size: 16px;
     --font-weight-thin: 300;
     --font-weight-regular: 400;
@@ -46,16 +47,20 @@ body {
 
     /*headings*/
     --font-size-h1: 60px;
+    --font-size-h2-others-banner: 52px;
     --font-size-h2: 42px;
     --font-size-h3: 36px;
     --font-line-height-headings-tight: 1.3;
 
     --font-size-h4: 24px;
+    --font-size-h4-subject: 22px;
     --font-size-h5: 20px;
     --font-size-h6: 16px;
     --font-line-height-headings-loose: 1.4;
 
     /*body*/
+    --number-font-size: 80px;
+    --header-submenu-academic-text: 18px;
     --footer-body-title-text: 36px;
     --body-text-quote: 34px;
     --body-text-banner-paragrapgh: 24px;

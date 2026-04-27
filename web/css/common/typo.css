@@ -1,4 +1,14 @@
 /* Desktop Heading*/
+.text_devider {
+    background-color: var(--color-light-purple);
+    padding: 20px;
+
+}
+
+.text_devider_white {
+    background-color: var(--color-white);
+    padding: 20px;
+}
 
 h1 {
     font-size: var(--font-size-h1);
@@ -8,6 +18,10 @@ h1 {
 h2 {
     font-size: var(--font-size-h2);
     line-height: var(--font-line-height-headings-tight);
+}
+
+.diff_banner {
+    font-size: var(--font-size-h2-others-banner);
 }
 
 h3 {
@@ -20,6 +34,16 @@ h4 {
     font-size: var(--font-size-h4);
     line-height: var(--font-line-height-headings-loose);
 
+}
+
+.school_subject {
+    font-size: var(--font-size-h4-subject);
+    line-height: var(--font-line-height-headings-loose);
+}
+
+.header_academic_school {
+    font-size: var(--header-submenu-academic-text);
+    line-height: var(--font-line-height-headings-loose);
 }
 
 h5 {
@@ -40,8 +64,24 @@ p {
     font-weight: var(--font-weight-regular);
 }
 
+.blue_font {
+    color: var(--color-dark-blue);
+    font-size: var(--body-card-text);
+    font-weight: var(--font-weight-600);
+
+
+}
+
+.small_weight {
+    font-weight: var(--font-weight-thin);
+}
+
+.text_subheading_banner {
+    font-size: var(--body-text-banner-paragrapgh);
+}
+
 .body_quote {
-    font-size: 34px;
+    font-size: var(--body-text-quote);
 }
 
 .body_banner {
@@ -49,12 +89,40 @@ p {
 }
 
 .body_card_text {
-    font-size: 14px;
+    font-size: var(--body-card-text);
+}
+
+.number {
+    font-family: var(--font-number-family);
+    -webkit-text-stroke: 1px var(--color-cyan);
+    font-size: var(--number-font-size);
+    color: var(--color-white);
+    font-weight: var(--font-weight-600);
+}
+
+.stat {
+    color: var(--color-cyan);
+    font-weight: var(--font-weight-thin);
+}
+
+.stat_box,
+.news_box {
+    display: flex;
+}
+
+
+.stat_spacing {
+    color: var(--color-grey-text);
+    margin: 0px 10px 0px 10px;
 }
 
 .body_price {
     font-size: 17px;
     color: var(--color-dark-blue);
+}
+
+.dash {
+    padding: 0px 5px;
 }
 
 
@@ -65,9 +133,28 @@ p {
 }
 
 .nav_link:hover {
+    text-decoration: none;
+}
+
+.nav_link:hover {
     color: var(--color-dark-blue);
 }
 
+.cyan_font_link {
+    color: var(--color-cyan);
+    font-size: var(--body-card-text);
+}
+
+.cyan_font_link:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.news_heading:hover {
+    color: var(--color-dark-blue);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
 
 /* Tablet */
 @media screen and (max-width: 750px) {
