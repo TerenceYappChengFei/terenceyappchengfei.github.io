@@ -14,52 +14,68 @@
     color: var(--color-white);
 }
 
+.font_text_grey {
+    color: var(--color-grey);
+}
+
 h1 {
     font-size: var(--font-size-h1);
     line-height: var(--font-line-height-headings-tight);
     font-weight: var(--font-weight-bold);
 }
 
+.main_banner_content h1 {
+    padding-bottom: 20px;
+}
+
 h2 {
     font-size: var(--font-size-h2);
     line-height: var(--font-line-height-headings-tight);
+    font-weight: var(--font-weight-bold);
 }
 
 .diff_banner {
     font-size: var(--font-size-h2-others-banner);
+    font-weight: var(--font-weight-bold);
 }
 
 h3 {
     font-size: var(--font-size-h3);
     line-height: var(--font-line-height-headings-tight);
+    font-weight: var(--font-weight-bold);
 
 }
 
 h4 {
     font-size: var(--font-size-h4);
     line-height: var(--font-line-height-headings-loose);
+    font-weight: var(--font-weight-bold);
 
 }
 
 .school_subject {
     font-size: var(--font-size-h4-subject);
     line-height: var(--font-line-height-headings-loose);
+    font-weight: var(--font-weight-bold);
 }
 
 .header_academic_school {
     font-size: var(--header-submenu-academic-text);
     line-height: var(--font-line-height-headings-loose);
+    font-weight: var(--font-weight-bold);
 }
 
 h5 {
     font-size: var(--font-size-h5);
     line-height: var(--font-line-height-headings-loose);
+    font-weight: var(--font-weight-bold);
 
 }
 
 h6 {
     font-size: var(--font-size-h6);
     line-height: var(--font-line-height-headings-loose);
+    font-weight: var(--font-weight-bold);
 
 }
 
@@ -83,6 +99,7 @@ p {
 
 .text_subheading_banner {
     font-size: var(--body-text-banner-paragrapgh);
+    padding-bottom: 40px;
 }
 
 .body_quote {
