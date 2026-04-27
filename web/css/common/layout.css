@@ -43,20 +43,57 @@
     width: calc(25% - calc(20px * 3 / 4));
 }
 
-.two-columns {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: calc((100% - 20px) / 2);
-
-}
-
 .column-container {
     display: block;
     border: 1px solid;
     border-color: var(--color-black);
     border-radius: var(--textbox-border-radius);
     padding: 10px;
+}
+
+/* section intro */
+.section_intro {
+    display: flex;
+    margin: 0px 100px;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.section_badge {
+    /* width: 100%; */
+    min-width: 20%;
+    margin-top: 18px;
+
+}
+
+.section_badge p {
+    display: inline;
+    background-color: var(--color-yellow);
+    padding: 6px;
+    border-radius: 2px;
+}
+
+.section_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section_right {
+    /* width: 100%; */
+    min-width: 20%;
+    margin-left: 150px;
+}
+
+.section_right img {
+    width: 100%;
+    /* min-width: 20%; */
+    max-width: 200px;
+    ;
+}
+
+.section_description {
+    font-weight: var(--font-weight-thin);
 }
 
 .about_grid {
