@@ -5,7 +5,6 @@ input[type="submit"] {
     padding: var(--big-btn-padding);
 
     border-radius: 6px;
-    transition: 0.3s;
     width: 100%;
     display: block;
     margin-top: 20px;
@@ -84,14 +83,6 @@ input[type="text"] textarea {
     border-radius: 8px 8px 0px 0px;
     box-sizing: border-box;
     display: block;
-
-}
-
-input[type="text"] {
-    width: 100%;
-    padding: 20px;
-    border: none;
-    background-color: #FBFBFB;
 
 }
 
