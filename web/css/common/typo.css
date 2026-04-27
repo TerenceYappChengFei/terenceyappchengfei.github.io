@@ -10,9 +10,14 @@
     padding: 20px;
 }
 
+.font_text_white {
+    color: var(--color-white);
+}
+
 h1 {
     font-size: var(--font-size-h1);
     line-height: var(--font-line-height-headings-tight);
+    font-weight: var(--font-weight-bold);
 }
 
 h2 {

@@ -1,9 +1,6 @@
 .padding {
-    padding: 0px 30px 0px 30px
-}
-
-.margin_left_right {
-    margin: 0px 94px 0px 94px;
+    padding: 0px 30px 0px 30px;
+    margin: 20px 50px
 }
 
 .title {
@@ -72,14 +69,25 @@
 
 .about_card {
     padding: 56px 40px;
-    border: 1px solid;
+    border: 1px solid #e1e1e1;
     border-radius: 6px;
     width: calc(25% - 9px);
+}
+
+.about_card:hover {
+    border-color: var(--color-black);
+
 }
 
 .main_banner {
     background-image: url("../../img/hero_banner.jpg");
     padding: 120px 30px 140px;
+}
+
+.main_banner_content {
+    width: 45%;
+    padding: var(--body-padding);
+    margin: var(--body-margin);
 }
 
 /* Tablet */
