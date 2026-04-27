@@ -2,7 +2,7 @@
     padding: var(--body-padding);
 }
 
-.margin_bottom {
+.section_margin_bottom {
     margin-bottom: 120px;
 }
 
@@ -240,6 +240,16 @@
     display: flex;
     flex-direction: column;
     gap: 10px
+}
+
+.faq_items {
+    display: flex;
+    padding: 25px 0px;
+    border-bottom: 2px solid var(--color-grey);
+}
+
+.gap_container {
+    gap: var(--container-gap)
 }
 
 /* Tablet */
