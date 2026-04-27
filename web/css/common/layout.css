@@ -46,9 +46,47 @@
 .column-container {
     display: block;
     border: 1px solid;
-    border-color: var(--color-black);
+    border-color: var(--color-light-grey);
     border-radius: var(--textbox-border-radius);
     padding: 10px;
+}
+
+.school_img {
+    padding: 20px;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+.school_img img {
+    height: 100%;
+}
+
+.column-container:hover {
+    border-color: var(--color-black);
+}
+
+.container_item_vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+}
+
+.school_background_padding {
+    padding: 20px 10px;
+    border-radius: var(--textbox-border-radius);
+}
+
+.ivory_green_background_container {
+    background-color: var(--color-ivory-green);
+}
+
+.light_cyan_background_container {
+    background-color: var(--color-light-cyan);
+}
+
+.light_purple_background_container {
+    background-color: var(--color-light-purple);
 }
 
 /* section intro */
@@ -96,6 +134,17 @@
     font-weight: var(--font-weight-thin);
 }
 
+.align_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify_center {
+    display: flex;
+    justify-content: center;
+}
+
 .about_grid {
     display: flex;
     justify-content: center;
@@ -114,7 +163,6 @@
 
 .about_card:hover {
     border-color: var(--color-black);
-
 }
 
 .main_banner {
@@ -127,6 +175,13 @@
     padding: var(--body-padding);
     margin: var(--body-margin);
 }
+
+.academic_banner {
+    background-image: url("../../img/banner_meeting.jpg");
+    padding: 150px;
+    margin-bottom: 50px;
+}
+
 
 /* Tablet */
 @media screen and (max-width: 1100px) {
