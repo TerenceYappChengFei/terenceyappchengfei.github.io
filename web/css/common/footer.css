@@ -27,7 +27,7 @@
     font-size: var(--footer-body-title-text);
 }
 
-h5 {
+.footer_right_content h5 {
     font-size: var(--font-size-h5);
     color: var(--color-white);
     padding: 10px 0px 30px 0px;

@@ -156,6 +156,7 @@ a {
 .arrow_down:hover>.info_menu {
     opacity: 1;
     pointer-events: auto;
+    background-color: var(--color-white);
     /* visible when hover menu item */
 }
 
@@ -163,6 +164,7 @@ a {
     opacity: 1;
     /* visible when hover menu item */
     pointer-events: auto;
+    background-color: var(--color-white);
 }
 
 .info:hover>a {

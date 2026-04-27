@@ -77,6 +77,11 @@
     width: calc(25% - 9px);
 }
 
+.main_banner {
+    background-image: url("../../img/hero_banner.jpg");
+    padding: 120px 30px 140px;
+}
+
 /* Tablet */
 @media screen and (max-width: 1100px) {
     .column-two {
