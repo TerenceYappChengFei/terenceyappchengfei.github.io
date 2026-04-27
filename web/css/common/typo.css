@@ -24,6 +24,10 @@ h1 {
     font-weight: var(--font-weight-bold);
 }
 
+.text-highlight {
+    color: var(--color-yellow);
+}
+
 .main_banner_content h1 {
     padding-bottom: 20px;
 }
