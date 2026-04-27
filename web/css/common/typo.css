@@ -2,7 +2,6 @@
 .text_devider {
     background-color: var(--color-light-purple);
     padding: 20px;
-
 }
 
 .text_devider_white {
@@ -10,7 +9,7 @@
     padding: 20px;
 }
 
-.font_text_white {
+a .font_text_white {
     color: var(--color-white);
 }
 
@@ -18,14 +17,22 @@
     color: var(--color-grey);
 }
 
+.font_text_yellow {
+    color: var(--color-yellow);
+}
+
+.font_text_dark_blue {
+    color: var(--color-dark-blue);
+}
+
+.font_text_cyan {
+    color: var(--color-cyan);
+}
+
 h1 {
     font-size: var(--font-size-h1);
     line-height: var(--font-line-height-headings-tight);
     font-weight: var(--font-weight-bold);
-}
-
-.text-highlight {
-    color: var(--color-yellow);
 }
 
 .main_banner_content h1 {
@@ -47,14 +54,12 @@ h3 {
     font-size: var(--font-size-h3);
     line-height: var(--font-line-height-headings-tight);
     font-weight: var(--font-weight-bold);
-
 }
 
 h4 {
     font-size: var(--font-size-h4);
     line-height: var(--font-line-height-headings-loose);
     font-weight: var(--font-weight-bold);
-
 }
 
 .school_subject {
@@ -93,8 +98,6 @@ p {
     color: var(--color-dark-blue);
     font-size: var(--body-card-text);
     font-weight: var(--font-weight-600);
-
-
 }
 
 .small_weight {
@@ -106,15 +109,15 @@ p {
     padding-bottom: 40px;
 }
 
-.body_quote {
+.quote {
     font-size: var(--body-text-quote);
 }
 
-.body_banner {
+.banner_text {
     font-size: 24px;
 }
 
-.body_card_text {
+.card_text {
     font-size: var(--body-card-text);
 }
 
