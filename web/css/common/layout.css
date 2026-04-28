@@ -313,6 +313,23 @@
 
 }
 
+.position_box {
+    position: relative;
+}
+
+.academic_btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.lect_info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
 .white_body_box {
     background-color: var(--color-white);
     margin: 0px 9px;
