@@ -101,6 +101,12 @@ body {
     color: #222222;
 }
 
+.btn_transparent_blue {
+    background-color: var(--btn-bg-color-transparent-default);
+    border: 1px solid var(--btn-bg-color-cyan-default);
+    color: #222222;
+}
+
 .hover_beige:hover {
     background-color: var(--btn-bg-color-beige-hover);
     border: none;
@@ -129,4 +135,9 @@ body {
 .academic_btn:hover {
     background-color: var(--color-green);
     color: var(--btn-text-color-black-hover);
+
+}
+
+.hover_transparent:hover {
+    border-color: var(--color-black);
 }
