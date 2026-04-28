@@ -31,6 +31,7 @@ body {
     --color-light-grey-text: #FFFFFFB2;
     --color-dark-grey-text: #FFFFFF66;
     --color-purple: #b628e6;
+    --color-light-green: #F3FBF5;
 
 
     /* Globol font */
@@ -69,6 +70,7 @@ body {
     --body-text-box-yellow: 12px;
     --academic-btn-text-size: 11px;
     --body-number-text: 100px;
+    --body-big-font: 60px;
     /*===button that share===*/
     --big-btn-padding: 22px 34px 24px;
     --medium-btn-padding: 20px 30px;

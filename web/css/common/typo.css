@@ -163,6 +163,14 @@ p {
     padding: 0px 5px;
 }
 
+.extra_small_text {
+    font-size: var(--body-text-box-yellow);
+}
+
+.big_font {
+    font-size: var(--body-big-font);
+    color: var(--color-grey);
+}
 
 /* Navigation link */
 .nav_link {

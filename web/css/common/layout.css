@@ -148,6 +148,10 @@
     background-color: #27c4e588;
 }
 
+.light_green_background_container {
+    background: var(--color-light-green);
+}
+
 /* section intro */
 .section_intro {
     display: flex;
@@ -334,7 +338,22 @@
     background-color: var(--color-white);
     margin: 0px 9px;
     padding: 40px 48px;
+    border-left: 5px solid var(--color-yellow);
 
+}
+
+.small_white_body_box {
+    background-color: var(--color-white);
+    margin: 0px 9px;
+    padding: 40px 48px;
+    border-left: 5px solid var(--color-yellow);
+    border-right: 5px solid var(--color-yellow);
+    display: flex;
+    flex-direction: column;
+}
+
+.statistics_group {
+    display: flex;
 }
 
 /* Tablet */
