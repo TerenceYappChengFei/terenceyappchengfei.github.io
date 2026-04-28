@@ -9,6 +9,7 @@
     padding: 20px;
 }
 
+/* text colors */
 .font_text_white {
     color: var(--color-white);
 }
@@ -43,11 +44,6 @@ h1 {
 h2 {
     font-size: var(--font-size-h2);
     line-height: var(--font-line-height-headings-tight);
-    font-weight: var(--font-weight-bold);
-}
-
-.diff_banner {
-    font-size: var(--font-size-h2-others-banner);
     font-weight: var(--font-weight-bold);
 }
 
