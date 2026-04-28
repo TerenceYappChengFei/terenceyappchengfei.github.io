@@ -330,6 +330,13 @@
 }
 
 
+.white_body_box {
+    background-color: var(--color-white);
+    margin: 0px 9px;
+    padding: 40px 48px;
+
+}
+
 /* Tablet */
 @media screen and (max-width: 1100px) {
     .column-two {
