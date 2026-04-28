@@ -35,6 +35,8 @@ body {
 
 .btn_course {
     background-color: var(--btn-bg-color-light-purple-default);
+    display: flex;
+    justify-content: center;
 }
 
 .btn_dark_blue {
