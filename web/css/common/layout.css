@@ -109,26 +109,30 @@
 .container_item_vertical {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 25px 0px;
+    /* gap: 10px; */
 }
 
+
 .school_item {
+    max-width: 500px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
-    padding: 25px;
+    padding: 40px 10px;
+}
+
+.school_description {
+    max-width: 300px;
+    width: 100%;
+    padding: 25px 40px;
+    border-radius: var(--textbox-border-radius);
 }
 
 .font_weight_thin {
     /* font-size: var(--number-font-size); */
     font-weight: var(--font-weight-thin);
     line-height: var(--font-line-height);
-}
-
-.school_background_padding {
-    padding: 20px 10px;
-    border-radius: var(--textbox-border-radius);
 }
 
 .course_overview_content {
