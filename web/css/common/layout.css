@@ -11,10 +11,14 @@
     margin-bottom: 25px;
 }
 
-.column-flex {
+.flex-column {
     display: flex;
     flex-direction: column;
     gap: var(--container-gap)
+}
+
+.flex {
+    display: flex;
 }
 
 .row-flex {
@@ -106,14 +110,17 @@
     border-color: var(--color-black);
 }
 
-.container_item_vertical {
+.flex_column {
     display: flex;
     flex-direction: column;
     /* gap: 10px; */
 }
 
+.text_align_center {
+    text-align: center;
+}
 
-.school_item {
+.flex .school_item {
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -207,6 +214,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    position: relative;
     /* gap: 10px; */
 }
 
@@ -336,6 +344,15 @@
 }
 
 .request_info_section {
+    gap: 20px;
+}
+
+.virtual_tour_item {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.virtua_tour_section {
     gap: 20px;
 }
 
