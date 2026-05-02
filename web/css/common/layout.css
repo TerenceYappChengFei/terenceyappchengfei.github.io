@@ -206,7 +206,8 @@
 .section_content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    margin-top: 50px;
+    /* gap: 10px; */
 }
 
 .section_right {
@@ -282,7 +283,16 @@
 .academic_banner {
     background-image: url("../../img/banner_meeting.jpg");
     padding: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.banner_wave_divider {
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    height: 25%;
+    left: 0px;
 }
 
 .Background_dark_purple_container {
