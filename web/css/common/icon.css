@@ -51,3 +51,20 @@
     display: block;
     height: auto;
 }
+
+.card_icon {
+    position: relative;
+    display: inline-block;
+}
+
+.card_icon .card_icon_top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.card_icon:hover .card_icon_top {
+    display: inline;
+}

@@ -7,6 +7,6 @@ toggleButton.addEventListener("click", () => {
     if (menu.classList.contains("active")) {
         toggleButton.innerHTML = "&times;"; // × (cross)
     } else {
-        toggleButton.innerHTML = '<img src="../../img/bento-menu.svg" alt="bento_menu" width="20px">'; // ☰ (hamburger)
+        toggleButton.innerHTML = '<img src="img/bento-menu.svg" alt="bento_menu" width="20px">'; // ☰ (hamburger)
     }
 });
