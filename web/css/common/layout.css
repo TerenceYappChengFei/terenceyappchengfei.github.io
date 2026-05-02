@@ -149,11 +149,15 @@
 }
 
 /* section intro */
+.grey_divider {
+    background-color: var(--color-light-grey);
+}
+
 .section_intro {
     display: flex;
-    margin: 0px 100px;
+    margin: 80px 100px;
     gap: 50px;
-    margin-bottom: 100px;
+
 }
 
 .section_badge {
@@ -226,12 +230,17 @@
     width: calc(25% - 9px);
 }
 
+.about_card_margin_top {
+    margin-top: 40px;
+}
+
 .about_card:hover {
     border-color: var(--color-black);
 }
 
 .main_banner {
     background-image: url("../../img/hero_banner.jpg");
+    background-repeat: no-repeat;
     padding: 120px 30px 140px;
 }
 

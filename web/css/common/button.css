@@ -15,6 +15,7 @@ body {
     border-radius: var(--btn-radius);
     display: inline-block;
     margin: 5px;
+    white-space: nowrap;
 }
 
 .btn,
@@ -101,6 +102,12 @@ body {
     color: #222222;
 }
 
+.btn_transparent_white {
+    background-color: var(--btn-bg-color-transparent-default);
+    border: 1px solid var(--btn-text-color-white-default);
+    color: var(--btn-text-color-white-default);
+}
+
 .btn_transparent_blue {
     background-color: var(--btn-bg-color-transparent-default);
     border: 1px solid var(--btn-bg-color-cyan-default);
@@ -140,4 +147,12 @@ body {
 
 .hover_transparent:hover {
     border-color: var(--color-black);
+}
+
+.hover_text_dark:hover>a {
+    color: var(--btn-text-color-black-hover);
+}
+
+.btn_text_trans_white>a {
+    color: var(--btn-text-color-white-default);
 }
