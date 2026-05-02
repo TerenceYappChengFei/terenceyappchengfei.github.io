@@ -241,9 +241,10 @@
     align-items: center;
 }
 
-.justify_center {
+.goals_achieved {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .space_evenly {
@@ -356,11 +357,18 @@
     gap: 20px;
 }
 
+.grey_separator_line {
+    margin: 25px;
+    border-bottom: 2px solid #e1e1e1;
+    width: 100%;
+}
+
 .info_items {
     display: flex;
     flex-direction: column;
     gap: 20px
 }
+
 
 
 .faq_items {
