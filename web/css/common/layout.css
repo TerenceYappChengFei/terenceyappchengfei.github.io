@@ -467,6 +467,47 @@
     height: 500px;
 }
 
+/*events*/
+.event_card {
+    display: flex;
+    padding: 32px;
+    margin: var(--body-margin);
+    border: 1px solid
+}
+
+.event_details {
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.badges_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.events_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 33%;
+
+}
+
+.event_image {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+
+
+.action {
+    padding: 22px 40px 24px;
+    margin: 0px 23px;
+}
 
 /* Tablet */
 @media screen and (max-width: 1100px) {

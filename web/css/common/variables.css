@@ -64,6 +64,7 @@ body {
     --header-submenu-academic-text: 18px;
     --footer-body-title-text: 36px;
     --body-text-quote: 34px;
+    --body-event_intro_text: 30px;
     --body-text-banner-paragrapgh: 24px;
     --body-text-menu: 17px;
     --body-card-text: 14px;
@@ -74,11 +75,13 @@ body {
     --big-btn-padding: 22px 34px 24px;
     --medium-btn-padding: 20px 30px;
     --small-btn-padding: 14px 16px 12px;
+    --events-border-padding: 12px 26px;
     --extra-small-btn-padding: 10px;
     --btn-radius: 6px;
     --big-btn-font-size: 16px;
     --small-btn-font-size: 11px;
     --btn-font-line-height: 1.0;
+
 
     /*border-radius*/
     --border-radius: 6px;

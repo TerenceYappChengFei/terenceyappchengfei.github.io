@@ -124,6 +124,8 @@ p {
 
 .card_text {
     font-size: var(--body-card-text);
+    color: var(--color-grey);
+
 }
 
 .section_item_text {
@@ -153,6 +155,12 @@ p {
     display: flex;
 }
 
+.event_intro_text {
+    color: var(--color-grey);
+    font-size: var(--body-event_intro_text);
+    font-weight: var(--font-weight-thin);
+    line-height: var(--font-line-height-headings-loose);
+}
 
 .stat_spacing {
     color: var(--color-grey);
