@@ -543,7 +543,7 @@
 
 }
 
-.stats_card {
+.stats_cards_right {
     background-color: var(--color-yellow);
     padding: 56px;
     width: 30%;
@@ -605,6 +605,37 @@
 .side_image_container img {
     border-radius: var(--border-radius);
 
+}
+
+/*news*/
+.news_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.news_rox {
+    flex-direction: row;
+}
+
+.card_image {
+    position: relative
+}
+
+.card_image img {
+    border-radius: var(--border-radius);
+}
+
+.date_badge {
+    position: absolute;
+    bottom: -15px;
+    right: 20px;
+    background-color: var(--color-yellow);
+    padding: 13px 16px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Tablet */

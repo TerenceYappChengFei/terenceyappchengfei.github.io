@@ -151,9 +151,6 @@ p {
     display: flex;
 }
 
-.news_box {
-    display: flex;
-}
 
 .event_intro_text {
     color: var(--color-grey);
