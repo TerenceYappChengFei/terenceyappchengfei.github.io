@@ -120,6 +120,7 @@ a {
     position: absolute;
     transition: all 0.5s;
     pointer-events: none;
+    z-index: 1000;
 }
 
 
@@ -165,6 +166,7 @@ a {
     /* visible when hover menu item */
     pointer-events: auto;
     background-color: var(--color-white);
+    z-index: 1000;
 }
 
 .info:hover>a {

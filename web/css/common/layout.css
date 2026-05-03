@@ -77,20 +77,25 @@
     width: calc(25% - calc(20px * 3 / 4));
 }
 
-.column-container {
+.school_subject_marginr {
     display: block;
     border: 1px solid;
     border-color: var(--color-light-grey);
     border-radius: var(--textbox-border-radius);
 }
 
+.school_subject_margin {
+    margin: 32px 32px 10px;
+}
+
+.subject_content_margin {
+    margin: 0px 32px 16px;
+}
+
 .tall_padding {
     padding: 75px 30px;
 }
 
-.container_no_border {
-    border: none;
-}
 
 .school_img {
     padding: 20px;
@@ -181,6 +186,7 @@
 /* section intro */
 .grey_divider {
     background-color: var(--color-light-grey);
+    padding: 96px 117px 96px;
 }
 
 .section_intro {
@@ -251,6 +257,7 @@
     flex-wrap: wrap;
     padding: var(--body-padding);
     margin: var(--body-margin);
+    align-items: center;
 }
 
 .about_card {
@@ -258,6 +265,9 @@
     border: 1px solid #e1e1e1;
     border-radius: 6px;
     width: calc(25% - 9px);
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
 }
 
 .about_card_margin_top {
@@ -272,6 +282,7 @@
     background-image: url("../../img/hero_banner.jpg");
     background-repeat: no-repeat;
     padding: 120px 30px 140px;
+    position: relative;
 }
 
 .main_banner_content {
@@ -330,6 +341,10 @@
     gap: 20px;
 }
 
+.hr_divider {
+    width: 30%;
+}
+
 .request_info_item {
     width: 100%;
     border-radius: var(--border-radius);
@@ -376,8 +391,28 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    padding: 16px 32px;
+    justify-content: space-between;
 }
 
+.container_grey_border {
+    background-color: white;
+    border: 1px solid #e1e1e1;
+}
+
+.lect_info_left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lect_info_right {
+    padding-right: 32px;
+}
+
+.btn_margin {
+    margin: 32px;
+}
 
 .white_body_box {
     background-color: var(--color-white);
@@ -406,6 +441,7 @@
     width: 500px;
     height: 500px;
 }
+
 
 /* Tablet */
 @media screen and (max-width: 1100px) {

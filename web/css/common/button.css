@@ -61,7 +61,20 @@ body {
     margin-left: 10px;
     display: inline-block;
     width: 16px;
+}
 
+.icon_white::after {
+    content: url("../../img/starburst.svg");
+    margin-left: 10px;
+    display: inline-block;
+    width: 16px;
+}
+
+.btn_icon_white:hover::after {
+    content: url("../../img/starburstblack.svg");
+    margin-left: 10px;
+    display: inline-block;
+    width: 16px;
 }
 
 .btn_icon_black::after {
@@ -69,7 +82,13 @@ body {
     margin-left: 10px;
     display: inline-block;
     width: 16px;
+}
 
+.btn_icon_black:hover::after {
+    content: url("../../img/starburst.svg");
+    margin-left: 10px;
+    display: inline-block;
+    width: 16px;
 }
 
 .hover_yellow:hover {
