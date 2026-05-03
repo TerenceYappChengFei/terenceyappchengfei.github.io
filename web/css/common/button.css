@@ -175,3 +175,21 @@ body {
 .btn_text_trans_white>a {
     color: var(--btn-text-color-white-default);
 }
+
+.badge {
+    display: inline-block;
+    border-radius: var(--border-radius);
+}
+
+.badge_green {
+    background-color: var(--color-ivory-green);
+    color: var(--color-black);
+    padding: 12px 26px;
+
+}
+
+.badge_purple {
+    background-color: var(--color-light-purple);
+    color: var(--color-black);
+    padding: 12px 26px;
+}

@@ -160,6 +160,14 @@ p {
     font-size: var(--body-event_intro_text);
     font-weight: var(--font-weight-thin);
     line-height: var(--font-line-height-headings-loose);
+    text-align: center;
+    width: 65%;
+}
+
+.events_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .stat_spacing {
@@ -209,6 +217,17 @@ p {
     color: var(--color-dark-blue);
     text-decoration: underline;
     text-decoration-style: dotted;
+}
+
+.join_link {
+    color: var(--color-dark-blue);
+    text-decoration: underline;
+}
+
+.join_link:hover {
+    color: var(--color-black);
+    text-decoration: none;
+    transition: 0.5s all;
 }
 
 /* Tablet */
