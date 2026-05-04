@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     padding: 120px 30px 140px;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main_banner_content {
