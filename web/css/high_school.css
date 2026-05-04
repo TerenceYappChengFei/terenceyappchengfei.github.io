@@ -4,5 +4,21 @@
 }
 
 .black_background_container {
-    background: var(--color-black);
+    background-color: #212131;
+}
+
+.professional_learning {
+    padding: 0px;
+}
+
+.request_info_hero img {
+    display: block;
+    width: 100%;
+}
+
+.request_info_content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 100px;
 }
