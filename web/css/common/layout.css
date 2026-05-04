@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 77px;
+    gap: 48px 77px;
 }
 
 .column-two {
@@ -69,6 +69,8 @@
 
 .ratings img {
     width: 75px;
+    margin-bottom: 20px;
+
 }
 
 .spiral_accent {
@@ -79,14 +81,14 @@
 
 .core_badge {
     min-width: 20%;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 
 .core_badge p {
     display: inline;
     background-color: var(--color-ivory-green);
-    padding: 15px 20px;
+    padding: 10px 15px;
     border-radius: var(--textbox-border-radius);
     font-size: var(--body-card-text);
     font-weight: var(--font-weight-bold)
@@ -138,7 +140,6 @@
     border: 1px solid;
     border-color: var(--color-light-grey);
     border-radius: var(--textbox-border-radius);
-    padding: 10px;
 }
 
 .column-container:hover {
@@ -153,15 +154,6 @@
 
 .text_align_center {
     text-align: center;
-}
-
-.flex .school_item {
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 40px 10px;
 }
 
 .school_description {
@@ -198,7 +190,7 @@
 }
 
 .transparent_cyan_background_container {
-    background-color: #27c4e588;
+    background-color: #27c4e5AA;
 }
 
 .light_green_background_container {
@@ -216,6 +208,7 @@
     display: flex;
     margin: 80px 100px;
     gap: 50px;
+    justify-content: center;
 }
 
 .section_badge {
@@ -240,8 +233,6 @@
 }
 
 .section_right {
-    /* width: 100%; */
-    min-width: 20%;
     margin-left: 150px;
 }
 
@@ -314,7 +305,7 @@
 }
 
 .grey_separator_line_full {
-    margin: 25px;
+    /* margin: 25px; */
     border-bottom: 2px solid #e1e1e1;
     width: 100%;
 }
@@ -400,8 +391,8 @@
 
 .img_frame img {
     object-fit: cover;
-    width: 500px;
-    height: 500px;
+    max-width: 600px;
+    height: 600px;
 }
 
 /*events*/
@@ -415,9 +406,27 @@
 
 }
 
+.desktop_only {
+    display: block;
+}
+
+.mobile_and_tablet {
+    display: none;
+}
+
 
 /* Tablet */
 @media screen and (max-width: 1100px) {
+    .desktop_only {
+        display: none;
+    }
+
+
+    .mobile_and_tablet {
+        display: block;
+    }
+
+
     .column-two {
         width: 100%;
     }
@@ -438,6 +447,15 @@
         margin: 0px;
     }
 
+    .max-width {
+        max-width: 800px;
+    }
+
+    .img_frame img {
+        width: 100%;
+        height: auto;
+    }
+
     .desktop-only {
         display: none;
     }
@@ -445,23 +463,12 @@
 
 /* Mobile */
 @media screen and (max-width: 750px) {
-    .column-two {
-        width: 100%;
-    }
-
-    .column-three {
-        width: 100%;
-    }
-
-    .column-four {
-        width: 100%;
-    }
 
     .about_card {
         width: 100%
     }
 
-    .desktop-only {
-        display: none;
+    .max-width {
+        max-width: 450px;
     }
 }

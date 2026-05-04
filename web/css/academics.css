@@ -5,18 +5,28 @@
 }
 
 .school_img img {
+    object-fit: contain;
+    max-width: 100%;
     height: 100%;
+}
+
+.school_item {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 10px;
 }
 
 .testimony_item {
+    display: flex;
+    flex-direction: column;
     background-color: var(--color-white);
     border-radius: var(--border-radius);
     height: 100%;
-    padding: 75px 45px;
-}
-
-.testimony_item_container {
-    padding: 30px 45px;
+    padding: 51px;
+    gap: 50px;
 }
 
 .testimony_item_quotes {
@@ -28,4 +38,10 @@
     padding: 25px 0px;
     border-bottom: 2px solid #e1e1e1;
     width: 50%;
+}
+
+.request_item_content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
