@@ -156,15 +156,6 @@
     text-align: center;
 }
 
-.school_item {
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 40px 10px;
-}
-
 .school_description {
     max-width: 300px;
     width: 100%;
