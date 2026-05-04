@@ -1,0 +1,14 @@
+.goals_achieved {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.virtual_tour_item {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.virtual_tour_section {
+    gap: 20px;
+}
