@@ -138,16 +138,213 @@
     </div>
 
     <div class="cart_container max-width">
-        <div class="container_grey_border flex text_align_center">
-            <div class="text_align_left">Product</div>
-            <div>Price</div>
-            <div>Quantity</div>
-            <div>Subtotal</div>
+        <div class="container_grey_border text_align_center cart_padding">
+            <div class="grey_divider cart_header flex">
+                <div class="text_align_left cart_product">Product</div>
+                <div class="cart_price text_align_center">Price</div>
+                <div class="cart_quantity_title">Quantity</div>
+                <div class="cart_subtotal">Subtotal</div>
+            </div>
+            <div class="cart_row flex">
+                <div class="cart_details flex_start flex">
+                    <img src="img/algebra.jpg" alt="Algebra & Geometry">
+                    <span class="product-name">Algebra & Geometry</span>
+                </div>
+
+                <div class="cart_price">$19.00</div>
+
+                <div class="cart_quantity flex">
+                    <div class="qty_selector flex">
+                        <button class="qty_btn minus">-</button>
+                        <input class="text_qty" type="text" value="1" readonly>
+                        <button class="qty_btn plus">+</button>
+                    </div>
+                </div>
+
+                <div class="cart_subtotal">$19.00</div>
+
+                <div class="cart_remove">
+                    X
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="shipping_container flex">
+        <div class="shipping_info grey_divider">
+            <h5>Shipping information</h5>
+            <form class="shipping_form">
+                <div class="shipping_form_box flex">
+                    <div class="form_row full_form">
+                        <select class="country_dropdown">
+                            <option value="us">United States (US)</option>
+                            <option value="myr">Malaysia</option>
+                            <option value="jp">Japan</option>
+                            <option value="krd">Korea</option>
+                            <option value="chn">China</option>
+                            <option value="hk">Hong Kong</option>
+                            <option value="indo">Indo</option>
+                        </select>
+                    </div>
+                    <div class="form_row flex form_gap">
+                        <select class="city_dropdown">
+                            <option value="ny">New York</option>
+                            <option value="oh">Ohio</option>
+                            <option value="tx">Texas</option>
+
+                        </select>
+                        <input type="text" placeholder="Town / City">
+                    </div>
+                    <div class="form-row split form_gap flex">
+                        <input type="text" placeholder="ZIP Code">
+                        <button type="button" class="btn btn_cyan btn_fontwhite hover_yellow">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="column_sticky flex">
+            <div class="side_sticky_bar">
+                <div class="cart_totals border_radius font_text_white flex">
+                    <h5>Cart totals: 1item item(s)</h5>
+                    <div class="summary_line flex">
+                        <span>Subtotal</span>
+                        <span>$19.00</span>
+                    </div>
+                    <div class="summary_line flex">
+                        <span>Total</span>
+                        <span>$19.00</span>
+                    </div>
+                    <button class="btn-checkout">Proceed To Checkout</button>
+                </div>
+            </div>
+            <div class="coupon_container border_radius flex">
+                <div class="coupon_box flex">
+                    <h5>Have a discount coupon?</h5>
+                    <input type="text" placeholder="Coupon code">
+                    <button class="btn btn_cyan btn_fontwhite hover_yellow">Apply Coupon</button>
+                </div>
+            </div>
         </div>
     </div>
 
 
+    <div class="about_section">
+        <div class="row-flex max-width container_padding_horizontal">
 
+            <div class="column-three container_grey_border">
+                <div class="position_box">
+                    <img src="img/photography.jpg" alt="Course Thumbnail" width="100%">
+                    <div class="academic_btn btn_purple hover_green">
+                        <span>MIDDLE SCHOOL</span>
+                    </div>
+                </div>
+                <div class="school_subject_margin">
+                    <h4 class="school_subject">The World History</h4>
+                </div>
+                <div class="subject_content_margin">
+                    <p class="card_text">Read and explore the events, cultures, civilizations of all humanity.</p>
+                </div>
+                <div class="stat_box">
+                    <p class="cyan_font_link">50 Students</p>
+                    <span class="stat_spacing"></span>
+                    <p class="cyan_font_link">24 Lessons</p>
+                    <span class="stat_spacing">|</span>
+                    <p class="cyan_font_link">18 Months</p>
+                </div>
+                <div class="lect_info">
+                    <div class="lect_info_left">
+                        <img src="img/instructor.png" alt="instructor" width="28px">
+                        <p class=".card_text">Marie Elliot</p>
+                    </div>
+                    <div class="lect_info_right">
+                        <p class="b.header_academic_school">$14.50</p>
+                    </div>
+                </div>
+                <div class="btn_margin">
+                    <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
+                        <a href="https://google.com">Course Detail</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column-three container_grey_border">
+                <div class="position_box">
+                    <img src="img/cup.jpg" alt="Course Thumbnail" width="100%">
+                    <div class="academic_btn btn_purple hover_green">
+                        <span>HIGH SCHOOL</span>
+                    </div>
+                </div>
+                <div class="school_subject_margin">
+                    <h4 class="school_subject">Algebra & Geometry</h4>
+                </div>
+                <div class="subject_content_margin">
+                    <p class="small_weight body_card_text">Develop critical thinking skills by exploring patterns,
+                        numbers and formulas.</p>
+                </div>
+                <div class="stat_box">
+                    <p class="stat">75 Students</p>
+                    <span class="stat_spacing">|</span>
+                    <p class="stat">12 Lessons</p>
+                    <span class="stat_spacing">|</span>
+                    <p class="stat">6 Months</p>
+                </div>
+                <div class="lect_info">
+                    <div class="lect_info_left">
+                        <img src="img/instructor.png" alt="instructor" width="28px">
+                        <p class="small_weight body_card_text">John Smith</p>
+                    </div>
+                    <div class="lect_info_right">
+                        <p class="body_price">$19.00</p>
+                    </div>
+                </div>
+                <div class="btn_margin">
+                    <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
+                        <a href="https://google.com">Course Detail</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column-three container_grey_border">
+                <div class="position_box">
+                    <img src="img/plant.jpg" alt="Course Thumbnail" width="100%">
+                    <div class="academic_btn btn_purple hover_green">
+                        <span>MIDDLE SCHOOL</span>
+                    </div>
+                </div>
+                <div class="school_subject_margin">
+                    <h4 class="school_subject">General Physics</h4>
+                </div>
+                <div class="subject_content_margin">
+                    <p class="small_weight body_card_text">Examine the fundamental principles of nature like motion,
+                        energy & force.</p>
+                </div>
+                <div class="stat_box">
+                    <p class="stat">92 Students</p>
+                    <span class="stat_spacing">|</span>
+                    <p class="stat">36 Lessons</p>
+                    <span class="stat_spacing">|</span>
+                    <p class="stat">12 Months</p>
+                </div>
+                <div class="lect_info">
+                    <div class="lect_info_left">
+                        <img src="img/instructor.png" alt="instructor" width="28px">
+                        <p class="small_weight body_card_text">Sandy Hamlin</p>
+                    </div>
+                    <div class="lect_info_right">
+                        <p class="body_price">$28.50</p>
+                    </div>
+                </div>
+                <div class="btn_margin">
+                    <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
+                        <a href="https://google.com">Course Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="section_intro">
         <div class="section_badge">
@@ -166,6 +363,44 @@
             </div>
         </div>
     </div>
+
+    <div class="row-flex max-width container_padding_horizontal section_margin_bottom">
+        <div class="column-three column-container align_center light_cyan_background_container ">
+            <div class="school_item">
+                <div class="school_img align_center">
+                    <img src="img/secure.png">
+                </div>
+                <div class="flex_column align_center school_description text_align_center">
+                    <h4>Secure Learning Environment</h4>
+                    <p>Your data and progress are protected with trusted systems.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column-three column-container align_center">
+            <div class="school_item">
+                <div class="school_img align_center">
+                    <img src="img/reg.png">
+                </div>
+                <div class="flex_column align_center school_description text_align_center">
+                    <h4>Recognized Certification</h4>
+                    <p>Earn certificates to showcase your achievements.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column-three column-container align_center light_cyan_background_container ">
+            <div class="school_item">
+                <div class="school_img align_center">
+                    <img src="img/flex.png">
+                </div>
+                <div class="flex_column align_center school_description text_align_center">
+                    <h4>Flexible Learning Anytime</h4>
+                    <p>Access your courses anytime, anywhere at your own pace.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <div class="footer">
         <div class="footer_top_area">
