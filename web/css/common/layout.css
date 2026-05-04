@@ -2,6 +2,25 @@
     padding: var(--body-padding);
 }
 
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 77px;
+}
+
+.column-two {
+    width: calc(50% - calc(77px / 2));
+}
+
+.column-three {
+    width: calc(33.33% - calc(77px * 2 / 3));
+}
+
+.column-four {
+    width: calc(25% - calc(77px * 3 / 4));
+}
+
 .section_margin_bottom {
     margin-bottom: 120px;
 }
@@ -11,25 +30,23 @@
     margin-bottom: 25px;
 }
 
-.flex-column {
-    display: flex;
-    flex-direction: column;
-    gap: var(--container-gap)
-}
-
 .flex {
     display: flex;
 }
 
-.row-flex {
+.flex-column {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: var(--container-gap)
+    flex-direction: column;
+}
+
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .academic_banner {
-    background-image: url("../img/banner_meeting.jpg");
+    background-image: url("../../img/banner_meeting.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,6 +77,36 @@
     width: 300px;
 }
 
+.core_badge {
+    min-width: 20%;
+    margin-top: 18px;
+}
+
+
+.core_badge p {
+    display: inline;
+    background-color: var(--color-ivory-green);
+    padding: 15px 20px;
+    border-radius: var(--textbox-border-radius);
+    font-size: var(--body-card-text);
+    font-weight: var(--font-weight-bold)
+}
+
+.core_subjects {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 33px 46px;
+    border-radius: var(--border-radius);
+}
+
+.core_subjects_item {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+
 .container_padding_horizontal {
     padding: 0px 50px;
 }
@@ -77,26 +124,6 @@
 .stats_card {
     position: relative;
 }
-
-
-.column-two {
-    width: calc(50% - calc(20px / 2));
-}
-
-.column-three {
-    width: calc(33.33% - calc(20px * 2 / 3));
-}
-
-.column-four {
-    width: calc(25% - calc(20px * 3 / 4));
-}
-
-/* .school_subject_marginr {
-    display: block;
-    border: 1px solid;
-    border-color: var(--color-light-grey);
-    border-radius: var(--textbox-border-radius);
-} */
 
 .school_subject_margin {
     margin: 32px 32px 10px;
@@ -199,6 +226,7 @@
 .section_badge p {
     display: inline;
     background-color: var(--color-yellow);
+    font-weight: var(--font-weight-bold);
     padding: 6px;
     border-radius: 2px;
 }

@@ -13,20 +13,24 @@
     gap: 20px;
 }
 
-.core_badge {
-    min-width: 20%;
-    margin-top: 18px;
-}
-
-.core_badge p {
-    display: inline;
-    background-color: var(--color-ivory-green);
-    padding: 10px;
-    border-radius: 2px;
-    font-size: var(--body-card-text);
-}
-
 .real-time-interaction-bg {
     background-color: #23269b;
     background-image: linear-gradient(135deg, #1c1f87 0%, #2e32b8 45%, #1a1768 100%);
+}
+
+.elementary_feature_card_text {
+    gap: 15px;
+    padding: 50px;
+}
+
+.elementary_feature_card {
+    padding: 0px;
+
+}
+
+.elementary_feature_card img {
+    display: block;
+    border-bottom-left-radius: var(--textbox-border-radius);
+    border-bottom-right-radius: var(--textbox-border-radius);
+    width: 100%;
 }
