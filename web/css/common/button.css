@@ -14,7 +14,6 @@ body {
     padding: var(--big-btn-padding);
     border-radius: var(--btn-radius);
     display: inline-block;
-    margin: 5px;
     white-space: nowrap;
 }
 

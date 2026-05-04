@@ -1,0 +1,11 @@
+.light_blue_divider {
+    background-color: var(--color-light-cyan);
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.text_align_left {
+    text-align: left;
+}
