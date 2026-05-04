@@ -54,3 +54,18 @@
     flex-direction: column;
     gap: 30px;
 }
+
+/* Tablet */
+@media screen and (max-width: 1100px) {
+
+    .section_intro {
+        flex-direction: column;
+    }
+
+    .section_right {
+        margin: 0px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 750px) {}

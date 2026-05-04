@@ -66,3 +66,18 @@
     border-left: solid 4px var(--color-yellow);
     border-radius: var(--textbox-border-radius);
 }
+
+/* Tablet */
+@media screen and (max-width: 1100px) {
+
+    .section_intro {
+        flex-direction: column;
+    }
+
+    .section_right {
+        margin: 0px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 750px) {}

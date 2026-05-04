@@ -406,9 +406,27 @@
 
 }
 
+.desktop_only {
+    display: block;
+}
+
+.mobile_and_tablet {
+    display: none;
+}
+
 
 /* Tablet */
 @media screen and (max-width: 1100px) {
+    .desktop_only {
+        display: none;
+    }
+
+
+    .mobile_and_tablet {
+        display: block;
+    }
+
+
     .column-two {
         width: 100%;
     }
@@ -445,17 +463,6 @@
 
 /* Mobile */
 @media screen and (max-width: 750px) {
-    .column-two {
-        width: 100%;
-    }
-
-    .column-three {
-        width: 100%;
-    }
-
-    .column-four {
-        width: 100%;
-    }
 
     .about_card {
         width: 100%
@@ -463,19 +470,5 @@
 
     .max-width {
         max-width: 450px;
-    }
-
-    .img_frame img {
-        width: 100%;
-        height: auto;
-    }
-
-    .img_frame {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .desktop-only {
-        display: none;
     }
 }
