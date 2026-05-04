@@ -61,3 +61,49 @@
     background-color: var(--color-light-cyan);
     padding: 80px 30px 0px 30px;
 }
+
+.online_class_container {
+    background-image: url("../img/flower_bg.png");
+    padding: 80px 30px 0px 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.floating_card {
+    background-color: var(--color-yellow);
+    padding: 16px;
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    left: 570px;
+    bottom: 225px;
+    margin-right: 20px;
+    border-radius: var(--border-radius);
+}
+
+.course_overview_content h2 {
+    text-align: center;
+}
+
+.course_overview_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.flex {
+    gap: 45px;
+}
+
+.blog_content {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: var(--border-radius);
+}

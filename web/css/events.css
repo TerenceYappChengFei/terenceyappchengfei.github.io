@@ -131,3 +131,12 @@
 .light_grey_background_container {
     padding: 96px 117px 96px;
 }
+
+.ivory_green_bg {
+    background-color: var(--color-ivory-green);
+    padding: 32px;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
