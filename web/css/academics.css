@@ -5,7 +5,8 @@
 }
 
 .school_img img {
-    max-width: 250px;
+    object-fit: contain;
+    max-width: 100%;
     height: 100%;
 }
 

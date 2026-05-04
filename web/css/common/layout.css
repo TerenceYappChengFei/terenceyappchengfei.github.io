@@ -391,7 +391,7 @@
 
 .img_frame img {
     object-fit: cover;
-    width: 600px;
+    max-width: 600px;
     height: 600px;
 }
 
@@ -429,6 +429,15 @@
         margin: 0px;
     }
 
+    .max-width {
+        max-width: 800px;
+    }
+
+    .img_frame img {
+        width: 100%;
+        height: auto;
+    }
+
     .desktop-only {
         display: none;
     }
@@ -450,6 +459,20 @@
 
     .about_card {
         width: 100%
+    }
+
+    .max-width {
+        max-width: 450px;
+    }
+
+    .img_frame img {
+        width: 100%;
+        height: auto;
+    }
+
+    .img_frame {
+        display: flex;
+        justify-content: space-between;
     }
 
     .desktop-only {
