@@ -39,35 +39,13 @@
 .max-width {
     margin-left: auto;
     margin-right: auto;
-
     max-width: 1520px;
-}
-
-.stats_icon {
-    width: 100px
-}
-
-.stats_icon img {
-    width: 55px
 }
 
 .stats_card {
     position: relative;
 }
 
-.ratings {
-    width: 100%;
-}
-
-.ratings img {
-    width: 75px;
-}
-
-.spiral_accent {
-    position: absolute;
-    z-index: -1;
-    width: 300px;
-}
 
 .column-two {
     width: calc(50% - calc(20px / 2));
@@ -81,12 +59,12 @@
     width: calc(25% - calc(20px * 3 / 4));
 }
 
-.school_subject_marginr {
+/* .school_subject_marginr {
     display: block;
     border: 1px solid;
     border-color: var(--color-light-grey);
     border-radius: var(--textbox-border-radius);
-}
+} */
 
 .school_subject_margin {
     margin: 32px 32px 10px;
@@ -96,19 +74,12 @@
     margin: 0px 32px 16px;
 }
 
-.tall_padding {
-    padding: 75px 30px;
-}
-
-
-.school_img {
-    padding: 20px;
-    height: 250px;
-    margin-bottom: 25px;
-}
-
-.school_img img {
-    height: 100%;
+.column-container {
+    display: block;
+    border: 1px solid;
+    border-color: var(--color-light-grey);
+    border-radius: var(--textbox-border-radius);
+    padding: 10px;
 }
 
 .column-container:hover {
@@ -175,38 +146,19 @@
     background: var(--color-light-green);
 }
 
-.testimony_item {
-    background-color: var(--color-white);
-    border-radius: var(--border-radius);
-    height: 100%;
-    padding: 75px 45px;
-}
 
-.testimony_item_container {
-    padding: 30px 45px;
-}
-
-.testimony_item_quotes {
-    padding-bottom: 10px;
-}
 
 /* section intro */
-.grey_divider {
-    background-color: var(--color-light-grey);
-    padding: 96px 117px 96px;
-}
 
 .section_intro {
     display: flex;
     margin: 80px 100px;
     gap: 50px;
-
 }
 
 .section_badge {
     min-width: 20%;
     margin-top: 18px;
-
 }
 
 .section_badge p {
@@ -219,8 +171,8 @@
 .section_content {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    position: relative;
+    /* margin-top: 50px; */
+    /* position: relative; */
     /* gap: 10px; */
 }
 
@@ -245,12 +197,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.goals_achieved {
-    display: flex;
-    align-items: center;
-    gap: 10px;
 }
 
 .space_evenly {
@@ -287,26 +233,6 @@
     border-color: var(--color-black);
 }
 
-.main_banner {
-    background-image: url("../../img/hero_banner.jpg");
-    background-repeat: no-repeat;
-    padding: 120px 30px 140px;
-    position: relative;
-}
-
-.main_banner_content {
-    width: 50%;
-    padding: var(--body-padding);
-    margin: var(--body-margin);
-}
-
-.academic_banner {
-    background-image: url("../../img/banner_meeting.jpg");
-    padding: 150px;
-    margin-bottom: 100px;
-    position: relative;
-}
-
 .banner_wave_divider {
     position: absolute;
     width: 100%;
@@ -315,60 +241,12 @@
     left: 0px;
 }
 
-.Background_dark_purple_container {
-    background-image: url("../../img/border_box.png");
-    padding: 140px 30px 0px;
-}
-
-.apply_for_enrollment_purple {
-    display: flex;
-    justify-content: space-around;
-}
-
-.left_purple_section {
-    width: 50%;
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-}
-
-.image_row {
-    display: flex;
-    width: 30%;
-    gap: var(--container-gap);
-}
-
-.right_card {
-    background-color: var(--color-dark-blue);
-    margin: 0px 9px;
-    padding: 56px;
-    border-radius: 6px 6px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.hr_divider {
-    width: 30%;
-}
-
 .request_info_item {
     width: 100%;
     border-radius: var(--border-radius);
 }
 
 .request_info_section {
-    gap: 20px;
-}
-
-.virtual_tour_item {
-    width: 100%;
-    border-radius: var(--border-radius);
-}
-
-.virtua_tour_section {
     gap: 20px;
 }
 
@@ -381,25 +259,11 @@
 .info_items {
     display: flex;
     flex-direction: column;
-    gap: 20px
-}
-
-
-
-.faq_items {
-    display: flex;
-    padding: 25px 0px;
-    border-bottom: 2px solid #e1e1e1;
-    width: 50%;
-}
-
-.gap_container {
-    gap: var(--container-gap)
+    gap: 20px;
 }
 
 .foil_background {
     background-image: url("../../img/school-education-info-bg-01.webp");
-
 }
 
 .position_box {
@@ -420,9 +284,19 @@
     justify-content: space-between;
 }
 
+.stat_box {
+    flex-wrap: wrap;
+    padding: 0px 32px 16px;
+    display: flex;
+}
+
 .container_grey_border {
     background-color: white;
     border: 1px solid #e1e1e1;
+}
+
+.container_no_border {
+    border: none;
 }
 
 .lect_info_left {
@@ -461,7 +335,6 @@
     display: flex;
 }
 
-<<<<<<< HEAD
 .img_frame img {
     object-fit: cover;
     width: 500px;
@@ -473,50 +346,13 @@
     display: flex;
     padding: 32px;
     margin: var(--body-margin);
-    border: 1px solid
-}
-
-.event_details {
-    justify-content: space-between;
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    padding-left: 50px;
-}
-
-.badges_box {
-    display: flex;
-    flex-direction: column;
-}
-
-.events_info {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 33%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: var(--border-radius);
+    border: 1px solid white;
 
 }
 
-.event_image {
-    width: 200px;
-    height: 200px;
-    flex-shrink: 0;
-}
 
-
-
-.action {
-    padding: 22px 40px 24px;
-    margin: 0px 23px;
-}
-
-=======
-.items_box {
-    display: flex;
-
-}
-
->>>>>>> db2a323 (feat:added all courses.html)
 /* Tablet */
 @media screen and (max-width: 1100px) {
     .column-two {

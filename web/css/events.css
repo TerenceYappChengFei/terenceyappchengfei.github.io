@@ -1,0 +1,142 @@
+.future_box {
+    display: flex;
+    gap: 120px;
+    justify-content: space-around;
+}
+
+.future_content {
+    width: 50%;
+}
+
+.event_card:hover {
+    border-color: #e1e1e1;
+    transition: 0.5s all;
+}
+
+.event_image img {
+    border-radius: var(--border-radius);
+}
+
+.event_intro_box {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.event_details {
+    justify-content: space-between;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.badges_box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.events_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 33%;
+
+}
+
+.event_image {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.action {
+    padding: 22px 40px 24px;
+    margin: 0px 23px;
+}
+
+.items_box {
+    display: flex;
+
+}
+
+.stats_cards_right {
+    background-color: var(--color-yellow);
+    padding: 56px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.blue_star::before {
+    content: url(../img/blue_star.svg);
+    display: inline-block;
+    width: 16px;
+    margin-right: 12px;
+
+}
+
+
+.features_grid {
+    display: flex;
+}
+
+.text_column {
+    margin: 0px 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.padding_bot_24 {
+    padding-bottom: 24px;
+}
+
+.quotes_content_box {
+    padding: 80px 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.quotes_container {
+    justify-content: center;
+    display: flex;
+}
+
+.quote_center_text {
+    padding: 0px 56px;
+    text-align: center;
+    margin: 0px 23px;
+
+}
+
+.side_image_container {
+    width: 75%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.side_image_container img {
+    border-radius: var(--border-radius);
+
+}
+
+.light_grey_background_container {
+    padding: 96px 117px 96px;
+}
+
+.ivory_green_bg {
+    background-color: var(--color-ivory-green);
+    padding: 32px;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

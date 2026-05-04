@@ -1,0 +1,66 @@
+.main_banner {
+    background-image: url("../img/hero_banner.jpg");
+    background-repeat: no-repeat;
+    padding: 120px 30px 140px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main_banner_content {
+    width: 50%;
+    padding: var(--body-padding);
+    margin: var(--body-margin);
+}
+
+.Background_dark_purple_container {
+    background-image: url("../img/border_box.png");
+    padding: 140px 30px 0px;
+}
+
+.apply_for_enrollment_purple {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_purple_section {
+    width: 50%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.image_row {
+    display: flex;
+    width: 30%;
+    gap: var(--container-gap);
+}
+
+.right_card {
+    background-color: var(--color-dark-blue);
+    margin: 0px 9px;
+    padding: 56px;
+    border-radius: 6px 6px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hr_divider {
+    width: 30%;
+}
+
+.section_item_text {
+    margin: 8px 0px 20px;
+}
+
+.main_banner_content h1 {
+    padding-bottom: 20px;
+}
+
+.light_grey_background_container {
+    padding: 96px 117px 96px;
+}
