@@ -105,6 +105,10 @@ p {
     font-weight: var(--font-weight-thin);
 }
 
+.font_weight_bold {
+    font-weight: var(--font-weight-bold);
+}
+
 .text_subheading_banner {
     font-size: var(--body-text-banner-paragrapgh);
     padding-bottom: 40px;

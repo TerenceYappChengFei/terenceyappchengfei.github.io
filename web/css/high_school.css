@@ -1,0 +1,8 @@
+.black_separator_line {
+    margin: 25px;
+    border-bottom: 2px solid var(--color-black);
+}
+
+.black_background_container {
+    background: var(--color-black);
+}
