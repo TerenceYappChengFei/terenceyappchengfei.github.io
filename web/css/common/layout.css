@@ -81,14 +81,14 @@
 
 .core_badge {
     min-width: 20%;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 
 .core_badge p {
     display: inline;
     background-color: var(--color-ivory-green);
-    padding: 15px 20px;
+    padding: 10px 15px;
     border-radius: var(--textbox-border-radius);
     font-size: var(--body-card-text);
     font-weight: var(--font-weight-bold)
@@ -199,7 +199,7 @@
 }
 
 .transparent_cyan_background_container {
-    background-color: #27c4e588;
+    background-color: #27c4e5AA;
 }
 
 .light_green_background_container {
