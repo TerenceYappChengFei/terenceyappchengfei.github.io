@@ -96,12 +96,8 @@
         top: auto;
     }
 
-    .section_intro {
+    .on_demand_class_content {
         flex-direction: column;
-    }
-
-    .section_right {
-        margin: 0px;
     }
 }
 
