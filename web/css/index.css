@@ -64,3 +64,57 @@
 .light_grey_background_container {
     padding: 96px 117px 96px;
 }
+
+@media screen and (max-width: 1100px) {
+    .main_banner_content {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .section_intro {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 30px
+    }
+
+    .section_right {
+        margin: 0px;
+    }
+
+    .about_grid,
+    .light_grey_background_container {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .about_card_margin_top {
+        margin-top: 0px;
+    }
+
+    .column-four {
+        width: calc(50% - 38.5px);
+    }
+
+    .about_section {
+        flex-wrap: wrap;
+        display: flex;
+        padding-bottom: 20px;
+    }
+
+    .left_purple_section {
+        width: 100%;
+    }
+
+    .apply_for_enrollment_purple {
+        display: block;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 750px) {
+    .column-four {
+        width: 100%
+    }
+}
