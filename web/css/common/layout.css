@@ -456,8 +456,12 @@
         height: auto;
     }
 
-    .desktop-only {
-        display: none;
+    .section_intro {
+        flex-direction: column;
+    }
+
+    .section_right {
+        margin: 0px;
     }
 }
 
