@@ -183,3 +183,7 @@ input[type="text"] {
 .btn_cyan {
     border: none
 }
+
+@media screen and (max-width: 1100px) {}
+
+@media screen and (max-width: 750px) {}

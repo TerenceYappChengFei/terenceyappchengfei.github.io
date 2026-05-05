@@ -109,6 +109,10 @@
     .apply_for_enrollment_purple {
         display: block;
     }
+
+    .max-width {
+        padding: 20px 30px;
+    }
 }
 
 
