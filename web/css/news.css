@@ -23,7 +23,7 @@
     padding: 13px 16px;
     border-radius: var(--border-radius);
     text-align: center;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     display: flex;
     flex-direction: column;
 }

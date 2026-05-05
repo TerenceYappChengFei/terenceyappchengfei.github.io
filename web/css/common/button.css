@@ -144,6 +144,7 @@ body {
     display: inline-block;
     border-radius: var(--btn-radius);
     font-weight: var(--font-weight-600);
+    white-space: nowrap;
 }
 
 .academic_btn {
@@ -154,7 +155,6 @@ body {
     background-color: var(--color-purple);
     color: var(--btn-text-color-white-default);
     padding: var(--extra-small-btn-padding);
-
 }
 
 .academic_btn:hover {
