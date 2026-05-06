@@ -313,6 +313,10 @@ a {
         display: none;
     }
 
+    .headerside_menu {
+        width: 30%
+    }
+
 }
 
 
@@ -321,4 +325,13 @@ a {
     .top_header_btn {
         display: none;
     }
+
+    .headerside_menu {
+        width: 60%
+    }
+
+
+
+
+
 }
