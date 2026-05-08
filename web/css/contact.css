@@ -88,9 +88,7 @@
 
 
 .overlay_text_box {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    background-image: url("../img/news_perfect.jpg");
     width: 100%;
     padding: 30px;
     box-sizing: border-box;
