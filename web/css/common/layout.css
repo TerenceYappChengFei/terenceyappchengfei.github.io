@@ -359,13 +359,10 @@
     gap: 10px;
 }
 
-.lect_info_right {
+.course_price {
     padding-right: 32px;
 }
 
-.btn_margin {
-    margin: 32px;
-}
 
 .white_body_box {
     background-color: var(--color-white);
@@ -385,6 +382,8 @@
     flex-direction: column;
 }
 
+
+/*need fix*/
 .statistics_group {
     display: flex;
 }
