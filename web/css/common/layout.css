@@ -21,11 +21,6 @@
     margin-bottom: 120px;
 }
 
-.title {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
 .flex {
     display: flex;
 }
@@ -66,16 +61,6 @@
 .core_badge {
     min-width: 20%;
     margin-top: 10px;
-}
-
-
-.core_badge p {
-    display: inline;
-    background-color: var(--color-ivory-green);
-    padding: 10px 15px;
-    border-radius: var(--textbox-border-radius);
-    font-size: var(--body-card-text);
-    font-weight: var(--font-weight-bold)
 }
 
 .core_subjects {
@@ -136,21 +121,11 @@
     /* gap: 10px; */
 }
 
-.text_align_center {
-    text-align: center;
-}
-
 .school_description {
     max-width: 300px;
     width: 100%;
     padding: 25px 40px;
     border-radius: var(--textbox-border-radius);
-}
-
-.font_weight_thin {
-    /* font-size: var(--number-font-size); */
-    font-weight: var(--font-weight-thin);
-    line-height: var(--font-line-height);
 }
 
 .course_overview_content {
@@ -200,14 +175,6 @@
     margin-top: 18px;
 }
 
-.section_badge p {
-    display: inline;
-    background-color: var(--color-yellow);
-    font-weight: var(--font-weight-bold);
-    padding: 6px;
-    border-radius: 2px;
-}
-
 .section_content {
     display: flex;
     flex-direction: column;
@@ -225,10 +192,6 @@
     /* min-width: 20%; */
     max-width: 200px;
     ;
-}
-
-.section_description {
-    font-weight: var(--font-weight-thin);
 }
 
 .align_center {
