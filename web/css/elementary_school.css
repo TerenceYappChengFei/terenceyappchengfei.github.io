@@ -43,8 +43,6 @@
 }
 
 .real_time_interaction_content {
-    display: flex;
-    flex-direction: column;
     gap: 50px;
     align-items: flex-start;
 }

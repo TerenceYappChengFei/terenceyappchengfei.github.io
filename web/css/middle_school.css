@@ -23,8 +23,6 @@
 }
 
 .apply_today_content {
-    display: flex;
-    flex-direction: column;
     gap: 40px;
     color: var(--color-white);
     margin: 45px 60px;
