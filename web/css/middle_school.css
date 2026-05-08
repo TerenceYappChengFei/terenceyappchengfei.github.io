@@ -61,7 +61,6 @@
 }
 
 .on_demand_classes {
-    background-color: var(--color-white);
     display: flex;
     justify-content: space-between;
     padding: 52px;
