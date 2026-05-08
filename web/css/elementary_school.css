@@ -21,7 +21,6 @@
 }
 
 .virtual_tour_item {
-    width: 100%;
     border-radius: var(--border-radius);
 }
 

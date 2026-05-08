@@ -243,8 +243,11 @@
 }
 
 .request_info_item {
-    width: 100%;
     border-radius: var(--border-radius);
+}
+
+.full_width_image {
+    width: 100%;
 }
 
 .request_info_section {

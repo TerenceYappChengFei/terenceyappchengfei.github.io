@@ -43,7 +43,6 @@
 
 .high_school_features_image {
     display: block;
-    width: 100%;
     border-radius: var(--textarea-border-radius);
 }
 
