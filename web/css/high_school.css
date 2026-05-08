@@ -32,15 +32,6 @@
     margin: 60px 70px;
 }
 
-.text_input {
-    width: 100%;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: #FBFBFB;
-    border: none;
-    border-bottom: solid 2px grey;
-}
-
 .high_school_features_image {
     display: block;
     border-radius: var(--textarea-border-radius);
