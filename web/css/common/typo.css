@@ -122,6 +122,10 @@ p {
     font-size: 24px;
 }
 
+.body_card_text {
+    font-size: var(--body-card-text)
+}
+
 .card_text {
     font-size: var(--body-card-text);
 }
@@ -160,7 +164,7 @@ p {
     margin: 0px 10px 0px 10px;
 }
 
-.price {
+.body_price {
     font-size: 17px;
     color: var(--color-dark-blue);
 }
