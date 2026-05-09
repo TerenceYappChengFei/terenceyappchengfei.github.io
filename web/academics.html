@@ -274,25 +274,40 @@
     </div>
 
     <!-- Student FAQ Title -->
-    <div class="desktop-only">
-        <div class="section_badge flex_column align_center ">
-            <p>STUDENTS FAQ'S</p>
+    <div class="desktop-only faq_section">
+        <div class="section_badge flex_column align_center faq_heading">
+            <p>STUDENT FAQ'S</p>
             <h2>Asked by Parents & Students
             </h2>
         </div>
         <!-- FAQ -->
-        <div class="flex_column align_center section_margin_bottom">
-            <div class="faq_items grey_separator_line_full">
-                <img src="img/right-arrow.svg">
-                <h4>How do students submit assignments and projects?</h4>
+        <div class="flex_column align_center section_margin_bottom faq_list">
+            <div class="faq_items grey_separator_line_full faq_item faq_item_open">
+                <div class="faq_question">
+                    <img src="img/right-arrow.svg">
+                    <h4>How do students submit assignments and projects?</h4>
+                </div>
+                <p class="small_weight">Assignments are uploaded directly to the online platform, where teachers review
+                    them and provide feedback. Some projects may also be presented live during virtual class sessions.
+                </p>
             </div>
-            <div class="faq_items grey_separator_line_full">
-                <img src="img/right-arrow.svg">
-                <h4>Is extra academic support available?</h4>
+            <div class="faq_items grey_separator_line_full faq_item">
+                <div class="faq_question">
+                    <img src="img/right-arrow.svg">
+                    <h4>Is extra academic support available?</h4>
+                </div>
+                <p class="small_weight">Yes. Students can receive extra help through teacher feedback, online support,
+                    and additional learning resources when they need more guidance.
+                </p>
             </div>
-            <div class="faq_items grey_separator_line_full">
-                <img src="img/right-arrow.svg">
-                <h4>How are parents updated about their child's progress?</h4>
+            <div class="faq_items grey_separator_line_full faq_item">
+                <div class="faq_question">
+                    <img src="img/right-arrow.svg">
+                    <h4>How are parents updated about their child's progress?</h4>
+                </div>
+                <p class="small_weight">Parents receive regular updates through progress reports and communication from
+                    teachers, helping them stay informed about coursework, assignments, and academic growth.
+                </p>
             </div>
         </div>
     </div>
@@ -538,7 +553,9 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
     <script src="css/js/header.js"></script>
+    <script src="css/js/academics.js"></script>
 </body>
 
 </html>

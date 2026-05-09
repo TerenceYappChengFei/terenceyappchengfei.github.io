@@ -173,6 +173,7 @@
 .section_badge {
     min-width: 20%;
     margin-top: 18px;
+    font-weight: var(--font-weight-bold);
 }
 
 .section_content {

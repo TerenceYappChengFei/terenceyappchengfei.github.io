@@ -115,7 +115,7 @@ p {
 }
 
 .font_weight_bold {
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-600);
 }
 
 .font_weight_thin {
@@ -133,16 +133,17 @@ p {
     background-color: var(--color-ivory-green);
     padding: 10px 15px;
     border-radius: var(--textbox-border-radius);
-    font-size: var(--body-card-text);
+    font-size: var(--body-text-box-yellow);
     font-weight: var(--font-weight-bold)
 }
 
 .section_badge p {
     display: inline;
     background-color: var(--color-yellow);
-    font-weight: var(--font-weight-bold);
-    padding: 6px;
-    border-radius: 2px;
+    font-weight: var(--font-weight-600);
+    font-size: var(--body-text-box-yellow);
+    padding: 13px 20px;
+    border-radius: var(--border-radius);
 }
 
 .text_subheading_banner {
