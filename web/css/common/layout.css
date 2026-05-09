@@ -63,6 +63,24 @@
     margin-top: 10px;
 }
 
+.elective_badge {
+    min-width: 20%;
+    margin-top: 10px;
+}
+
+.elective_badge p {
+    display: inline;
+    background-color: var(--color-light-purple);
+    padding: 10px 15px;
+    border-radius: var(--textbox-border-radius);
+    font-size: var(--body-text-box-yellow);
+    font-weight: var(--font-weight-bold);
+}
+
+.column-container:hover .elective_badge p {
+    background-color: var(--color-light-purple);
+}
+
 .core_subjects {
     display: flex;
     flex-direction: column;
