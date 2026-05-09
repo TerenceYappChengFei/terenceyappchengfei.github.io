@@ -292,6 +292,112 @@
     gap: 20px;
 }
 
+.media_split {
+    max-width: 1255px;
+    gap: 100px;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.media_split .column-two {
+    width: calc(50% - 50px);
+}
+
+.media_split_image {
+    max-width: 590px;
+}
+
+.media_split_image img,
+.media_split_image.img_frame img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.media_split_content {
+    max-width: 539px;
+    padding-top: 40px;
+}
+
+.media_split_body {
+    gap: 24px;
+}
+
+.media_split_feature {
+    gap: 0;
+}
+
+.media_split_feature>h4 {
+    color: var(--color-black);
+    font-size: var(--font-size-h4-subject);
+    line-height: var(--font-line-height-headings-loose);
+    margin-bottom: 18px;
+}
+
+.media_split_feature>p {
+    color: var(--color-grey);
+    font-size: var(--font-size);
+    line-height: var(--font-line-height);
+    margin-bottom: 26px;
+}
+
+.media_split_feature .goals_achieved {
+    margin-bottom: 4px;
+}
+
+.media_split_feature .goals_achieved h2 {
+    font-size: var(--font-size-h2);
+    line-height: var(--font-line-height-headings-tight);
+}
+
+.media_split_feature .goals_achieved h5 {
+    color: var(--color-black);
+    line-height: var(--font-line-height-headings-tight);
+}
+
+.media_split_feature .goals_achieved+h5 {
+    color: var(--color-black);
+    font-size: var(--font-size-h5);
+    line-height: var(--font-line-height-headings-loose);
+    margin-bottom: 30px;
+}
+
+.media_split_feature .btn {
+    min-width: 305px;
+    text-align: center;
+}
+
+.media_split_feature .grey_separator_line_full {
+    margin: 36px 0 30px;
+}
+
+.media_split_feature .info_items {
+    gap: 18px;
+}
+
+.media_split_feature .info_items p {
+    color: var(--color-black);
+    font-size: var(--font-size);
+    line-height: var(--font-line-height-headings-loose);
+}
+
+.media_split_feature .info_items p:first-child {
+    margin-bottom: 4px;
+}
+
+.media_split_feature .info_items img {
+    width: 18px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.goals_achieved {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
 .grey_separator_line_full {
     /* margin: 25px; */
     border-bottom: 2px solid #e1e1e1;
@@ -449,6 +555,26 @@
 
     .section_right {
         margin: 0px;
+    }
+
+    .media_split {
+        flex-wrap: wrap;
+        gap: 48px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .media_split .media_split_image,
+    .media_split .media_split_content {
+        width: 100%;
+    }
+
+    .media_split .media_split_content {
+        padding-top: 0;
+    }
+
+    .media_split .media_split_image img {
+        height: auto;
     }
 
     .school_hero h1 {
