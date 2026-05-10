@@ -118,7 +118,8 @@
     margin: 32px 32px 10px;
 }
 
-.subject_content_margin {
+.subject_content_margin,
+.rating_star {
     margin: 0px 32px 16px;
 }
 
@@ -268,7 +269,6 @@
     gap: 12px;
     flex-wrap: wrap;
     padding: var(--body-padding);
-    margin: var(--body-margin);
     align-items: center;
 }
 
@@ -471,9 +471,6 @@
     gap: 10px;
 }
 
-.course_price {
-    padding-right: 32px;
-}
 
 
 .white_body_box {
