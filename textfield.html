@@ -4,45 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Text Field Sample</title>
     <link rel="stylesheet" href="../common/textfield.css">
     <link rel="stylesheet" href="../common/variables.css">
 </head>
 
 <body>
     <div class="card">
-        <h2>Have a query? Contact us</h2>
 
+        <!-- Steps 1 -->
         <div class="steps">
-            <span class="step active">STEP 1</span>
-            <span class="step">STEP 2</span>
-            <span class="step">STEP 3</span>
+            <div class="step active" onclick="goStep(1)">STEP 1</div>
+            <div class="line"></div>
+            <div class="step" onclick="goStep(2)">STEP 2</div>
+            <div class="line"></div>
+            <div class="step" onclick="goStep(3)">STEP 3</div>
         </div>
 
-        <div class="form-group">
-            <p>Are you a student or Guardian?</p>
-            <input type="radio" name="role" id="student"> <label for="student">Student</label>
-            <input type="radio" name="role" id="guardian"> <label for="guardian">Guardian</label>
+        <div class="card step-content" id="step1">
+            <h3>Step 1 Content</h3>
         </div>
+
+        <div class="card step-content" id="step2">
+            <h3>Step 2 Content</h3>
+        </div>
+
+        <div class="card step-content" id="step3">
+            <h3>Step 3 Content</h3>
+        </div>
+
+        <div class="radio-group">
+            <label class="radio-item">
+                <input type="radio" name="role">
+                <span>Student</span>
+            </label>
+
+            <label class="radio-item">
+                <input type="radio" name="role">
+                <span>Guardian</span>
+            </label>
+        </div>
+
+        <h1>Are you a student or Guardian</h1>
         <p>First Name</p>
         <input type="text" placeholder="Enter your first name">
         <p>Last Name</p>
         <input type="text" placeholder="Enter your last name">
-        <p>Your email</p>
-        <input type="text" placeholder="Enter your email">
-        <p>Your phone</p>
-        <input type="text" placeholder="Enter your phone">
+        <div class="form-row">
+            <div class="field">
+                <p>Your email</p>
+                <input type="text" placeholder="Enter your email">
+            </div>
 
-        <input type="submit" value="Next Step">
+            <div class="field">
+                <p>Your phone</p>
+                <input type="text" placeholder="Enter your phone">
+            </div>
+        </div>
+
+        <button onclick="goStep(2)">Next Step</button>
     </div>
-
+    <!-- Steps 2 -->
     <div class="card">
-        <h2>Have a query? Contact us</h2>
 
         <div class="steps">
-            <span class="step active">STEP 1</span>
-            <span class="step active">STEP 2</span>
-            <span class="step">STEP 3</span>
+            <div class="step active" onclick="goStep(1)">STEP 1</div>
+            <div class="line"></div>
+            <div class="step" onclick="goStep(2)">STEP 2</div>
+            <div class="line"></div>
+            <div class="step" onclick="goStep(3)">STEP 3</div>
+        </div>
+
+        <div class="card step-content" id="step1">
+            <h3>Step 1 Content</h3>
+        </div>
+
+        <div class="card step-content" id="step2">
+            <h3>Step 2 Content</h3>
+        </div>
+
+        <div class="card step-content" id="step3">
+            <h3>Step 3 Content</h3>
         </div>
 
         <div>
@@ -61,14 +103,28 @@
     </div>
 
     <div class="card">
-        <h2>Have a query? Contact us</h2>
 
+        <!-- Steps 3 -->
         <div class="steps">
-            <span class="step active">STEP 1</span>
-            <span class="step active">STEP 2</span>
-            <span class="step active">STEP 3</span>
+            <div class="step active" onclick="goStep(1)">STEP 1</div>
+            <div class="line"></div>
+            <div class="step" onclick="goStep(2)">STEP 2</div>
+            <div class="line"></div>
+            <div class="step" onclick="goStep(3)">STEP 3</div>
         </div>
 
+
+        <div class="card step-content" id="step1">
+            <h3>Step 1 Content</h3>
+        </div>
+
+        <div class="card step-content" id="step2">
+            <h3>Step 2 Content</h3>
+        </div>
+
+        <div class="card step-content" id="step3">
+            <h3>Step 3 Content</h3>
+        </div>
 
         <div>
             <p>Which country you live in?</p>
