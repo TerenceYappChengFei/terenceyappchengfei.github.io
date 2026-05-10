@@ -5,12 +5,16 @@
     border-radius: var(--border-radius);
 }
 
-.apply_today_container {
-    background-image: url("../img/school-education-info-bg-01.webp");
+.apply_today_blue_overlay {
+    --foil-background-color: #232a92;
+    --foil-background-overlay: linear-gradient(rgba(31, 39, 148, 0.38), rgba(31, 39, 148, 0.38));
 }
 
-.apply_today_blue_overlay {
-    background-color: #03009DDD;
+.academics_testimony_background {
+    --foil-background-color: var(--color-cyan);
+    --foil-background-overlay: linear-gradient(rgba(39, 196, 229, 0.2), rgba(39, 196, 229, 0.2));
+    background-size: cover;
+    background-position: center;
 }
 
 .apply_today_brand {
@@ -31,7 +35,14 @@
 }
 
 .about_section {
-    margin: 0px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_eyebrow {
+    max-width: 375px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #e1e1e1;
 }
 
 .about_CTA_container {
@@ -59,26 +70,60 @@
 
 .on_demand_classes {
     display: flex;
-    justify-content: space-between;
-    padding: 52px;
-    margin: 160px;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: var(--border-radius);
 }
 
+.on_demand_section {
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.on_demand_heading {
+    align-self: stretch;
+    font-size: var(--font-size-h2-others-banner);
+    line-height: 1.25;
+    margin-bottom: 80px;
+}
+
 .on_demand_classes_icon {
-    max-width: 80px;
+    width: 80px;
 }
 
 .on_demand_class_content {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 30px;
+    flex: 0 1 380px;
+    padding-left: 28px;
+}
+
+.on_demand_class_content h3 {
+    font-size: 36px;
+    line-height: 1.25;
+}
+
+.on_demand_class_content .btn {
+    padding: 16px 28px 18px;
+    font-size: 15px;
 }
 
 .on_demand_classes_img img {
     display: block;
     border-radius: var(--border-radius);
-    max-height: 500px;
+    width: auto;
+    min-height: 300px;
+    max-height: 429px;
+    object-fit: cover;
 }
 
 /* Tablet */
@@ -90,6 +135,16 @@
 
     .on_demand_class_content {
         flex-direction: column;
+        flex-basis: auto;
+        padding-left: 0;
+        padding: 20px;
+        gap: 28px;
+    }
+
+    .on_demand_class_content .on_demand_classes_img img {
+        width: auto;
+        min-height: 260px;
+        max-height: 300px;
     }
 }
 

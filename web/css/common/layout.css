@@ -202,9 +202,12 @@
 .section_content {
     display: flex;
     flex-direction: column;
-    /* margin-top: 50px; */
-    /* position: relative; */
-    /* gap: 10px; */
+}
+
+.school_subjects_intro {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .school_hero {
@@ -250,9 +253,7 @@
 
 .section_right img {
     width: 100%;
-    /* min-width: 20%; */
     max-width: 200px;
-    ;
 }
 
 .align_center {
@@ -433,7 +434,10 @@
 }
 
 .foil_background {
-    background-image: url("../../img/school-education-info-bg-01.webp");
+    background-color: var(--foil-background-color, transparent);
+    background-image:
+        var(--foil-background-overlay, none),
+        url("../../img/school-education-info-bg-01.webp");
 }
 
 .position_box {

@@ -18,12 +18,6 @@
     margin-bottom: 50px;
 }
 
-.elementary_subjects_intro {
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .real_time_interaction_bg {
     background-color: #23269b;
     background-image: linear-gradient(90deg, #1A195F 0%, #22217c 50%, #282796 100%);
