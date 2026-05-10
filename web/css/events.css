@@ -173,7 +173,7 @@
     .light_grey_background_container,
     .quotes_container,
     .section_intro {
-        padding: 20px 30px;
+        padding: var(--padding-section);
     }
 
     .future_box {

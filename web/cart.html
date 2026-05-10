@@ -17,19 +17,19 @@
 </head>
 
 <body>
-    <div class="header max-width">
+    <div class="header">
         <div class="header_icon">
             <a href="index.html">
                 <img src="img/logo.png" alt="Header Icon" width="190px">
             </a>
         </div>
         <div class="header_menu" id="header_menu">
-            <div class="menu">Home</div>
+            <div class="menu menu_home"><a href="index.html">Home</a></div>
 
-            <div class="menu arrow_down">Academics
+            <div class="menu arrow_down menu_home">Academics
                 <div class="academics_menu">
                     <div class="acadamic_submenu">
-                        <div class="school_padding">
+                        <div class="school_padding elementary">
                             <div>
                                 <h5><a href="elementary_school.html">Elementary School</a></h5>
                             </div>
@@ -37,7 +37,7 @@
                                 <p>For Grades K-5</p>
                             </div>
                         </div>
-                        <div class="school_padding">
+                        <div class="school_padding middle">
                             <div>
                                 <h5><a href="middle_school.html">Middle School</a></h5>
                             </div>
@@ -45,7 +45,7 @@
                                 <p>For Grades 6-8</p>
                             </div>
                         </div>
-                        <div class="school_padding ">
+                        <div class="school_padding high">
                             <div>
                                 <h5><a href="high_school.html">High School</a></h5>
                             </div>
@@ -93,13 +93,19 @@
             <div class="side_icon">
                 <img src="img/logo.png" alt="logo" width="150px">
             </div>
-            <div class="side_content">
-                <div class="menu">Home</div>
-
-
-                <div class="menu">Events</div>
-                <div class="menu">Info</div>
-                <div class="menu">News</div>
+            <div class="side_content nevigation">
+                <div class="side_title_content">
+                    <h6>Nevigation</h6>
+                </div>
+                <div class="flex-column">
+                    <div class="side_menu_item"><a href="index.html">Home</a></div>
+                    <div class="side_menu_item"><a href="ourschool.html">Our School</a></div>
+                    <div class="side_menu_item"><a href="events.html">Latest Events</a></div>
+                    <div class="side_menu_item"><a href="academics.html">Academics</a></div>
+                    <div class="side_menu_item"><a href="news.html">News & Highlights</a></div>
+                    <div class="side_menu_item"><a href="coursedetails.html">Programs & Courses</a></div>
+                    <div class="side_menu_item"><a href="contact.html">Contact</a></div>
+                </div>
             </div>
             <div class="ourschool side_title_content">
                 <div>
@@ -127,6 +133,20 @@
                         International Callers <span>(800) 555 6666</span>
                     <div class="contact_link"><a href="#">contact@avada-company.com</a></div>
                     </p>
+                </div>
+            </div>
+            <div class="flex side_menu_media_gap">
+                <div class="side_menu_media">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="side_menu_media">
+                    <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="side_menu_media">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="side_menu_media">
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
         </div>
@@ -432,10 +452,14 @@
                         Succeed.<br></p>
                 </div>
                 <div class="social_media">
-                    <div class="fb media_border"><img src="img/fb.png" alt="fb" width="35px"></div>
-                    <div class="x media_border"><img src="img/x.png" alt="fb" width="35x"></div>
-                    <div class="ins media_border"><img src="img/ins.png" alt="fb" width="35px"></div>
-                    <div class="yt media_border"><img src="img/yt.png" alt="fb" width="35px"></div>
+                    <div class="fb media_border"><a href="https://www.facebook.com" target="_blank"><i
+                                class="fa-brands fa-facebook-f"></i></a></div>
+                    <div class="x media_border"><a href="https://x.com/" target="_blank"><i
+                                class="fa-brands fa-x-twitter"></i></a></div>
+                    <div class="ins media_border"><a href="https://www.instagram.com" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a></div>
+                    <div class="yt media_border"><a href="https://www.youtube.com" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a></div>
                 </div>
             </div>
             <div class="footer_right_content">
@@ -462,7 +486,7 @@
                                 <div><a href="#">Principal Message</a></div>
                                 <div><a href="#">Avada Online School
                                     </a></div>
-                                <div><a href="#">Latest Events</a></div>
+                                <div><a href="events.html">Latest Events</a></div>
                                 <div><a href="#">Mission & Vision</a></div>
                             </div>
                         </div>
@@ -473,7 +497,7 @@
                             <div class="categories">
                                 <div><a href="#">Summer Camp</a></div>
                                 <div><a href="#">Get Started</a></div>
-                                <div><a href="#">Articles</a></div>
+                                <div><a href="news.html">News & Articles</a></div>
                                 <div><a href="#">Programs & Courses</a></div>
                             </div>
                         </div>
@@ -482,10 +506,10 @@
                                 <h5>Admissions</h5>
                             </div>
                             <div class="categories">
-                                <div><a href="#">Academics</a></div>
-                                <div><a href="#">High School</a></div>
-                                <div><a href="#">Middle School</a></div>
-                                <div><a href="#">Elementary School</a></div>
+                                <div><a href="academics.html">Academics</a></div>
+                                <div><a href="high_school.html">High School</a></div>
+                                <div><a href="middle_school.html">Middle School</a></div>
+                                <div><a href="elementary_school.html">Elementary School</a></div>
                             </div>
                         </div>
                     </div>

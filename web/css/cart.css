@@ -196,7 +196,7 @@ input[type="text"] {
 @media screen and (max-width: 1100px) {
     .shipping_container {
         flex-direction: column;
-        padding: 20px 30px;
+        padding: var(--body-section);
     }
 
     .shipping_info {
