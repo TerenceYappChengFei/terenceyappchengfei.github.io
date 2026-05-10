@@ -24,12 +24,12 @@
             </a>
         </div>
         <div class="header_menu" id="header_menu">
-            <div class="menu font_text_yellow">Home</div>
+            <div class="menu font_text_yellow menu_home"><a href="index.html">Home</a></div>
 
-            <div class="menu arrow_down">Academics
+            <div class="menu arrow_down menu_home">Academics
                 <div class="academics_menu">
                     <div class="acadamic_submenu">
-                        <div class="school_padding">
+                        <div class="school_padding elementary">
                             <div>
                                 <h5><a href="elementary_school.html">Elementary School</a></h5>
                             </div>
@@ -37,7 +37,7 @@
                                 <p>For Grades K-5</p>
                             </div>
                         </div>
-                        <div class="school_padding">
+                        <div class="school_padding middle">
                             <div>
                                 <h5><a href="middle_school.html">Middle School</a></h5>
                             </div>
@@ -45,7 +45,7 @@
                                 <p>For Grades 6-8</p>
                             </div>
                         </div>
-                        <div class="school_padding ">
+                        <div class="school_padding high">
                             <div>
                                 <h5><a href="high_school.html">High School</a></h5>
                             </div>
@@ -93,13 +93,19 @@
             <div class="side_icon">
                 <img src="img/logo.png" alt="logo" width="150px">
             </div>
-            <div class="side_content">
-                <div class="menu">Home</div>
-
-
-                <div class="menu">Events</div>
-                <div class="menu">Info</div>
-                <div class="menu">News</div>
+            <div class="side_content nevigation">
+                <div class="side_title_content">
+                    <h6>Nevigation</h6>
+                </div>
+                <div class="flex-column">
+                    <div class="side_menu_item"><a href="index.html">Home</a></div>
+                    <div class="side_menu_item"><a href="ourschool.html">Our School</a></div>
+                    <div class="side_menu_item"><a href="events.html">Latest Events</a></div>
+                    <div class="side_menu_item"><a href="academics.html">Academics</a></div>
+                    <div class="side_menu_item"><a href="news.html">News & Highlights</a></div>
+                    <div class="side_menu_item"><a href="coursedetails.html">Programs & Courses</a></div>
+                    <div class="side_menu_item"><a href="contact.html">Contact</a></div>
+                </div>
             </div>
             <div class="ourschool side_title_content">
                 <div>
@@ -129,11 +135,25 @@
                     </p>
                 </div>
             </div>
+            <div class="flex side_menu_media_gap">
+                <div class="side_menu_media">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="side_menu_media">
+                    <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="side_menu_media">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="side_menu_media">
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="main_banner">
-        <div class="main_banner_content font_text_white">
+        <div class="main_banner_content font_text_white max-width">
             <h1>Smart Education That Helps You Grow</h1>
             <div class="body_banner">
                 <p class="text_subheading_banner">We offer interactive classes & flexible learning experience for
@@ -141,7 +161,7 @@
                 </p>
             </div>
 
-            <div class="banner_btn">
+            <div class="banner_btn flex">
                 <div class="btn btn_cyan btn_fontwhite btn_icon_white hover_yellow">
                     <a href="https://google.com">Our School</a>
                 </div>
@@ -156,8 +176,8 @@
 
 
 
-    <div class="section_intro">
-        <div class="section_badge">
+    <div class="section_intro align_center max-width">
+        <div class="section_badge max-width">
             <div class="small_btn btn_yellow">
                 <span>WHO ARE WE</span>
             </div>
@@ -181,7 +201,7 @@
     </div>
 
     <div class="padding about_section">
-        <div class="about_grid">
+        <div class="about_grid max-width">
             <div class="about_card">
                 <div class="card_icon">
                     <img src="img/world_class.svg" alt="World Class" width="80px">
@@ -248,7 +268,7 @@
     </div>
 
     <div class="light_grey_background_container">
-        <div class="section_intro">
+        <div class="max-width section_intro align_center">
             <div class="section_badge">
                 <div class="small_btn btn_yellow">
                     <span>ACCELERATED LEARNING</span>
@@ -266,178 +286,206 @@
                 </div>
             </div>
         </div>
-
-        <div class="about_section">
-            <div class="row-flex max-width container-padding">
-                <div class="column-four container_grey_border">
-                    <div class="position_box">
-                        <img src="img/photography.jpg" alt="Course Thumbnail" width="100%">
-                        <div class="academic_btn btn_purple hover_green>">
-                            <span>HIGH SCHOOL</span>
+        <div class="section_intro align_center">
+            <div class="about_section">
+                <div class="row-flex max-width container-padding">
+                    <div class="column-four container_grey_border">
+                        <div class="position_box">
+                            <img src="img/photography.jpg" alt="Course Thumbnail" width="100%">
+                            <div class="academic_btn btn_purple hover_green>">
+                                <span>HIGH SCHOOL</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="school_subject_margin">
-                        <h4 class="school_subject">Media & Communication</h4>
-                    </div>
-                    <div class="subject_content_margin">
-                        <p class="small_weight body_card_text">Learn how information is created, shared & interpreted
-                            through
-                            various platforms.</p>
-                    </div>
-
-                    <div class="stat_box">
-
-                        <p class="stat">92 Students</p>
-
-                        <span class="stat_spacing">|</span>
-
-                        <p class="stat">12 Lessons</p>
-
-                        <span class="stat_spacing">|</span>
-
-                        <p class="stat">18 Months</p>
-                    </div>
-                    <div class="course_lect_info">
-                        <div class="course_lect_info_left">
-                            <img src="img/instructor.png" alt="instructor" width="28px">
-                            <p class="small_weight body_card_text">Marie Elliot</p>
+                        <div class="school_subject_margin">
+                            <h4 class="school_subject">Media & Communication</h4>
                         </div>
-                        <div>
+                        <div class="rating_star flex"><i class="fa-solid fa-star fa-star-grey"></i><i
+                                class="fa-solid fa-star fa-star-grey"></i><i
+                                class="fa-solid fa-star fa-star-grey"></i><i
+                                class="fa-solid fa-star fa-star-grey"></i><i class="fa-solid fa-star fa-star-grey"></i>
+                            <p class="small_weight body_card_text">0 / 5</p>
+                        </div>
+                        <div class="subject_content_margin">
+                            <p class="small_weight body_card_text">Learn how information is created, shared &
+                                interpreted
+                                through
+                                various platforms.</p>
+                        </div>
+
+                        <div class="stat_box">
+
+                            <p class="stat">92 Students</p>
+
+                            <span class="stat_spacing">|</span>
+
+                            <p class="stat">12 Lessons</p>
+
+                            <span class="stat_spacing">|</span>
+
+                            <p class="stat">18 Months</p>
+                        </div>
+                        <div class="course_lect_info">
+                            <div class="course_lect_info_left">
+                                <img src="img/instructor.png" alt="instructor" width="28px">
+                                <p class="small_weight body_card_text">Marie Elliot</p>
+                            </div>
                             <div>
-                                <p class="body_price">$32.00</p>
+                                <div>
+                                    <p class="body_price">$32.00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn_margin">
+                            <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
+                                <a href="https://google.com">Course Detail</a>
                             </div>
                         </div>
                     </div>
+                    <div class="column-four container_grey_border">
+                        <div class="position_box">
+                            <img src="img/cup.jpg" alt="Course Thumbnail" width="100%">
+                            <div class="academic_btn btn_purple hover_green>">
+                                <span>ELEMENTARY</span>
+                            </div>
+                        </div>
+                        <div class="school_subject_margin">
+                            <h4 class="school_subject">Basic English</h4>
+                        </div>
+                        <div class="rating_star flex"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star fa-star-grey"></i>
+                            <p class="small_weight body_card_text">4 / 5</p>
+                        </div>
+                        <div class="subject_content_margin">
+                            <p class="small_weight body_card_text">Builds foundational skills in reading, writing,
+                                speaking
+                                &
+                                listening.</p>
+                        </div>
+                        <div class="stat_box">
 
-                    <div class="btn_margin">
-                        <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
-                            <a href="https://google.com">Course Detail</a>
+                            <p class="stat">18 Students</p>
+
+                            <span class="stat_spacing">|</span>
+
+                            <p class="stat">24 Lessons</p>
+
+                            <span class="stat_spacing">|</span>
+
+                            <p class="stat">12 Months</p>
+                        </div>
+                        <div class="course_lect_info">
+                            <div class="course_lect_info_left">
+                                <img src="img/instructor.png" alt="instructor" width="28px">
+                                <p class="smaill_weight body_card_text">Arlie Parker</p>
+                            </div>
+                            <div class="course_price">
+                                <p class="body_price">$16.00</p>
+                            </div>
+                        </div>
+
+
+                        <div class="btn_margin">
+                            <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
+                                <a href="https://google.com">Course Detail</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="column-four container_grey_border">
-                    <div class="position_box">
-                        <img src="img/cup.jpg" alt="Course Thumbnail" width="100%">
-                        <div class="academic_btn btn_purple hover_green>">
-                            <span>ELEMENTARY</span>
+                    <div class="column-four container_grey_border">
+                        <div class="position_box">
+                            <img src="img/plant.jpg" alt="Course Thumbnail" width="100%">
+                            <div class="academic_btn btn_purple hover_green>">
+                                <span>MIDDLE SCHOOL</span>
+                            </div>
+                        </div>
+                        <div class="school_subject_margin">
+                            <h4 class="school_subject">Plants & Earth Study</h4>
+                        </div>
+                        <div class="rating_star flex"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star fa-star-grey"></i>
+                            <p class="small_weight body_card_text">4 / 5</p>
+                        </div>
+                        <div class="subject_content_margin">
+                            <p class="small_weight body_card_text">Introduce the wonders of nature, explore plants & the
+                                Earth's
+                                resources.</p>
+                        </div>
+                        <div class="stat_box">
+
+                            <p class="stat">75 Students</p>
+
+                            <span class="stat_spacing">|</span>
+
+                            <p class="stat">24 Lessons</p>
+
+                            <span class="stat_spacing">|</span>
+
+                            <p class="stat">12 Months</p>
+                        </div>
+                        <div class="course_lect_info">
+                            <div class="course_lect_info_left">
+                                <img src="img/instructor.png" alt="instructor" width="28px">
+                                <p class="smaill_weight body_card_text">Sandy Hamlin</p>
+                            </div>
+                            <div>
+                                <p class="body_price">$9.50</p>
+                            </div>
+                        </div>
+
+                        <div class="btn_margin">
+                            <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
+                                <a href="https://google.com">Course Detail</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="school_subject_margin">
-                        <h4 class="school_subject">Basic English</h4>
-                    </div>
-                    <div class="subject_content_margin">
-                        <p class="small_weight body_card_text">Builds foundational skills in reading, writing, speaking
-                            &
-                            listening.</p>
-                    </div>
-                    <div class="stat_box">
-
-                        <p class="stat">18 Students</p>
-
-                        <span class="stat_spacing">|</span>
-
-                        <p class="stat">24 Lessons</p>
-
-                        <span class="stat_spacing">|</span>
-
-                        <p class="stat">12 Months</p>
-                    </div>
-                    <div class="course_lect_info">
-                        <div class="course_lect_info_left">
-                            <img src="img/instructor.png" alt="instructor" width="28px">
-                            <p class="smaill_weight body_card_text">Arlie Parker</p>
+                    <div class="column-four container_grey_border">
+                        <div class="position_box">
+                            <img src="img/computer_science.jpg" alt="Course Thumbnail" width="100%">
+                            <div class="academic_btn btn_purple hover_green>">
+                                <span>HIGH SCHOOL</span>
+                            </div>
                         </div>
-                        <div class="course_price">
-                            <p class="body_price">$16.00</p>
+                        <div class="school_subject_margin">
+                            <h4 class="school_subject">Computer Science</h4>
                         </div>
-                    </div>
-
-
-                    <div class="btn_margin">
-                        <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
-                            <a href="https://google.com">Course Detail</a>
+                        <div class="rating_star flex"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                            <p class="small_weight body_card_text">5 / 5</p>
                         </div>
-                    </div>
-                </div>
-                <div class="column-four container_grey_border">
-                    <div class="position_box">
-                        <img src="img/plant.jpg" alt="Course Thumbnail" width="100%">
-                        <div class="academic_btn btn_purple hover_green>">
-                            <span>MIDDLE SCHOOL</span>
+                        <div class="subject_content_margin">
+                            <p class="small_weight body_card_text">Teaches the principles of coding, problem-solving &
+                                digital
+                                systems.</p>
                         </div>
-                    </div>
-                    <div class="school_subject_margin">
-                        <h4 class="school_subject">Plants & Earth Study</h4>
-                    </div>
-                    <div class="subject_content_margin">
-                        <p class="small_weight body_card_text">Introduce the wonders of nature, explore plants & the
-                            Earth's
-                            resources.</p>
-                    </div>
-                    <div class="stat_box">
+                        <div class="stat_box">
 
-                        <p class="stat">75 Students</p>
+                            <p class="stat">92 Students</p>
 
-                        <span class="stat_spacing">|</span>
+                            <span class="stat_spacing">|</span>
 
-                        <p class="stat">24 Lessons</p>
+                            <p class="stat">36 Lessons</p>
 
-                        <span class="stat_spacing">|</span>
+                            <span class="stat_spacing">|</span>
 
-                        <p class="stat">12 Months</p>
-                    </div>
-                    <div class="course_lect_info">
-                        <img src="img/instructor.png" alt="instructor" width="28px">
-                        <p class="smaill_weight body_card_text">Sandy Hamlin</p>
-                        <div>
-                            <p class="body_price">$9.50</p>
+                            <p class="stat">18 Months</p>
                         </div>
-                    </div>
-
-                    <div class="btn_margin">
-                        <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
-                            <a href="https://google.com">Course Detail</a>
+                        <div class="course_lect_info">
+                            <div class="course_lect_info_left">
+                                <img src="img/instructor.png" alt="instructor" width="28px">
+                                <p class="smaill_weight body_card_text">John Smith</p>
+                            </div>
+                            <div>
+                                <p class="body_price">$26.50</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="column-four container_grey_border">
-                    <div class="position_box">
-                        <img src="img/computer_science.jpg" alt="Course Thumbnail" width="100%">
-                        <div class="academic_btn btn_purple hover_green>">
-                            <span>HIGH SCHOOL</span>
-                        </div>
-                    </div>
-                    <div class="school_subject_margin">
-                        <h4 class="school_subject">Computer Science</h4>
-                    </div>
-                    <div class="subject_content_margin">
-                        <p class="small_weight body_card_text">Teaches the principles of coding, problem-solving &
-                            digital
-                            systems.</p>
-                    </div>
-                    <div class="stat_box">
 
-                        <p class="stat">92 Students</p>
-
-                        <span class="stat_spacing">|</span>
-
-                        <p class="stat">36 Lessons</p>
-
-                        <span class="stat_spacing">|</span>
-
-                        <p class="stat">18 Months</p>
-                    </div>
-                    <div class="course_lect_info">
-                        <img src="img/instructor.png" alt="instructor" width="28px">
-                        <p class="smaill_weight body_card_text">John Smith</p>
-                        <div>
-                            <p class="body_price">$26.50</p>
-                        </div>
-                    </div>
-
-                    <div class="btn_margin">
-                        <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
-                            <a href="https://google.com">Course Detail</a>
+                        <div class="btn_margin">
+                            <div class="btn btn_course btn_fontblack btn_icon_black hover_dark_blue">
+                                <a href="https://google.com">Course Detail</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -446,21 +494,21 @@
     </div>
 
     <div class="Background_dark_purple_container">
-        <div class="apply_for_enrollment_purple">
-            <div class="left_purple_section">
+        <div class="apply_for_enrollment_purple flex max-width">
+            <div class="left_purple_section flex_column">
                 <span class="font_text_yellow card_text">CHOOSE YOUR FAVORITE WAY TO LEARN</span>
                 <h2 class="font_text_white">A new learning experience, personalized for you!</h2>
                 <p class="font_text_white">Congue acide maec ena integer. Suscipit nunc vierra dui sollica tudinsa
                     egestas blandit lectus vitae diam. Est integer nulla gravids porttitor quis tempore nibhs eget
                     feugiat amet elementum.</p>
 
-                <div class="image_row">
+                <div class="image_row flex">
                     <img src="img/student_girl.jpg" class="student_girl" width="100%">
                     <img src="img/student_boy.jpg" class="student_boy" width="100%">
                 </div>
             </div>
 
-            <div class="right_card">
+            <div class="right_card flex_column">
                 <img src="img/pink_spiral_up.svg" class="pink-icon" width="120px">
 
                 <div class="right_purple_section_item">
@@ -529,7 +577,7 @@
                                 <div><a href="#">Principal Message</a></div>
                                 <div><a href="#">Avada Online School
                                     </a></div>
-                                <div><a href="#">Latest Events</a></div>
+                                <div><a href="events.html">Latest Events</a></div>
                                 <div><a href="#">Mission & Vision</a></div>
                             </div>
                         </div>
@@ -549,10 +597,10 @@
                                 <h5>Admissions</h5>
                             </div>
                             <div class="categories">
-                                <div><a href="#">Academics</a></div>
-                                <div><a href="#">High School</a></div>
-                                <div><a href="#">Middle School</a></div>
-                                <div><a href="#">Elementary School</a></div>
+                                <div><a href="academics.html">Academics</a></div>
+                                <div><a href="high_school.html">High School</a></div>
+                                <div><a href="middle_school.html">Middle School</a></div>
+                                <div><a href="elementary_school.html">Elementary School</a></div>
                             </div>
                         </div>
                     </div>

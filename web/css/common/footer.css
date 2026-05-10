@@ -154,3 +154,9 @@
         gap: 20px;
     }
 }
+
+@media screen and (max-width: 750px) {
+    .footer_top_area {
+        justify-content: start;
+    }
+}
