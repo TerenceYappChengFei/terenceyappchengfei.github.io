@@ -30,6 +30,10 @@
     color: var(--color-cyan);
 }
 
+.font_text_light_grey {
+    color: var(--color-light-grey-text);
+}
+
 .title {
     text-align: center;
     margin-bottom: 25px;
