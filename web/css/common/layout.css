@@ -61,6 +61,8 @@
 .core_badge {
     min-width: 20%;
     margin-top: 10px;
+    cursor: pointer;
+
 }
 
 .elective_badge {
@@ -75,10 +77,12 @@
     border-radius: var(--textbox-border-radius);
     font-size: var(--body-text-box-yellow);
     font-weight: var(--font-weight-bold);
+    transition: background-color 0.2s ease;
 }
 
 .column-container:hover .elective_badge p {
-    background-color: var(--color-light-purple);
+    background-color: var(--color-ivory-green);
+    cursor: pointer;
 }
 
 .core_subjects {
