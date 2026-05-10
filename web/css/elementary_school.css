@@ -14,19 +14,14 @@
     padding: 0px;
 }
 
-.goals_achieved {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.elementary_virtual_tour_section {
+    margin-bottom: 50px;
 }
 
-.virtual_tour_item {
-    width: 100%;
-    border-radius: var(--border-radius);
-}
-
-.virtual_tour_section {
-    gap: 20px;
+.elementary_subjects_intro {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .real_time_interaction_bg {
@@ -43,8 +38,6 @@
 }
 
 .real_time_interaction_content {
-    display: flex;
-    flex-direction: column;
     gap: 50px;
     align-items: flex-start;
 }

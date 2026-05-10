@@ -21,16 +21,23 @@
     margin-bottom: 120px;
 }
 
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .flex {
     display: flex;
 }
 
 .flex-column {
+    display: flex;
     flex-direction: column;
 }
 
 
 .flex-end {
+    display: flex;
     justify-content: flex-end;
 }
 
@@ -52,6 +59,16 @@
     width: 55px
 }
 
+.ratings {
+    width: 100%;
+}
+
+.ratings img {
+    width: 75px;
+    margin-bottom: 20px;
+
+}
+
 .spiral_accent {
     position: absolute;
     z-index: -1;
@@ -63,22 +80,14 @@
     margin-top: 10px;
 }
 
-.elective_badge {
-    min-width: 20%;
-    margin-top: 10px;
-}
 
-.elective_badge p {
+.core_badge p {
     display: inline;
-    background-color: var(--color-light-purple);
+    background-color: var(--color-ivory-green);
     padding: 10px 15px;
     border-radius: var(--textbox-border-radius);
-    font-size: var(--body-text-box-yellow);
-    font-weight: var(--font-weight-bold);
-}
-
-.column-container:hover .elective_badge p {
-    background-color: var(--color-light-purple);
+    font-size: var(--body-card-text);
+    font-weight: var(--font-weight-bold)
 }
 
 .core_subjects {
@@ -125,7 +134,7 @@
 .column-container {
     display: block;
     border: 1px solid;
-    border-color: var(--color-grey);
+    border-color: var(--color-light-grey);
     border-radius: var(--textbox-border-radius);
 }
 
@@ -139,11 +148,21 @@
     /* gap: 10px; */
 }
 
+.text_align_center {
+    text-align: center;
+}
+
 .school_description {
     max-width: 300px;
     width: 100%;
     padding: 25px 40px;
     border-radius: var(--textbox-border-radius);
+}
+
+.font_weight_thin {
+    /* font-size: var(--number-font-size); */
+    font-weight: var(--font-weight-thin);
+    line-height: var(--font-line-height);
 }
 
 .course_overview_content {
@@ -191,7 +210,14 @@
 .section_badge {
     min-width: 20%;
     margin-top: 18px;
+}
+
+.section_badge p {
+    display: inline;
+    background-color: var(--color-yellow);
     font-weight: var(--font-weight-bold);
+    padding: 6px;
+    border-radius: 2px;
 }
 
 .section_content {
@@ -200,43 +226,6 @@
     /* margin-top: 50px; */
     /* position: relative; */
     /* gap: 10px; */
-}
-
-.school_hero {
-    padding-top: 80px;
-    gap: 8px;
-}
-
-.school_hero.section_margin_bottom {
-    margin-bottom: 40px;
-}
-
-.school_hero_title {
-    position: relative;
-    display: inline-block;
-    max-width: calc(100% - 128px);
-    padding-bottom: 53px;
-}
-
-.school_hero h1 {
-    font-size: calc(var(--font-size-h2) + var(--font-size-h5) - var(--font-size-h6));
-    line-height: var(--font-line-height-headings-tight);
-    font-weight: var(--font-weight-bold);
-}
-
-.school_hero_divider {
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-}
-
-.school_hero_subtitle {
-    color: var(--color-grey);
-    font-size: var(--font-size-h5);
-    line-height: var(--font-line-height);
-    max-width: 1230px;
 }
 
 .section_right {
@@ -248,6 +237,10 @@
     /* min-width: 20%; */
     max-width: 200px;
     ;
+}
+
+.section_description {
+    font-weight: var(--font-weight-thin);
 }
 
 .align_center {
@@ -299,121 +292,12 @@
 }
 
 .request_info_item {
-    border-radius: var(--border-radius);
-}
-
-.full_width_image {
     width: 100%;
+    border-radius: var(--border-radius);
 }
 
 .request_info_section {
     gap: 20px;
-}
-
-.media_split {
-    max-width: 1255px;
-    gap: 100px;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-}
-
-.media_split .column-two {
-    width: calc(50% - 50px);
-}
-
-.media_split_image {
-    max-width: 590px;
-}
-
-.media_split_image img,
-.media_split_image.img_frame img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-}
-
-.media_split_content {
-    max-width: 539px;
-    padding-top: 40px;
-}
-
-.media_split_body {
-    gap: 24px;
-}
-
-.media_split_feature {
-    gap: 0;
-}
-
-.media_split_feature>h4 {
-    color: var(--color-black);
-    font-size: var(--font-size-h4-subject);
-    line-height: var(--font-line-height-headings-loose);
-    margin-bottom: 18px;
-}
-
-.media_split_feature>p {
-    color: var(--color-grey);
-    font-size: var(--font-size);
-    line-height: var(--font-line-height);
-    margin-bottom: 26px;
-}
-
-.media_split_feature .goals_achieved {
-    margin-bottom: 4px;
-}
-
-.media_split_feature .goals_achieved h2 {
-    font-size: var(--font-size-h2);
-    line-height: var(--font-line-height-headings-tight);
-}
-
-.media_split_feature .goals_achieved h5 {
-    color: var(--color-black);
-    line-height: var(--font-line-height-headings-tight);
-}
-
-.media_split_feature .goals_achieved+h5 {
-    color: var(--color-black);
-    font-size: var(--font-size-h5);
-    line-height: var(--font-line-height-headings-loose);
-    margin-bottom: 30px;
-}
-
-.media_split_feature .btn {
-    min-width: 305px;
-    text-align: center;
-}
-
-.media_split_feature .grey_separator_line_full {
-    margin: 36px 0 30px;
-}
-
-.media_split_feature .info_items {
-    gap: 18px;
-}
-
-.media_split_feature .info_items p {
-    color: var(--color-black);
-    font-size: var(--font-size);
-    line-height: var(--font-line-height-headings-loose);
-}
-
-.media_split_feature .info_items p:first-child {
-    margin-bottom: 4px;
-}
-
-.media_split_feature .info_items img {
-    width: 18px;
-    margin-right: 6px;
-    vertical-align: middle;
-}
-
-.goals_achieved {
-    display: flex;
-    align-items: center;
-    gap: 16px;
 }
 
 .grey_separator_line_full {
@@ -574,35 +458,6 @@
     .section_right {
         margin: 0px;
     }
-
-    .media_split {
-        flex-wrap: wrap;
-        gap: 48px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .media_split .media_split_image,
-    .media_split .media_split_content {
-        width: 100%;
-    }
-
-    .media_split .media_split_content {
-        padding-top: 0;
-    }
-
-    .media_split .media_split_image img {
-        height: auto;
-    }
-
-    .school_hero h1 {
-        font-size: var(--font-size-h2);
-    }
-
-    .school_hero_subtitle {
-        font-size: var(--font-size);
-        max-width: 90%;
-    }
 }
 
 /* Mobile */
@@ -614,21 +469,5 @@
 
     .max-width {
         max-width: 450px;
-    }
-
-    .school_hero {
-        padding-top: 48px;
-    }
-
-    .school_hero h1 {
-        font-size: var(--font-size-h3);
-    }
-
-    .school_hero_divider {
-        width: 100%;
-    }
-
-    .school_hero_subtitle {
-        font-size: var(--font-size);
     }
 }
