@@ -1,24 +1,51 @@
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
-// Split the single section's h2s into characters
-const split = new SplitText('.line h2', { type: 'chars', charsClass: 'char' });
+const lines = document.querySelectorAll('.line');
 
-// Start hidden
-gsap.set(split.chars, { scale: 0.8, y: 30, opacity: 0 });
+lines.forEach((line) => {
+    // 1. Target the h2 inside this specific line
+    const split = new SplitText(line.querySelectorAll('.h2_animation'), {
+        type: 'chars',
+        charsClass: 'char'
+    });
 
-// Reveal on scroll
-gsap.to(split.chars, {
-    scale: 1,
-    y: 0,
-    opacity: 1,
-    ease: 'power4.out',
-    duration: 0.8,
-    stagger: 0.02,
-    scrollTrigger: {
-        trigger: '.line',
-        start: 'top 70%',                 // when the section top reaches 70% of viewport
-        end: 'center 80%',
-        scrub: 1,
+    gsap.set(split.chars, { scale: 0.8, y: 30, opacity: 0 });
 
-    }
+    gsap.to(split.chars, {
+        scale: 1,
+        y: 0,
+        opacity: 1,
+        ease: 'power4.out',
+        duration: 0.8,
+        stagger: 0.02,
+        scrollTrigger: {
+            trigger: line,      // FIXED: Use the variable 'line', not the string '.line'
+            start: 'top 65%',
+            end: 'bottom 40%',  // Adjusted to give more scrolling room
+            scrub: 2,
+            markers: false
+        }
+    });
 });
+
+gsap.fromTo(".fade-in",
+    { opacity: 0 }, //FROM
+    {
+        delay: 0.5,
+        opacity: 1,
+        duration: 1.2,
+    } //TO
+);
+
+gsap.fromTo(".start_float_in",
+    {
+        opacity: 0,
+        y: -30,
+    },
+    {
+        delay: 0.5,
+        opacity: 1,
+        y: 0,
+        duration: 1,
+    }
+);

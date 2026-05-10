@@ -141,15 +141,19 @@
 .fa-facebook-f,
 .fa-x-twitter,
 .fa-instagram {
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .fa-youtube:hover,
 .fa-facebook-f:hover,
 .fa-x-twitter:hover,
 .fa-instagram:hover {
-    color: var(--color-black);
+    color: var(--color-white);
 
+}
+
+.media_icon {
+    color: var(--color-white);
 }
 
 .fb,
@@ -168,6 +172,11 @@
     background-color: var(--color-cyan);
     border: none;
 }
+
+.link_blue a {
+    color: var(--color-cyan);
+}
+
 
 
 

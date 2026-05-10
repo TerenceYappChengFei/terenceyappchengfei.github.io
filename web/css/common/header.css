@@ -12,10 +12,6 @@
 
 }
 
-.link_blue a {
-    color: var(--color-cyan);
-}
-
 .header_menu>.menu {
     cursor: pointer;
 }
@@ -312,7 +308,7 @@ a {
 }
 
 .side_menu_media>a {
-    border: 1px solid #e1e1e1;
+    border: 1px solid var(--color-light-transparent);
     padding: 12px;
     border-radius: var(--border-radius);
     color: var(--color-black);
@@ -363,7 +359,8 @@ a {
     }
 
     .headerside_menu {
-        width: 30%
+        width: 30%;
+        overflow-y: auto;
     }
 
 }

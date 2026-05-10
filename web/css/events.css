@@ -9,7 +9,7 @@
 }
 
 .event_card:hover {
-    border-color: #e1e1e1;
+    border-color: var(--color-light-transparent);
     transition: 0.5s all;
 }
 

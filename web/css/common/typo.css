@@ -255,7 +255,9 @@ p {
 
 }
 
-
+.banner_h2_medium {
+    font-size: var(--font-size-h2-others-banner);
+}
 
 .join_link:hover {
     color: var(--color-black);
