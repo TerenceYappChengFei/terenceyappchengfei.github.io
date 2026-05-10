@@ -252,7 +252,10 @@ p {
 .join_link {
     color: var(--color-dark-blue);
     text-decoration: underline;
+
 }
+
+
 
 .join_link:hover {
     color: var(--color-black);

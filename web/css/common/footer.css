@@ -137,6 +137,40 @@
 
 }
 
+.fa-youtube,
+.fa-facebook-f,
+.fa-x-twitter,
+.fa-instagram {
+    color: var(--color-white);
+}
+
+.fa-youtube:hover,
+.fa-facebook-f:hover,
+.fa-x-twitter:hover,
+.fa-instagram:hover {
+    color: var(--color-black);
+
+}
+
+.fb,
+.x,
+.ins,
+.yt {
+    padding: 12px;
+    border: 1px solid var(--color-white);
+    border-radius: var(--border-radius);
+}
+
+.fb:hover,
+.x:hover,
+.ins:hover,
+.yt:hover {
+    background-color: var(--color-cyan);
+    border: none;
+}
+
+
+
 /* Tablet */
 @media screen and (max-width: 1000px) {
     .footer {

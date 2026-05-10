@@ -8,6 +8,9 @@
     background-repeat: no-repeat;
 }
 
+
+
+
 .font_text_yellow a {
     color: var(--color-yellow);
 }
@@ -121,13 +124,13 @@
     }
 
     .max-width {
-        padding: 20px 30px;
+        padding: var(--padding-section);
         max-width: none;
     }
 
     .light_grey_background_container>.section_intro {
 
-        padding: 20px 30px;
+        padding: var(--padding-section);
     }
 }
 
