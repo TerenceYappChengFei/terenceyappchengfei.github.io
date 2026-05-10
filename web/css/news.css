@@ -97,8 +97,8 @@ img {
     padding: 50px 30px;
 }
 
-.link_blue a {
-    color: var(--color-cyan);
+.font_text_yellow a {
+    color: var(--color-yellow);
 }
 
 @media screen and (max-width: 1100px) {

@@ -107,7 +107,7 @@
     border-radius: var(--border-radius);
     width: 55%;
     position: sticky;
-    height: 45vh;
+    height: 100%;
     top: 60px;
 }
 
@@ -121,6 +121,7 @@ input[type="text"] {
     padding: 24px;
     border-radius: var(--border-radius);
     width: 50%;
+
 }
 
 .qty_selector input[type="text"] {
@@ -204,6 +205,45 @@ input[type="text"] {
         margin-bottom: 20px;
     }
 
+    .form_gap {
+        flex-wrap: wrap;
+
+    }
+
+    .city_dropdown {
+        width: 100%;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    .coupon_box {
+        width: 100%;
+    }
+
+    .column-three {
+        width: calc(50% - 38.5px);
+    }
+
+    .row-flex {
+        justify-content: start;
+    }
 }
 
-@media screen and (max-width: 750px) {}
+@media screen and (max-width: 750px) {
+
+    .cart_header,
+    .cart_remove {
+        display: none;
+    }
+
+    .cart_row,
+    .cart_details {
+        flex-direction: column;
+    }
+
+    .cart_row {
+        gap: 20px;
+    }
+}

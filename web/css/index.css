@@ -8,6 +8,10 @@
     background-repeat: no-repeat;
 }
 
+.font_text_yellow a {
+    color: var(--color-yellow);
+}
+
 .banner_btn {
     gap: 20px;
 }
@@ -89,7 +93,6 @@
         margin: 0px;
     }
 
-    .about_grid,
     .light_grey_background_container {
         padding: 0px;
         margin: 0px;
@@ -118,6 +121,12 @@
     }
 
     .max-width {
+        padding: 20px 30px;
+        max-width: none;
+    }
+
+    .light_grey_background_container>.section_intro {
+
         padding: 20px 30px;
     }
 }

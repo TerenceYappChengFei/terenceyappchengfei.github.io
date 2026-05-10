@@ -12,7 +12,9 @@
 
 }
 
-
+.link_blue a {
+    color: var(--color-cyan);
+}
 
 .header_menu>.menu {
     cursor: pointer;
@@ -33,6 +35,7 @@ a {
     display: flex;
     gap: 16px;
     pointer-events: none;
+
 
 }
 

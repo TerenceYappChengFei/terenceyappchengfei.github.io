@@ -178,19 +178,20 @@ body {
 .badge {
     display: inline-block;
     border-radius: var(--border-radius);
+    padding: 12px 26px;
+    white-space: nowrap;
 }
 
 .badge_green {
     background-color: var(--color-ivory-green);
     color: var(--color-black);
-    padding: 12px 26px;
 
 }
 
 .badge_purple {
     background-color: var(--color-light-purple);
     color: var(--color-black);
-    padding: 12px 26px;
+
 }
 
 
