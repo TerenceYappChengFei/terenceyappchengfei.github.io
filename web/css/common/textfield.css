@@ -130,7 +130,7 @@ input[type="radio"] {
 
 h1 {
     margin-bottom: 20px;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 
@@ -205,7 +205,7 @@ textarea:focus {
         margin-bottom: 10px;
         font-size: 14px;
         transition: 0.3s;
-        >>>>>>>e21a098 (feat: re organised styles for textfield, contact section n course details)
+        /* >>>>>>>e21a098 (feat: re organised styles for textfield, contact section n course details) */
     }
 
     textarea {
@@ -280,3 +280,4 @@ textarea:focus {
         padding: 10px;
         box-sizing: border-box;
     }
+}

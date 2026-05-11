@@ -68,18 +68,6 @@ h4 {
     font-weight: var(--font-weight-bold);
 }
 
-.school_subject {
-    font-size: var(--font-size-h4-subject);
-    line-height: var(--font-line-height-headings-loose);
-    font-weight: var(--font-weight-bold);
-}
-
-.header_academic_school {
-    font-size: var(--header-submenu-academic-text);
-    line-height: var(--font-line-height-headings-loose);
-    font-weight: var(--font-weight-bold);
-}
-
 h5 {
     font-size: var(--font-size-h5);
     line-height: var(--font-line-height-headings-loose);
@@ -91,7 +79,18 @@ h6 {
     font-size: var(--font-size-h6);
     line-height: var(--font-line-height-headings-loose);
     font-weight: var(--font-weight-bold);
+}
 
+.school_subject {
+    font-size: var(--font-size-h4-subject);
+    line-height: var(--font-line-height-headings-loose);
+    font-weight: var(--font-weight-bold);
+}
+
+.header_academic_school {
+    font-size: var(--header-submenu-academic-text);
+    line-height: var(--font-line-height-headings-loose);
+    font-weight: var(--font-weight-bold);
 }
 
 
@@ -123,7 +122,6 @@ p {
 }
 
 .font_weight_thin {
-    /* font-size: var(--number-font-size); */
     font-weight: var(--font-weight-thin);
     line-height: var(--font-line-height);
 }
@@ -165,6 +163,10 @@ p {
 
 .body_card_text {
     font-size: var(--body-card-text)
+}
+
+.body_card_menu {
+    font-size: var(--body-text-menu)
 }
 
 .card_text {

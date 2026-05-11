@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="css/common/variables.css">
     <link rel="stylesheet" href="css/common/typo.css">
     <link rel="stylesheet" href="css/common/layout.css">
-    <link rel="stylesheet" href="css/common/button.css">
     <link rel="stylesheet" href="css/common/icon.css">
     <link rel="stylesheet" href="css/common/header.css">
     <link rel="stylesheet" href="css/common/footer.css">
     <link rel="stylesheet" href="css/common/textfield.css">
     <link rel="stylesheet" href="css/high_school.css">
-
+    <link rel="stylesheet" href="css/common/button.css">
 </head>
 
 <body>
@@ -27,30 +26,34 @@
             </a>
         </div>
         <div class="header_menu" id="header_menu">
-            <div class="menu">Home</div>
+            <div class="menu menu_home"><a href="index.html">Home</a></div>
 
-            <div class="menu arrow_down font_text_yellow">Academics
+            <div class="menu arrow_down menu_home font_text_yellow "><a href="academics.html"
+                    class="font_text_yellow">Academics</a>
                 <div class="academics_menu">
                     <div class="acadamic_submenu">
-                        <div class="school_padding">
+                        <div class="school_padding elementary">
                             <div>
-                                <h5><a href="elementary_school.html">Elementary School</a></h5>
+                                <h5><a href="elementary_school.html">Elementary School</a>
+                                </h5>
                             </div>
                             <div>
                                 <p>For Grades K-5</p>
                             </div>
                         </div>
-                        <div class="school_padding">
+                        <div class="school_padding middle">
                             <div>
-                                <h5><a href="middle_school.html">Middle School</a></h5>
+                                <h5><a href="middle_school.html">Middle
+                                        School</a></h5>
                             </div>
                             <div>
                                 <p>For Grades 6-8</p>
                             </div>
                         </div>
-                        <div class="school_padding ">
+                        <div class="school_padding high">
                             <div>
-                                <h5><a href="high_school.html">High School</a></h5>
+                                <h5><a href="high_school.html" class="font_text_yellow font-weight-bold">High School</a>
+                                </h5>
                             </div>
                             <div>
                                 <p>For Grades 9-12</p>
@@ -96,13 +99,22 @@
             <div class="side_icon">
                 <img src="img/logo.png" alt="logo" width="150px">
             </div>
-            <div class="side_content">
-                <div class="menu">Home</div>
-
-
-                <div class="menu">Events</div>
-                <div class="menu">Info</div>
-                <div class="menu">News</div>
+            <div class="side_content nevigation">
+                <div class="side_title_content">
+                    <h6>Nevigation</h6>
+                </div>
+                <div class="flex-column">
+                    <div class="side_menu_item link_blue"><a href="index.html">Home</a></div>
+                    <div class="side_menu_item"><a href="ourschool.html">Our School</a></div>
+                    <div class="side_menu_item"><a href="elementary_school.html">Elementary School</a></div>
+                    <div class="side_menu_item"><a href="middle_school.html">Middle School</a></div>
+                    <div class="side_menu_item"><a href="high_school.html">High School</a></div>
+                    <div class="side_menu_item"><a href="events.html">Latest Events</a></div>
+                    <div class="side_menu_item"><a href="academics.html">Academics</a></div>
+                    <div class="side_menu_item"><a href="news.html">News & Highlights</a></div>
+                    <div class="side_menu_item"><a href="coursedetails.html">Programs & Courses</a></div>
+                    <div class="side_menu_item"><a href="contact.html">Contact</a></div>
+                </div>
             </div>
             <div class="ourschool side_title_content">
                 <div>
@@ -113,7 +125,7 @@
                 <div>
                     <p>Your portal to a life-changing online digital learning experience.</p>
                 </div>
-                <div class="rm"><a href="#">Read more</a></div>
+                <div class="rm"><a href="ourschool.html">Read more</a></div>
             </div>
             <div class="getintouch side_title_content">
 
@@ -132,17 +144,32 @@
                     </p>
                 </div>
             </div>
+            <div class="flex side_menu_media_gap">
+                <div class="side_menu_media">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="side_menu_media">
+                    <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="side_menu_media">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="side_menu_media">
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- hero section -->
-    <div class="section_content align_center text_align_center section_margin_bottom max-width school_hero">
+    <div class="section_content align_center text_align_center school_hero">
         <div class="school_hero_title">
             <h1 class="font_text_dark_blue">Accredited Online High School
             </h1>
             <img src="img/blue_line_divider.png" class="school_hero_divider">
         </div>
-        <h4 class="small_weight school_hero_subtitle">Exciting, self-paced video courses that make learning fun and fuel your child's
+        <h4 class="small_weight school_hero_subtitle">Exciting, self-paced video courses that make learning fun and fuel
+            your child's
             curiosity for knowledge.
         </h4>
     </div>
@@ -153,40 +180,46 @@
                 <img src="img/personalized-support-1-600x406.jpg" class="high_school_features_image full_width_image">
                 <h4>Get Personalized Support
                 </h4>
-                <p class="card_text small_weight">We know every student's learning journey is unique,
+                <p class="body_card_menu small_weight">We know every student's learning journey is unique,
                     which is why we offer
                     personalized
                     support tailored to individual needs.
                 </p>
                 <div class="black_separator_line"></div>
-                <div class="info_items">
-                    <p class="small_weight"><img src="img/blue_star.svg"> Provide extra help in all subjects
+                <div class="high_school_feature_items">
+                    <p class="body_card_menu"><img src="img/blue_star.svg"> Provide extra help in
+                        all
+                        subjects
                     </p>
-                    <p class="small_weight"><img src="img/blue_star.svg"> From dedicated academic advisors
+                    <p class="body_card_menu"><img src="img/blue_star.svg"> From dedicated academic
+                        advisors
 
-                    <p class="small_weight"><img src="img/blue_star.svg"> Building confidence & performance
+                    <p class="body_card_menu"><img src="img/blue_star.svg"> Building confidence &
+                        performance
                     </p>
                 </div>
             </div>
         </div>
         <div class="column-three  column-container container_no_border">
             <div class="high_school_features">
-                <img src="img/interactive-learning-tools-1-600x406.jpg" class="high_school_features_image full_width_image">
+                <img src="img/interactive-learning-tools-1-600x406.jpg"
+                    class="high_school_features_image full_width_image">
                 <h4>Interactive Learning Tools
                 </h4>
-                <p class="card_text small_weight">From virtual whiteboards and real-time quizzes to multimedia lessons
+                <p class="body_card_menu small_weight">From virtual whiteboards and real-time quizzes to multimedia
+                    lessons
                     and the collaborative discussion boards.
 
                 </p>
                 <div class="black_separator_line"></div>
-                <div class="info_items">
-                    <p class="small_weight"><img src="img/blue_star.svg"> All students actively participate
+                <div class="high_school_feature_items">
+                    <p class="body_card_menu"><img src="img/blue_star.svg"> All students actively participate
 
                     </p>
-                    <p class="small_weight"><img src="img/blue_star.svg"> Our tools encourage creativity
+                    <p class="body_card_menu"><img src="img/blue_star.svg"> Our tools encourage creativity
 
 
-                    <p class="small_weight"><img src="img/blue_star.svg"> Create immersive learning environment
+                    <p class="body_card_menu"><img src="img/blue_star.svg"> Create immersive learning environment
 
                 </div>
             </div>
@@ -196,19 +229,20 @@
                 <img src="img/engaging-video-lessons-1-400x271.jpg" class="high_school_features_image full_width_image">
                 <h4>Engaging Video Lessons
                 </h4>
-                <p class="card_text small_weight">Our lessons are bringing subjects to life through clear explanations,
+                <p class="body_card_menu small_weight">Our lessons are bringing subjects to life through clear
+                    explanations,
                     dynamic visuals and real-world examples.
 
                 </p>
                 <div class="black_separator_line"></div>
-                <div class="info_items">
-                    <p class="small_weight"><img src="img/blue_star.svg"> Structured to simplify complex topics
+                <div class="high_school_feature_items">
+                    <p class="body_card_menu"><img src="img/blue_star.svg"> Structured to simplify complex topics
 
                     </p>
-                    <p class="small_weight"><img src="img/blue_star.svg"> High-quality graphics & animations
+                    <p class="body_card_menu"><img src="img/blue_star.svg"> High-quality graphics & animations
 
 
-                    <p class="small_weight"><img src="img/blue_star.svg"> Flexibility to pause, rewind and rewatch
+                    <p class="body_card_menu"><img src="img/blue_star.svg"> Flexibility to pause, rewind and rewatch
 
                     </p>
                 </div>
@@ -217,8 +251,8 @@
     </div>
 
     <!-- learning process -->
-    <div class="light_grey_background_container section_margin_bottom container_padding_vertical">
-        <div class="section_intro">
+    <div class="light_grey_background_container container_padding_vertical elementary_subjects_section">
+        <div class="section_intro school_subjects_intro">
             <div class="section_badge">
                 <p>LEARNING PROCESS</p>
             </div>
@@ -352,20 +386,21 @@
         <div class="img_frame mobile_and_tablet">
             <img src="img/asynchronous-learning-02.jpg">
         </div>
-        <div class=" row-flex">
-            <div class="column-two column-container container_no_border">
+        <div class="row-flex max-width">
+            <div class="column-two column-container container_no_border professional_learning_content_column">
                 <div class="request_info_content">
-                    <p class="font_text_cyan font_weight_bold ">A GLOBAL LEARNING EXPERIENCE, <br>
+                    <p class="font_text_cyan font_weight_bold body_card_text ">A GLOBAL LEARNING EXPERIENCE, <br>
                         PERSONALIZED FOR YOU!</p>
                     <div class="grey_separator_line_full"></div>
 
                     <h4>Professional Learning</h4>
-                    <h4 class="font_weight_thin">Elementum facilisi tincidunt blandit dolor.
+                    <p class="font_text_white body_card_menu font_weight_thin">Elementum facilisi tincidunt blandit
+                        dolor.
                         Venenatis suspendisse aliquet at eget elementum venenatis nibh. Diam etiam nulla facilis semper.
                         Nullam tellus fames est faucibus.
-                    </h4>
-                    <h2 class="font_text_yellow small_weight">K-12</h2>
-                    <h5 class="small_weight">Grades offered in school</h5>
+                    </p>
+                    <h1 class="font_text_yellow font_weight_thin">K-12</h1>
+                    <p class="font_text_white body_card_menu small_weight">Grades offered in school</p>
                     <div>
                         <div
                             class="btn btn_transparent_white btn_text_trans_white btn_icon_white hover_beige hover_text_dark">
@@ -477,7 +512,7 @@
             <div class="footer_box">
                 <div class="footer_logo">
 
-                    <div><img src="img/white_logo.png" alt="Logo" width="200px"></div>
+                    <div><a href="index.html"><img src="img/white_logo.png" alt="Logo" width="200px"></a></div>
                 </div>
                 <div class="dream">
                     <p>Learn.<br>
@@ -485,10 +520,14 @@
                         Succeed.<br></p>
                 </div>
                 <div class="social_media">
-                    <div class="fb media_border"><img src="img/fb.png" alt="fb" width="35px"></div>
-                    <div class="x media_border"><img src="img/x.png" alt="fb" width="35x"></div>
-                    <div class="ins media_border"><img src="img/ins.png" alt="fb" width="35px"></div>
-                    <div class="yt media_border"><img src="img/yt.png" alt="fb" width="35px"></div>
+                    <div class="fb media_border"><a href="https://www.facebook.com" target="_blank"><i
+                                class="fa-brands fa-facebook-f media_icon"></i></a></div>
+                    <div class="x media_border"><a href="https://x.com/" target="_blank"><i
+                                class="fa-brands fa-x-twitter media_icon"></i></a></div>
+                    <div class="ins media_border"><a href="https://www.instagram.com" target="_blank"><i
+                                class="fa-brands fa-instagram media_icon"></i></a></div>
+                    <div class="yt media_border"><a href="https://www.youtube.com" target="_blank"><i
+                                class="fa-brands fa-youtube media_icon"></i></a></div>
                 </div>
             </div>
             <div class="footer_right_content">
@@ -512,11 +551,11 @@
                                 <h5>About School</h5>
                             </div>
                             <div class="categories">
-                                <div><a href="#">Principal Message</a></div>
-                                <div><a href="#">Avada Online School
+                                <div><a href="ourschool.html">Principal Message</a></div>
+                                <div><a href="index.html">Avada Online School
                                     </a></div>
-                                <div><a href="#">Latest Events</a></div>
-                                <div><a href="#">Mission & Vision</a></div>
+                                <div><a href="events.html">Latest Events</a></div>
+                                <div><a href="ourschool.html">Mission & Vision</a></div>
                             </div>
                         </div>
                         <div class="link_categories">
@@ -524,10 +563,10 @@
                                 <h5>Campus Life</h5>
                             </div>
                             <div class="categories">
-                                <div><a href="#">Summer Camp</a></div>
-                                <div><a href="#">Get Started</a></div>
-                                <div><a href="#">Articles</a></div>
-                                <div><a href="#">Programs & Courses</a></div>
+                                <div><a href="events.html">Summer Camp</a></div>
+                                <div><a href="contact.html">Get Started</a></div>
+                                <div><a href="news.html">News & Articles</a></div>
+                                <div><a href="allcourses.html">Programs & Courses</a></div>
                             </div>
                         </div>
                         <div class="link_categories">
@@ -535,10 +574,10 @@
                                 <h5>Admissions</h5>
                             </div>
                             <div class="categories">
-                                <div><a href="#">Academics</a></div>
-                                <div><a href="#">High School</a></div>
-                                <div><a href="#">Middle School</a></div>
-                                <div><a href="#">Elementary School</a></div>
+                                <div><a href="academics.html">Academics</a></div>
+                                <div><a href="high_school.html">High School</a></div>
+                                <div><a href="middle_school.html">Middle School</a></div>
+                                <div><a href="elementary_school.html">Elementary School</a></div>
                             </div>
                         </div>
                     </div>
@@ -549,11 +588,14 @@
         </div>
         <div class="footer_bottom">
             <div class="footer_content">
-                <p>© 2012 - 2026 • <a href="bottom_link">Avada</a> is a <a href="bottom_link">Website Builder</a>
-                    for <a href="bottom_link">WordPress</a> and <a href="bottom_link">eCommerce</a></p>
-                <p>All Rights Reserved • Developed by ThemeFusion</p>
+                <p>© 2012 - 2026 • <a href="https://avada.com/">Avada</a> is a <a
+                        href="https://avada.com/features/">Website
+                        Builder</a>
+                    for <a href="https://wordpress.org/">WordPress</a> and <a
+                        href="https://avada.com/feature/woocommerce/">eCommerce</a></p>
+                <p>All Rights Reserved • Developed by <a href="https://themeforest.net/">ThemeFusion</a></p>
                 <div class="privacy_links">
-                    <a href="bottom_link">Privacy Policy</a> | <a href="bottom_link">Terms Of Use</a>
+                    <a href="ourschool.html">Privacy Policy</a> | <a href="ourschool.html">Terms Of Use</a>
                 </div>
             </div>
         </div>
