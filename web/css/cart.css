@@ -226,6 +226,10 @@ input[type="text"] {
 
     }
 
+    .column-three {
+        width: calc(50% - 38.5px);
+    }
+
     .city_dropdown {
         width: 100%;
     }
@@ -261,5 +265,13 @@ input[type="text"] {
 
     .cart_row {
         gap: 20px;
+    }
+
+    .column-three {
+        width: calc(100% - 77px);
+    }
+
+    .row-flex {
+        justify-content: center;
     }
 }
