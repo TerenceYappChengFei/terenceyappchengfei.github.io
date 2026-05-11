@@ -242,9 +242,15 @@
 
 
 
+.about_card {
+    width: 100%;
+}
 
-
-
+.steps {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
 
 
 
@@ -267,7 +273,6 @@
     background-color: var(--color-white);
     display: flex;
     align-items: center;
-    gap: 60px;
 }
 
 .testimonial_text {
@@ -277,21 +282,10 @@
 }
 
 
-.testimonial_image_box {
-    flex: 0 0 150px;
-}
-
-.testimonial_img {
-    width: 150px;
-    height: auto;
-    object-fit: cover;
-    display: block;
-    border-radius: 5px;
-}
 
 
 .testimonial_content {
-    flex: 1;
+    padding: 20px;
 }
 
 
