@@ -19,9 +19,9 @@ lines.forEach((line) => {
         duration: 0.8,
         stagger: 0.02,
         scrollTrigger: {
-            trigger: line,      // FIXED: Use the variable 'line', not the string '.line'
+            trigger: line,
             start: 'top 65%',
-            end: 'bottom 40%',  // Adjusted to give more scrolling room
+            end: 'bottom 40%',
             scrub: 2,
             markers: false
         }
@@ -29,12 +29,12 @@ lines.forEach((line) => {
 });
 
 gsap.fromTo(".fade-in",
-    { opacity: 0 }, //FROM
+    { opacity: 0 },
     {
         delay: 0.5,
         opacity: 1,
         duration: 1.2,
-    } //TO
+    }
 );
 
 gsap.fromTo(".start_float_in",
