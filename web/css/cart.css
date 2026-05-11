@@ -107,7 +107,7 @@
 .shipping_info {
     padding: 30px;
     border-radius: var(--border-radius);
-    width: 55%;
+    width: 100%;
     position: sticky;
     height: 100%;
     top: 60px;
@@ -152,8 +152,9 @@ input[type="text"] {
 }
 
 .shipping_container {
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 30px;
+    gap: 90px;
 }
 
 .cart_totals {
