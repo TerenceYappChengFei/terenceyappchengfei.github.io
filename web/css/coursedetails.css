@@ -10,6 +10,8 @@
     position: relative;
 }
 
+
+
 .instructor_row {
     display: flex;
     align-items: center;
@@ -45,13 +47,19 @@
     width: 35%;
 }
 
-.sticky_card_white {
-    position: sticky;
-    top: 110px;
-    background: white;
+.sticky_card_content {
+    background: var(--color-white);
     padding: 25px;
     border-radius: 16px;
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--color-light-transparent);
+}
+
+.sticky_card_white {
+    padding: 30px;
+    border-radius: var(--border-radius) 6px;
+    position: sticky;
+    height: 100%;
+    top: 60px;
 }
 
 .course_preview_img {
@@ -62,28 +70,19 @@
 }
 
 .old_price {
-    color: #999;
-    font-size: 16px;
+    color: var(--color-dark-grey-text);
     text-decoration: line-through;
     margin-left: 8px;
 }
 
 /* SECTION TITLE */
 .text_subheading_banner {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 1.3;
     margin-bottom: 28px;
-    color: #111;
+
 }
 
 /* MAIN PARAGRAPH */
 .course_left_content p {
-    font-size: 16px;
-    line-height: 1.8;
-
-    color: #555;
-
     margin-bottom: 20px;
 }
 
@@ -92,10 +91,6 @@
     display: flex;
     align-items: flex-start;
     gap: 12px;
-
-    font-size: 16px;
-    line-height: 1.7;
-
     margin-bottom: 18px;
 }
 
@@ -104,7 +99,6 @@
     display: flex;
     align-items: center;
     gap: 18px;
-
     margin-bottom: 20px;
 }
 
@@ -115,13 +109,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
 }
 
-.topic_text {
-    font-size: 16px;
-    line-height: 1.6;
-}
+
 
 /* UNIT TITLE */
 .course_unit_box {
@@ -131,27 +121,19 @@
     gap: 20px;
     padding: 22px 28px;
     border-radius: 14px;
-    background: #eefcf1;
+    background: var(--color-light-cyan);
     margin-bottom: 25px;
 }
 
-.btn_blue {
-    background-color: #3dd8ff;
-    color: #111;
-}
 
 /* UNIT BUTTON */
 .course_unit_box .small_btn {
     flex-shrink: 0;
-    color: white;
 }
 
 /* TITLE */
 .course_unit_box h5 {
     margin: 0;
-    font-size: 22px;
-    font-weight: 700;
-    color: #111;
 }
 
 /* UNIT CONTENT */
@@ -163,7 +145,7 @@
 /* UNIT SUBTITLE */
 .unit_sub_title {
     display: inline-block;
-    border-bottom: 1px solid #111;
+
     padding-bottom: 4px;
     font-weight: 700;
     line-height: 1.1;
@@ -172,9 +154,6 @@
 /* UNIT DETAIL */
 .unit_detail_list p {
     margin-bottom: 12px;
-
-    font-size: 15px;
-    line-height: 1.7;
 }
 
 /* BOLD TEXT */

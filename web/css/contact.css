@@ -250,7 +250,7 @@
 
 .testimonial_section_container {
     background-color: var(--color-light-grey);
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .testimonial_header {
@@ -260,14 +260,20 @@
 
 
 .testimonial_card {
-    border: 1px solid var(--color-border-light);
-    border-radius: 12px;
-    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 60px;
     margin-bottom: 30px;
     background-color: var(--color-white);
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
+}
+
+.testimonial_text {
+
+    margin-bottom: 25px;
+    display: block;
 }
 
 
@@ -277,10 +283,10 @@
 
 .testimonial_img {
     width: 150px;
-    height: 150px;
-
+    height: auto;
     object-fit: cover;
     display: block;
+    border-radius: 5px;
 }
 
 

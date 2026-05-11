@@ -132,4 +132,13 @@ img {
     .floating_card {
         display: none;
     }
+
+    .blog_news {
+        flex-direction: column;
+    }
+
+    .blog_content {
+        padding: 0px 10px 0px 10px;
+        gap: 10px;
+    }
 }

@@ -5,7 +5,9 @@
     position: relative;
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     background-repeat: no-repeat;
+
 }
 
 
@@ -143,5 +145,9 @@
 @media screen and (max-width: 750px) {
     .column-four {
         width: 100%
+    }
+
+    .main_banner {
+        background-position: 65% center;
     }
 }
